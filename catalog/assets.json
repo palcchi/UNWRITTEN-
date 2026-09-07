@@ -11908,13 +11908,12 @@
       "category": "colossi",
       "biome": "Architect arena",
       "size_axis": "height",
-      "recipe_scale": 1.4004497225249242,
-      "status": "bespoke_art_pass_2",
+      "recipe_scale": 1.4159292035398232,
+      "status": "aion_highend_pass_1",
       "rig_bones": 15,
-      "cubes": 253,
+      "cubes": 329,
       "animations": [
         "idle",
-        "walk",
         "presence_pulse",
         "reveal_cue"
       ],
@@ -11924,12 +11923,12 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "High-end AION pass; final in-game lighting/VFX tuning still belongs in the resource pack.",
+        "Gameplay authority effects and phase logic are separate from the Blockbench source."
       ],
-      "texture_width": 512,
-      "texture_height": 2048,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_width": 1024,
+      "texture_height": 1024,
+      "texture_layout": "AION bespoke procedural face islands; no pasted UV artwork"
     },
     {
       "id": "aion",
