@@ -1,50 +1,63 @@
 [
   {
     "id": "aion_prologue",
-    "cubes": 329,
-    "rig_bones": 15,
-    "texture_width": 1024,
-    "texture_height": 1024,
+    "cubes": 75,
+    "rig_bones": 21,
+    "texture_width": 512,
+    "texture_height": 128,
     "animations": [
       "idle",
+      "sealed_idle",
+      "pulse_awaken",
       "presence_pulse",
+      "unseal_reveal",
       "reveal_cue"
-    ]
+    ],
+    "animation_language": "12fps-style held poses with 1-frame snap transitions and delayed secondary motion"
   },
   {
     "id": "aion",
-    "cubes": 91,
-    "rig_bones": 39,
+    "cubes": 145,
+    "rig_bones": 44,
     "texture_width": 512,
     "texture_height": 256,
     "animations": [
       "idle",
+      "idle_authority",
+      "slow_turn",
       "turn",
       "hand_raise",
       "finger_snap",
       "authority_grant",
       "freeze_player",
       "remove_authority",
+      "teleport_break",
       "teleport",
-      "subtle_smile"
-    ]
+      "subtle_smile",
+      "hover_descend"
+    ],
+    "animation_language": "12fps-style held poses with 1-frame snap transitions and delayed secondary motion"
   },
   {
     "id": "aion_the_architect",
-    "cubes": 144,
-    "rig_bones": 57,
+    "cubes": 190,
+    "rig_bones": 75,
     "texture_width": 512,
     "texture_height": 512,
     "animations": [
       "idle",
+      "architect_idle",
+      "slow_turn",
       "turn",
       "hand_raise",
       "finger_snap",
       "authority_grant",
       "freeze_player",
       "remove_authority",
+      "teleport_break",
       "teleport",
       "subtle_smile",
+      "hover_descend",
       "delete",
       "copy",
       "paste",
@@ -52,7 +65,9 @@
       "gravity_shift",
       "arena_rewrite",
       "authority_beam",
+      "false_mercy",
       "final_collapse"
-    ]
+    ],
+    "animation_language": "12fps-style held poses with 1-frame snap transitions and delayed secondary motion"
   }
 ]

@@ -11908,13 +11908,16 @@
       "category": "colossi",
       "biome": "Architect arena",
       "size_axis": "height",
-      "recipe_scale": 1.4159292035398232,
-      "status": "aion_highend_pass_1",
-      "rig_bones": 15,
-      "cubes": 329,
+      "recipe_scale": 1.081081081081081,
+      "status": "aion_highend_pass_2",
+      "rig_bones": 21,
+      "cubes": 75,
       "animations": [
         "idle",
+        "sealed_idle",
+        "pulse_awaken",
         "presence_pulse",
+        "unseal_reveal",
         "reveal_cue"
       ],
       "source": "blockbench/colossi/aion_prologue.bbmodel",
@@ -11923,12 +11926,13 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "High-end AION pass; final in-game lighting/VFX tuning still belongs in the resource pack.",
-        "Gameplay authority effects and phase logic are separate from the Blockbench source."
+        "Blockbench structural validation is automated; final Bedrock lighting/VFX still needs in-game art review.",
+        "Gameplay authority effects, camera cuts and hit timing remain separate from the model source."
       ],
-      "texture_width": 1024,
-      "texture_height": 1024,
-      "texture_layout": "AION bespoke procedural face islands; no pasted UV artwork"
+      "texture_width": 512,
+      "texture_height": 128,
+      "texture_layout": "AION pass 2 procedural per-face authored shading; no pasted concept art",
+      "animation_language": "12fps-style held poses with 1-frame snap transitions and delayed secondary motion"
     },
     {
       "id": "aion",
@@ -11997,6 +12001,7 @@
       "texture_width": 512,
       "texture_height": 256,
       "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "animation_language": "12fps-style held poses with 1-frame snap transitions and delayed secondary motion",
       "base_rig": "Steve / 4px arms / six rigid body parts",
       "skin": "skins/colossi/aion.png"
     },
@@ -12069,6 +12074,7 @@
       "texture_width": 512,
       "texture_height": 256,
       "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "animation_language": "12fps-style held poses with 1-frame snap transitions and delayed secondary motion",
       "base_rig": "Steve / 4px arms / six rigid body parts",
       "skin": "skins/colossi/aion_the_architect.png"
     },
