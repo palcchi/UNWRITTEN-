@@ -489,6 +489,7 @@ def texture_for(e):
     return im,cols
 
 def uv_for(p):
+    if "uv" in p: return p["uv"]
     slot=p['material']; x=(slot%4)*32+1; y=(slot//4)*32+1
     # Per-face UVs stay in one semantic tile. 30px usable with a 1px guard.
     w,h,d=p['size']; unit=max(1,max(w,h,d)/24)
@@ -499,11 +500,11 @@ def geometry(e,r):
     bones=[]
     for b in r.bones:
         b=dict(b); parts=[p for p in r.parts if p['bone']==b['name']]
-        if parts: b['cubes']=[dict(origin=p['origin'],size=p['size'],uv=uv_for(p)) for p in parts]
+        if parts: b['cubes']=[dict(origin=p['origin'],size=p['size'],uv=uv_for(p),**{k:p[k] for k in ['rotation','pivot'] if k in p}) for p in parts]
         bones.append(b)
     span=max(e['size']*3,6)
     return {'format_version':'1.12.0','minecraft:geometry':[{'description':{
-        'identifier':'geometry.unwritten.'+e['id'],'texture_width':128,'texture_height':64,
+        'identifier':'geometry.unwritten.'+e['id'],'texture_width':e.get('texture_width',128),'texture_height':e.get('texture_height',64),
         'visible_bounds_width':span,'visible_bounds_height':span,'visible_bounds_offset':[0,e['size']/2,0]},'bones':bones}]}
 
 def animation_set(e,r):
@@ -604,6 +605,7 @@ def animation_set(e,r):
     return {k:v for k,v in result.items() if v['bones']}
 
 def bbmodel(e,r,im_path,animations):
+    tw,th=Image.open(im_path).size
     elements=[]; groups={}; tex_id=uid(e['id']+'/texture')
     for b in r.bones:
         p=b['pivot']; rot=b.get('rotation',[0,0,0])
@@ -614,6 +616,8 @@ def bbmodel(e,r,im_path,animations):
             a,b=data['uv']; c,dd=data['uv_size']
             faces[{'east':'west','west':'east'}.get(face,face)]={'uv':[a,b,a+c,b+dd],'texture':0}
         el={'name':p['bone']+'_'+str(i),'from':[-x-w,y,z],'to':[-x,y+h,z+d],'autouv':0,'color':p['material'],'uuid':uid(e['id']+'/cube/'+str(i)),'faces':faces,'type':'cube','box_uv':False,'rescale':False,'rotation':[0,0,0],'origin':[0,0,0]}
+        cr=p.get('rotation',[0,0,0]); cp=p.get('pivot',[0,0,0])
+        el['rotation']=[-cr[0],-cr[1],cr[2]]; el['origin']=[-cp[0],cp[1],cp[2]]
         elements.append(el); groups[p['bone']]['children'].append(el['uuid'])
     for b in r.bones:
         if 'parent' in b: groups[b['parent']]['children'].append(groups[b['name']])
@@ -632,8 +636,8 @@ def bbmodel(e,r,im_path,animations):
         bb_anims.append({'uuid':uid(name),'name':name,'loop':'loop' if a['loop'] else 'once','override':False,'length':a['animation_length'],'snapping':20,'animators':animators})
     return {'meta':{'format_version':'4.10','model_format':'bedrock','box_uv':False},'name':e['name'],'model_identifier':'unwritten.'+e['id'],
       'visible_box':[max(e['size']*3,6),max(e['size']*3,6),e['size']/2],
-      'resolution':{'width':128,'height':64},'elements':elements,'outliner':[groups['root']],
-      'textures':[{'path':'','name':e['id']+'.png','uuid':tex_id,'id':'0','mode':'bitmap','saved':False,'width':128,'height':64,'uv_width':128,'uv_height':64,'source':'data:image/png;base64,'+base64.b64encode(im_path.read_bytes()).decode()}],
+      'resolution':{'width':tw,'height':th},'elements':elements,'outliner':[groups['root']],
+      'textures':[{'path':'','name':e['id']+'.png','uuid':tex_id,'id':'0','mode':'bitmap','saved':False,'width':tw,'height':th,'uv_width':tw,'uv_height':th,'source':'data:image/png;base64,'+base64.b64encode(im_path.read_bytes()).decode()}],
       'animations':bb_anims}
 
 def manifest(name,kind):

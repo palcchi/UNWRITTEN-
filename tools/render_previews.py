@@ -42,19 +42,22 @@ def mesh(e,clip=None,time=0):
         for c in b.get('cubes',[]):
             o=np.array(c['origin']); s=np.array(c['size'])
             vs=np.array([o+s*np.array(v) for v in [(0,0,0),(1,0,0),(0,1,0),(1,1,0),(0,0,1),(1,0,1),(0,1,1),(1,1,1)]])
+            if 'rotation' in c:
+                pivot=np.array(c['pivot']); vs=(rotate(c['rotation'])@(vs-pivot).T).T+pivot
             vs=(m[:3,:3]@vs.T).T+m[:3,3]
             for f,indices in idx.items():
                 uv=c['uv'][f]; u,v=uv['uv']; w,h=uv['uv_size']
                 faces.append((vs[indices],np.array([[u,v+h],[u+w,v+h],[u+w,v],[u,v]]),f))
     return faces
 
-def render(e,size=320,clip=None,time=0,bounds=None):
-    faces=mesh(e,clip,time); camera=rotate([18,0,0])@rotate([0,-32,0]); points=np.concatenate([f[0]@camera.T for f in faces])
+def render(e,size=320,clip=None,time=0,bounds=None,yaw=-32,pitch=18):
+    faces=mesh(e,clip,time); camera=rotate([pitch,0,0])@rotate([0,yaw,0]); points=np.concatenate([f[0]@camera.T for f in faces])
     if bounds is None:
         mins=points.min(0); maxs=points.max(0); center=(mins+maxs)/2; zoom=(size-40)/max((maxs-mins)[:2])
     else: center,zoom=bounds
     texture=np.asarray(Image.open(ROOT/e['texture']).convert('RGBA'))/255
     canvas=np.zeros((size,size,3),float); canvas[:]=np.array([28,33,39])/255
+    depth=np.full((size,size),np.inf)
     # Transparent faces composited far-to-near; opaque depth occlusion follows the same order.
     tris=[]
     for vs,uv,f in faces:
@@ -70,11 +73,14 @@ def render(e,size=320,clip=None,time=0,bounds=None):
         if abs(den)<1e-8: continue
         u=((b[1]-c[1])*(xx-c[0])+(c[0]-b[0])*(yy-c[1]))/den
         v=((c[1]-a[1])*(xx-c[0])+(a[0]-c[0])*(yy-c[1]))/den; w=1-u-v
-        mask=(u>=0)&(v>=0)&(w>=0)
-        tx=np.clip((u*uv[0,0]+v*uv[1,0]+w*uv[2,0]).astype(int),0,127)
-        ty=np.clip((u*uv[0,1]+v*uv[1,1]+w*uv[2,1]).astype(int),0,63)
+        zz=u*a[2]+v*b[2]+w*c[2]
+        buffer=depth[ymin:ymax+1,xmin:xmax+1]
+        mask=(u>=0)&(v>=0)&(w>=0)&(zz<buffer)
+        tx=np.clip((u*uv[0,0]+v*uv[1,0]+w*uv[2,0]).astype(int),0,texture.shape[1]-1)
+        ty=np.clip((u*uv[0,1]+v*uv[1,1]+w*uv[2,1]).astype(int),0,texture.shape[0]-1)
         tex=texture[ty,tx]; shade={'north':.95,'south':.75,'west':.74,'east':.82,'up':1.08,'down':.65}[f]
         alpha=tex[:,:,3:4]*mask[:,:,None]
+        buffer[mask&(tex[:,:,3]>.99)]=zz[mask&(tex[:,:,3]>.99)]
         region=canvas[ymin:ymax+1,xmin:xmax+1]; region[:]=region*(1-alpha)+np.clip(tex[:,:,:3]*shade,0,1)*alpha
     return Image.fromarray((canvas*255).astype('uint8')), (center,zoom)
 

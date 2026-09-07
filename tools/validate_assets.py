@@ -15,7 +15,7 @@ def main():
         g=json.loads((ROOT/e['geometry']).read_text())['minecraft:geometry'][0]
         assert g['description']['identifier']=='geometry.unwritten.'+id
         bones={b['name']:b for b in g['bones']}; assert len(bones)==len(g['bones'])
-        tex=Image.open(ROOT/e['texture']); assert tex.size==(128,64)
+        tex=Image.open(ROOT/e['texture']); assert tex.size==(g['description']['texture_width'],g['description']['texture_height'])
         for name,b in bones.items():
             visited={name}; parent=b.get('parent')
             while parent:
@@ -25,7 +25,7 @@ def main():
                 cubes+=1; assert all(v>0 and math.isfinite(v) for v in c['size'])
                 assert len(c['uv'])==6
                 for uv in c['uv'].values():
-                    a,b=uv['uv']; w,h=uv['uv_size']; assert 0<=a<a+w<=128 and 0<=b<b+h<=64,(id,uv)
+                    a,b=uv['uv']; w,h=uv['uv_size']; assert 0<=a<a+w<=tex.width and 0<=b<b+h<=tex.height,(id,uv)
         a=json.loads((RP/f'animations/unwritten/{id}.animation.json').read_text())['animations']
         for name,anim in a.items():
             clips+=1; assert name.startswith('animation.unwritten.'+id+'.')

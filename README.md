@@ -4,11 +4,30 @@
 
 > The world remembers the players.
 
-## Creature assets v0.1
+## Creature assets v0.2: Ten Colossi art pass
+
+The 20 principal Colossus forms and supporting characters have been rebuilt with
+dedicated sculpture recipes, articulated limbs, unique padded UV islands and
+material-specific pixel textures. The other 277 assets remain first-pass models.
+
+AION now begins as a faceless, unstable **black orb**, then appears as a dark
+humanoid. His Architect form retains the dark identity with separated torso pieces,
+extra arms and suspended fragments. Little Morrow has his own short-snouted,
+midnight-blue dragon anatomy, pale horns, violet eyes and compact membrane wings.
+
+These are editable art-pass assets, not a claim of final high-end certification.
+Bedrock-device performance, actual application import and final art approval are
+still required. See [Colossus art notes](docs/COLOSSI_ART.md).
+
+![AION's updated forms](docs/previews/aion_evolution.png)
+
+![Little Morrow model study](docs/previews/little_morrow_study.png)
+
+## Base roster
 
 297 editable first-pass assets covering the supplied monster roster, all Colossus
 presentation forms, pets, seven prologue weapons, supporting NPCs and quest props.
-Every asset is **first_pass**, not finished bespoke art or a playable RPG. Many
+Non-Colossus assets are **first_pass**, not finished bespoke art or a playable RPG. Many
 models share body recipes and animation curves. Clip count is not a count of
 independently choreographed animations.
 
@@ -62,8 +81,10 @@ or establish behavior-pack compatibility with that engine.
 ```bash
 python -m pip install -r requirements.txt
 python tools/build_assets.py
+python tools/build_colossi.py
 python tools/validate_assets.py
 python tools/render_previews.py
+python tools/render_colossi.py
 ```
 
 Building overwrites generated files. Protect hand edits in `source_overrides/`,
