@@ -10,21 +10,41 @@
           ],
           "transitions": [
             {
-              "moving": "query.modified_move_speed > 0.01"
+              "run": "query.modified_move_speed > 0.42"
+            },
+            {
+              "walk": "query.modified_move_speed > 0.01"
             }
           ],
-          "blend_transition": 0.15
+          "blend_transition": 0.04
         },
-        "moving": {
+        "walk": {
           "animations": [
             "walk"
           ],
           "transitions": [
             {
+              "run": "query.modified_move_speed > 0.42"
+            },
+            {
               "idle": "query.modified_move_speed <= 0.01"
             }
           ],
-          "blend_transition": 0.15
+          "blend_transition": 0.04
+        },
+        "run": {
+          "animations": [
+            "run"
+          ],
+          "transitions": [
+            {
+              "walk": "query.modified_move_speed <= 0.42 && query.modified_move_speed > 0.01"
+            },
+            {
+              "idle": "query.modified_move_speed <= 0.01"
+            }
+          ],
+          "blend_transition": 0.03
         }
       }
     }
