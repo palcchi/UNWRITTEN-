@@ -26,7 +26,7 @@ jobs:
       - run: python tools/build_assets.py
       - run: python tools/build_colossi.py
       - run: python tools/build_player_colossi.py
-      - run: python tools/build_aion_motion.py
+      - run: python tools/build_aion_motion_final.py
       - run: python tools/validate_assets.py
       - run: python tools/validate_player_colossi.py
       - run: python tools/render_previews.py
