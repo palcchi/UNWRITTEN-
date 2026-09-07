@@ -21,7 +21,7 @@ def main():
         cols=3 if name!='colossi_support' else 4; tile=420;rows=(len(ids)+cols-1)//cols
         sheet=Image.new('RGB',(cols*tile,90+rows*(tile+56)),(18,22,28));d=ImageDraw.Draw(sheet)
         d.text((24,15),'UNWRITTEN / '+name.replace('_',' ').upper(),font=title,fill='#d7dcdb')
-        d.text((24,54),'Bespoke art pass 02 | Actual textured geometry | Tiles use individual scale',font=small,fill='#99a8b5')
+        d.text((24,54),'Actual textured geometry | Steve humanoid revision | Individual tile scale',font=small,fill='#99a8b5')
         for i,id in enumerate(ids):
             e=entries[id];im,_=render(e,tile);x=i%cols*tile;y=90+i//cols*(tile+56);sheet.paste(im,(x,y))
             d.text((x+15,y+tile+5),e['name'],font=small,fill='#e5dbbc')

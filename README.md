@@ -4,15 +4,26 @@
 
 > The world remembers the players.
 
-## Creature assets v0.2: Ten Colossi art pass
+## Creature assets v0.3: Steve-proportion Colossi
+
+Eleven humanoid forms now use standard Steve body proportions, fully custom
+64x64 pixel skins and separate 3D costume details. AION follows the supplied
+poster: ivory robes, gold geometry, an anonymous pale mask and a halo. The
+Architect adds floating arms and fragments. His prologue remains a black orb.
+Textures are painted from authored shading rules, not cropped or projected
+from the poster. See [current humanoid art notes](docs/PLAYER_COLOSSI.md).
+
+Base skins: `skins/colossi/`. Importable skin pack:
+`dist/UNWRITTEN_Colossi_Skins.mcpack`. Wings, armor, robes and other 3D extras
+are included in entity models, not the ordinary player skin pack.
+
+## Previous creature pass
 
 The 20 principal Colossus forms and supporting characters have been rebuilt with
 dedicated sculpture recipes, articulated limbs, unique padded UV islands and
 material-specific pixel textures. The other 277 assets remain first-pass models.
 
-AION now begins as a faceless, unstable **black orb**, then appears as a dark
-humanoid. His Architect form retains the dark identity with separated torso pieces,
-extra arms and suspended fragments. Little Morrow has his own short-snouted,
+The previous dark humanoid AION design is superseded by v0.3. Little Morrow has his own short-snouted,
 midnight-blue dragon anatomy, pale horns, violet eyes and compact membrane wings.
 
 These are editable art-pass assets, not a claim of final high-end certification.

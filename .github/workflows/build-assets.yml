@@ -25,14 +25,17 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - run: python tools/build_assets.py
       - run: python tools/build_colossi.py
+      - run: python tools/build_player_colossi.py
       - run: python tools/validate_assets.py
+      - run: python tools/validate_player_colossi.py
       - run: python tools/render_previews.py
       - run: python tools/render_colossi.py
+      - run: python tools/render_player_colossi.py
       - name: Commit generated assets
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add blockbench packs dist catalog/assets.json docs/previews docs/validation.json docs/colossi-art-report.json
+          git add blockbench packs skins dist catalog/assets.json docs/previews docs/validation.json docs/colossi-art-report.json docs/player-colossi-report.json
           if ! git diff --cached --quiet; then
             git commit -m 'Build validated UNWRITTEN first-pass assets'
             git push origin HEAD:main
