@@ -2,7 +2,7 @@ name: Colossus model studio
 on:
   push:
     branches: [main]
-    paths: ['model_studio/build_vharos.py', '.github/workflows/model-studio.yml']
+    paths: ['model_studio/*.py', '.github/workflows/model-studio.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -18,14 +18,14 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install -r requirements.txt
-      - run: python model_studio/build_vharos.py
+      - run: python model_studio/build_colossi_studio.py
       - name: Publish editable model and actual geometry preview
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add model_studio/vharos
+          git add model_studio
           if ! git diff --cached --quiet; then
-            git commit -m 'Publish focused Vharos geometry and review preview'
+            git commit -m 'Publish Ten Colossi model forms and review gallery'
             git pull --rebase origin main
             git push origin HEAD:main
           fi
