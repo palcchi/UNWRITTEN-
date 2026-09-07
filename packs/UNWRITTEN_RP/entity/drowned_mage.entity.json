@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:drowned_mage",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/drowned_mage"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.drowned_mage"
+      },
+      "animations": {
+        "idle": "animation.unwritten.drowned_mage.idle",
+        "walk": "animation.unwritten.drowned_mage.walk",
+        "run": "animation.unwritten.drowned_mage.run",
+        "hurt": "animation.unwritten.drowned_mage.hurt",
+        "death": "animation.unwritten.drowned_mage.death",
+        "bite": "animation.unwritten.drowned_mage.bite",
+        "attack": "animation.unwritten.drowned_mage.attack",
+        "stun": "animation.unwritten.drowned_mage.stun",
+        "slash": "animation.unwritten.drowned_mage.slash",
+        "thrust": "animation.unwritten.drowned_mage.thrust",
+        "parry": "animation.unwritten.drowned_mage.parry",
+        "cast": "animation.unwritten.drowned_mage.cast",
+        "smash": "animation.unwritten.drowned_mage.smash",
+        "dodge": "animation.unwritten.drowned_mage.dodge",
+        "roar": "animation.unwritten.drowned_mage.roar",
+        "locomotion": "controller.animation.unwritten.drowned_mage"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

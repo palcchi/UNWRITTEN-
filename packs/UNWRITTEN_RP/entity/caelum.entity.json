@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:caelum",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/caelum"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.caelum"
+      },
+      "animations": {
+        "idle": "animation.unwritten.caelum.idle",
+        "walk": "animation.unwritten.caelum.walk",
+        "run": "animation.unwritten.caelum.run",
+        "hurt": "animation.unwritten.caelum.hurt",
+        "death": "animation.unwritten.caelum.death",
+        "bite": "animation.unwritten.caelum.bite",
+        "attack": "animation.unwritten.caelum.attack",
+        "stun": "animation.unwritten.caelum.stun",
+        "slash": "animation.unwritten.caelum.slash",
+        "thrust": "animation.unwritten.caelum.thrust",
+        "parry": "animation.unwritten.caelum.parry",
+        "cast": "animation.unwritten.caelum.cast",
+        "smash": "animation.unwritten.caelum.smash",
+        "dodge": "animation.unwritten.caelum.dodge",
+        "roar": "animation.unwritten.caelum.roar",
+        "awaken": "animation.unwritten.caelum.awaken",
+        "kneel": "animation.unwritten.caelum.kneel",
+        "reach": "animation.unwritten.caelum.reach",
+        "transform": "animation.unwritten.caelum.transform",
+        "slash_1": "animation.unwritten.caelum.slash_1",
+        "slash_2": "animation.unwritten.caelum.slash_2",
+        "slash_3": "animation.unwritten.caelum.slash_3",
+        "slash_4": "animation.unwritten.caelum.slash_4",
+        "slash_5": "animation.unwritten.caelum.slash_5",
+        "thrust_1": "animation.unwritten.caelum.thrust_1",
+        "thrust_2": "animation.unwritten.caelum.thrust_2",
+        "thrust_3": "animation.unwritten.caelum.thrust_3",
+        "locomotion": "controller.animation.unwritten.caelum"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

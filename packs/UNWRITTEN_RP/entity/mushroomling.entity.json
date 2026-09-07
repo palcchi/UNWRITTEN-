@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:mushroomling",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/mushroomling"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.mushroomling"
+      },
+      "animations": {
+        "idle": "animation.unwritten.mushroomling.idle",
+        "walk": "animation.unwritten.mushroomling.walk",
+        "run": "animation.unwritten.mushroomling.run",
+        "hurt": "animation.unwritten.mushroomling.hurt",
+        "death": "animation.unwritten.mushroomling.death",
+        "bite": "animation.unwritten.mushroomling.bite",
+        "attack": "animation.unwritten.mushroomling.attack",
+        "stun": "animation.unwritten.mushroomling.stun",
+        "roar": "animation.unwritten.mushroomling.roar",
+        "locomotion": "controller.animation.unwritten.mushroomling"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

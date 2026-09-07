@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:griffin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/griffin"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.griffin"
+      },
+      "animations": {
+        "idle": "animation.unwritten.griffin.idle",
+        "walk": "animation.unwritten.griffin.walk",
+        "run": "animation.unwritten.griffin.run",
+        "hurt": "animation.unwritten.griffin.hurt",
+        "death": "animation.unwritten.griffin.death",
+        "bite": "animation.unwritten.griffin.bite",
+        "attack": "animation.unwritten.griffin.attack",
+        "stun": "animation.unwritten.griffin.stun",
+        "fly": "animation.unwritten.griffin.fly",
+        "wing_unfold": "animation.unwritten.griffin.wing_unfold",
+        "takeoff": "animation.unwritten.griffin.takeoff",
+        "land": "animation.unwritten.griffin.land",
+        "swim": "animation.unwritten.griffin.swim",
+        "tail_sweep": "animation.unwritten.griffin.tail_sweep",
+        "roar": "animation.unwritten.griffin.roar",
+        "locomotion": "controller.animation.unwritten.griffin"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

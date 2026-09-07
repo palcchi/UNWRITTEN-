@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:wyvern",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/wyvern"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.wyvern"
+      },
+      "animations": {
+        "idle": "animation.unwritten.wyvern.idle",
+        "walk": "animation.unwritten.wyvern.walk",
+        "run": "animation.unwritten.wyvern.run",
+        "hurt": "animation.unwritten.wyvern.hurt",
+        "death": "animation.unwritten.wyvern.death",
+        "bite": "animation.unwritten.wyvern.bite",
+        "attack": "animation.unwritten.wyvern.attack",
+        "stun": "animation.unwritten.wyvern.stun",
+        "fly": "animation.unwritten.wyvern.fly",
+        "wing_unfold": "animation.unwritten.wyvern.wing_unfold",
+        "takeoff": "animation.unwritten.wyvern.takeoff",
+        "land": "animation.unwritten.wyvern.land",
+        "swim": "animation.unwritten.wyvern.swim",
+        "tail_sweep": "animation.unwritten.wyvern.tail_sweep",
+        "roar": "animation.unwritten.wyvern.roar",
+        "breath": "animation.unwritten.wyvern.breath",
+        "sleeping": "animation.unwritten.wyvern.sleeping",
+        "locomotion": "controller.animation.unwritten.wyvern"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

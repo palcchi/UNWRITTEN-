@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ancient_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ancient_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ancient_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ancient_dragon.idle",
+        "walk": "animation.unwritten.ancient_dragon.walk",
+        "run": "animation.unwritten.ancient_dragon.run",
+        "hurt": "animation.unwritten.ancient_dragon.hurt",
+        "death": "animation.unwritten.ancient_dragon.death",
+        "bite": "animation.unwritten.ancient_dragon.bite",
+        "attack": "animation.unwritten.ancient_dragon.attack",
+        "stun": "animation.unwritten.ancient_dragon.stun",
+        "fly": "animation.unwritten.ancient_dragon.fly",
+        "wing_unfold": "animation.unwritten.ancient_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.ancient_dragon.takeoff",
+        "land": "animation.unwritten.ancient_dragon.land",
+        "swim": "animation.unwritten.ancient_dragon.swim",
+        "tail_sweep": "animation.unwritten.ancient_dragon.tail_sweep",
+        "roar": "animation.unwritten.ancient_dragon.roar",
+        "breath": "animation.unwritten.ancient_dragon.breath",
+        "sleeping": "animation.unwritten.ancient_dragon.sleeping",
+        "locomotion": "controller.animation.unwritten.ancient_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#9c633f",
+        "overlay_color": "#ddac70"
+      }
+    }
+  }
+}

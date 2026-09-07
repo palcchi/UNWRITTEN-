@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ogre",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ogre"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ogre"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ogre.idle",
+        "walk": "animation.unwritten.ogre.walk",
+        "run": "animation.unwritten.ogre.run",
+        "hurt": "animation.unwritten.ogre.hurt",
+        "death": "animation.unwritten.ogre.death",
+        "bite": "animation.unwritten.ogre.bite",
+        "attack": "animation.unwritten.ogre.attack",
+        "stun": "animation.unwritten.ogre.stun",
+        "slash": "animation.unwritten.ogre.slash",
+        "thrust": "animation.unwritten.ogre.thrust",
+        "parry": "animation.unwritten.ogre.parry",
+        "cast": "animation.unwritten.ogre.cast",
+        "smash": "animation.unwritten.ogre.smash",
+        "dodge": "animation.unwritten.ogre.dodge",
+        "roar": "animation.unwritten.ogre.roar",
+        "locomotion": "controller.animation.unwritten.ogre"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

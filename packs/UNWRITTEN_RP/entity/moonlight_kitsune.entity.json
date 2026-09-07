@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:moonlight_kitsune",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/moonlight_kitsune"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.moonlight_kitsune"
+      },
+      "animations": {
+        "idle": "animation.unwritten.moonlight_kitsune.idle",
+        "walk": "animation.unwritten.moonlight_kitsune.walk",
+        "run": "animation.unwritten.moonlight_kitsune.run",
+        "hurt": "animation.unwritten.moonlight_kitsune.hurt",
+        "death": "animation.unwritten.moonlight_kitsune.death",
+        "bite": "animation.unwritten.moonlight_kitsune.bite",
+        "attack": "animation.unwritten.moonlight_kitsune.attack",
+        "stun": "animation.unwritten.moonlight_kitsune.stun",
+        "swim": "animation.unwritten.moonlight_kitsune.swim",
+        "tail_sweep": "animation.unwritten.moonlight_kitsune.tail_sweep",
+        "roar": "animation.unwritten.moonlight_kitsune.roar",
+        "locomotion": "controller.animation.unwritten.moonlight_kitsune"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lesser_skeleton",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lesser_skeleton"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lesser_skeleton"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lesser_skeleton.idle",
+        "walk": "animation.unwritten.lesser_skeleton.walk",
+        "run": "animation.unwritten.lesser_skeleton.run",
+        "hurt": "animation.unwritten.lesser_skeleton.hurt",
+        "death": "animation.unwritten.lesser_skeleton.death",
+        "bite": "animation.unwritten.lesser_skeleton.bite",
+        "attack": "animation.unwritten.lesser_skeleton.attack",
+        "stun": "animation.unwritten.lesser_skeleton.stun",
+        "slash": "animation.unwritten.lesser_skeleton.slash",
+        "thrust": "animation.unwritten.lesser_skeleton.thrust",
+        "parry": "animation.unwritten.lesser_skeleton.parry",
+        "cast": "animation.unwritten.lesser_skeleton.cast",
+        "smash": "animation.unwritten.lesser_skeleton.smash",
+        "dodge": "animation.unwritten.lesser_skeleton.dodge",
+        "roar": "animation.unwritten.lesser_skeleton.roar",
+        "locomotion": "controller.animation.unwritten.lesser_skeleton"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

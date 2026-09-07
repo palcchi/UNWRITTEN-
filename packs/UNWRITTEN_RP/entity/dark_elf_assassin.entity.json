@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dark_elf_assassin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dark_elf_assassin"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dark_elf_assassin"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dark_elf_assassin.idle",
+        "walk": "animation.unwritten.dark_elf_assassin.walk",
+        "run": "animation.unwritten.dark_elf_assassin.run",
+        "hurt": "animation.unwritten.dark_elf_assassin.hurt",
+        "death": "animation.unwritten.dark_elf_assassin.death",
+        "bite": "animation.unwritten.dark_elf_assassin.bite",
+        "attack": "animation.unwritten.dark_elf_assassin.attack",
+        "stun": "animation.unwritten.dark_elf_assassin.stun",
+        "slash": "animation.unwritten.dark_elf_assassin.slash",
+        "thrust": "animation.unwritten.dark_elf_assassin.thrust",
+        "parry": "animation.unwritten.dark_elf_assassin.parry",
+        "cast": "animation.unwritten.dark_elf_assassin.cast",
+        "smash": "animation.unwritten.dark_elf_assassin.smash",
+        "dodge": "animation.unwritten.dark_elf_assassin.dodge",
+        "roar": "animation.unwritten.dark_elf_assassin.roar",
+        "locomotion": "controller.animation.unwritten.dark_elf_assassin"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#705179",
+        "overlay_color": "#d2a0ed"
+      }
+    }
+  }
+}

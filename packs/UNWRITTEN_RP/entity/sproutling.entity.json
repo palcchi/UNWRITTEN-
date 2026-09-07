@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:sproutling",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/sproutling"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.sproutling"
+      },
+      "animations": {
+        "idle": "animation.unwritten.sproutling.idle",
+        "walk": "animation.unwritten.sproutling.walk",
+        "run": "animation.unwritten.sproutling.run",
+        "hurt": "animation.unwritten.sproutling.hurt",
+        "death": "animation.unwritten.sproutling.death",
+        "bite": "animation.unwritten.sproutling.bite",
+        "attack": "animation.unwritten.sproutling.attack",
+        "stun": "animation.unwritten.sproutling.stun",
+        "roar": "animation.unwritten.sproutling.roar",
+        "locomotion": "controller.animation.unwritten.sproutling"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

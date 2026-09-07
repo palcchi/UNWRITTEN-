@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_child",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_child"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_child"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_child.idle",
+        "walk": "animation.unwritten.goblin_child.walk",
+        "run": "animation.unwritten.goblin_child.run",
+        "hurt": "animation.unwritten.goblin_child.hurt",
+        "death": "animation.unwritten.goblin_child.death",
+        "bite": "animation.unwritten.goblin_child.bite",
+        "attack": "animation.unwritten.goblin_child.attack",
+        "stun": "animation.unwritten.goblin_child.stun",
+        "slash": "animation.unwritten.goblin_child.slash",
+        "thrust": "animation.unwritten.goblin_child.thrust",
+        "parry": "animation.unwritten.goblin_child.parry",
+        "cast": "animation.unwritten.goblin_child.cast",
+        "smash": "animation.unwritten.goblin_child.smash",
+        "dodge": "animation.unwritten.goblin_child.dodge",
+        "roar": "animation.unwritten.goblin_child.roar",
+        "locomotion": "controller.animation.unwritten.goblin_child"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

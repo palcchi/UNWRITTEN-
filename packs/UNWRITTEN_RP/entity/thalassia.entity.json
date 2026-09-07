@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:thalassia",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/thalassia"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.thalassia"
+      },
+      "animations": {
+        "idle": "animation.unwritten.thalassia.idle",
+        "walk": "animation.unwritten.thalassia.walk",
+        "run": "animation.unwritten.thalassia.run",
+        "hurt": "animation.unwritten.thalassia.hurt",
+        "death": "animation.unwritten.thalassia.death",
+        "bite": "animation.unwritten.thalassia.bite",
+        "attack": "animation.unwritten.thalassia.attack",
+        "stun": "animation.unwritten.thalassia.stun",
+        "swim": "animation.unwritten.thalassia.swim",
+        "tail_sweep": "animation.unwritten.thalassia.tail_sweep",
+        "roar": "animation.unwritten.thalassia.roar",
+        "awaken": "animation.unwritten.thalassia.awaken",
+        "kneel": "animation.unwritten.thalassia.kneel",
+        "transform": "animation.unwritten.thalassia.transform",
+        "locomotion": "controller.animation.unwritten.thalassia"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:guild_receptionist",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/guild_receptionist"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.guild_receptionist"
+      },
+      "animations": {
+        "idle": "animation.unwritten.guild_receptionist.idle",
+        "walk": "animation.unwritten.guild_receptionist.walk",
+        "run": "animation.unwritten.guild_receptionist.run",
+        "hurt": "animation.unwritten.guild_receptionist.hurt",
+        "death": "animation.unwritten.guild_receptionist.death",
+        "bite": "animation.unwritten.guild_receptionist.bite",
+        "attack": "animation.unwritten.guild_receptionist.attack",
+        "stun": "animation.unwritten.guild_receptionist.stun",
+        "slash": "animation.unwritten.guild_receptionist.slash",
+        "thrust": "animation.unwritten.guild_receptionist.thrust",
+        "parry": "animation.unwritten.guild_receptionist.parry",
+        "cast": "animation.unwritten.guild_receptionist.cast",
+        "smash": "animation.unwritten.guild_receptionist.smash",
+        "dodge": "animation.unwritten.guild_receptionist.dodge",
+        "roar": "animation.unwritten.guild_receptionist.roar",
+        "locomotion": "controller.animation.unwritten.guild_receptionist"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

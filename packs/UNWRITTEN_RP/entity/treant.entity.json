@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:treant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/treant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.treant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.treant.idle",
+        "walk": "animation.unwritten.treant.walk",
+        "run": "animation.unwritten.treant.run",
+        "hurt": "animation.unwritten.treant.hurt",
+        "death": "animation.unwritten.treant.death",
+        "bite": "animation.unwritten.treant.bite",
+        "attack": "animation.unwritten.treant.attack",
+        "stun": "animation.unwritten.treant.stun",
+        "slash": "animation.unwritten.treant.slash",
+        "thrust": "animation.unwritten.treant.thrust",
+        "parry": "animation.unwritten.treant.parry",
+        "cast": "animation.unwritten.treant.cast",
+        "smash": "animation.unwritten.treant.smash",
+        "dodge": "animation.unwritten.treant.dodge",
+        "roar": "animation.unwritten.treant.roar",
+        "locomotion": "controller.animation.unwritten.treant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

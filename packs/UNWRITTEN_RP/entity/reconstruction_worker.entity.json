@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:reconstruction_worker",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/reconstruction_worker"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.reconstruction_worker"
+      },
+      "animations": {
+        "idle": "animation.unwritten.reconstruction_worker.idle",
+        "walk": "animation.unwritten.reconstruction_worker.walk",
+        "run": "animation.unwritten.reconstruction_worker.run",
+        "hurt": "animation.unwritten.reconstruction_worker.hurt",
+        "death": "animation.unwritten.reconstruction_worker.death",
+        "bite": "animation.unwritten.reconstruction_worker.bite",
+        "attack": "animation.unwritten.reconstruction_worker.attack",
+        "stun": "animation.unwritten.reconstruction_worker.stun",
+        "slash": "animation.unwritten.reconstruction_worker.slash",
+        "thrust": "animation.unwritten.reconstruction_worker.thrust",
+        "parry": "animation.unwritten.reconstruction_worker.parry",
+        "cast": "animation.unwritten.reconstruction_worker.cast",
+        "smash": "animation.unwritten.reconstruction_worker.smash",
+        "dodge": "animation.unwritten.reconstruction_worker.dodge",
+        "roar": "animation.unwritten.reconstruction_worker.roar",
+        "locomotion": "controller.animation.unwritten.reconstruction_worker"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

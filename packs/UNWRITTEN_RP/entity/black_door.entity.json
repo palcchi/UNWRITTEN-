@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:black_door",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/black_door"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.black_door"
+      },
+      "animations": {
+        "idle": "animation.unwritten.black_door.idle",
+        "walk": "animation.unwritten.black_door.walk",
+        "run": "animation.unwritten.black_door.run",
+        "hurt": "animation.unwritten.black_door.hurt",
+        "death": "animation.unwritten.black_door.death",
+        "attack": "animation.unwritten.black_door.attack",
+        "locomotion": "controller.animation.unwritten.black_door"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#24233b",
+        "overlay_color": "#ad8bdb"
+      }
+    }
+  }
+}

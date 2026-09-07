@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:broodmother_spider",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/broodmother_spider"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.broodmother_spider"
+      },
+      "animations": {
+        "idle": "animation.unwritten.broodmother_spider.idle",
+        "walk": "animation.unwritten.broodmother_spider.walk",
+        "run": "animation.unwritten.broodmother_spider.run",
+        "hurt": "animation.unwritten.broodmother_spider.hurt",
+        "death": "animation.unwritten.broodmother_spider.death",
+        "bite": "animation.unwritten.broodmother_spider.bite",
+        "attack": "animation.unwritten.broodmother_spider.attack",
+        "stun": "animation.unwritten.broodmother_spider.stun",
+        "roar": "animation.unwritten.broodmother_spider.roar",
+        "web_spit": "animation.unwritten.broodmother_spider.web_spit",
+        "locomotion": "controller.animation.unwritten.broodmother_spider"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#705179",
+        "overlay_color": "#d2a0ed"
+      }
+    }
+  }
+}

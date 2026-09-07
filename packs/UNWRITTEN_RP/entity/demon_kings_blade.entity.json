@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:demon_kings_blade",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/demon_kings_blade"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.demon_kings_blade"
+      },
+      "animations": {
+        "idle": "animation.unwritten.demon_kings_blade.idle",
+        "walk": "animation.unwritten.demon_kings_blade.walk",
+        "run": "animation.unwritten.demon_kings_blade.run",
+        "hurt": "animation.unwritten.demon_kings_blade.hurt",
+        "death": "animation.unwritten.demon_kings_blade.death",
+        "attack": "animation.unwritten.demon_kings_blade.attack",
+        "awaken": "animation.unwritten.demon_kings_blade.awaken",
+        "kneel": "animation.unwritten.demon_kings_blade.kneel",
+        "transform": "animation.unwritten.demon_kings_blade.transform",
+        "locomotion": "controller.animation.unwritten.demon_kings_blade"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#852d46",
+        "overlay_color": "#f595a4"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:orc_archer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/orc_archer"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.orc_archer"
+      },
+      "animations": {
+        "idle": "animation.unwritten.orc_archer.idle",
+        "walk": "animation.unwritten.orc_archer.walk",
+        "run": "animation.unwritten.orc_archer.run",
+        "hurt": "animation.unwritten.orc_archer.hurt",
+        "death": "animation.unwritten.orc_archer.death",
+        "bite": "animation.unwritten.orc_archer.bite",
+        "attack": "animation.unwritten.orc_archer.attack",
+        "stun": "animation.unwritten.orc_archer.stun",
+        "slash": "animation.unwritten.orc_archer.slash",
+        "thrust": "animation.unwritten.orc_archer.thrust",
+        "parry": "animation.unwritten.orc_archer.parry",
+        "cast": "animation.unwritten.orc_archer.cast",
+        "smash": "animation.unwritten.orc_archer.smash",
+        "dodge": "animation.unwritten.orc_archer.dodge",
+        "bow_attack": "animation.unwritten.orc_archer.bow_attack",
+        "roar": "animation.unwritten.orc_archer.roar",
+        "locomotion": "controller.animation.unwritten.orc_archer"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:falcon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/falcon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.falcon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.falcon.idle",
+        "walk": "animation.unwritten.falcon.walk",
+        "run": "animation.unwritten.falcon.run",
+        "hurt": "animation.unwritten.falcon.hurt",
+        "death": "animation.unwritten.falcon.death",
+        "bite": "animation.unwritten.falcon.bite",
+        "attack": "animation.unwritten.falcon.attack",
+        "stun": "animation.unwritten.falcon.stun",
+        "fly": "animation.unwritten.falcon.fly",
+        "wing_unfold": "animation.unwritten.falcon.wing_unfold",
+        "takeoff": "animation.unwritten.falcon.takeoff",
+        "land": "animation.unwritten.falcon.land",
+        "swim": "animation.unwritten.falcon.swim",
+        "tail_sweep": "animation.unwritten.falcon.tail_sweep",
+        "roar": "animation.unwritten.falcon.roar",
+        "sit": "animation.unwritten.falcon.sit",
+        "sleep": "animation.unwritten.falcon.sleep",
+        "yawn": "animation.unwritten.falcon.yawn",
+        "scratch_ear": "animation.unwritten.falcon.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.falcon.curious_head_tilt",
+        "angry_puff": "animation.unwritten.falcon.angry_puff",
+        "chase_tail": "animation.unwritten.falcon.chase_tail",
+        "climb": "animation.unwritten.falcon.climb",
+        "eat_cheese": "animation.unwritten.falcon.eat_cheese",
+        "steal_cheese": "animation.unwritten.falcon.steal_cheese",
+        "happy_bounce": "animation.unwritten.falcon.happy_bounce",
+        "shoulder_sit": "animation.unwritten.falcon.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.falcon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#636975",
+        "overlay_color": "#bac8c8"
+      }
+    }
+  }
+}

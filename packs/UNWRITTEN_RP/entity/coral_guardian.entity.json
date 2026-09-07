@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:coral_guardian",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/coral_guardian"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.coral_guardian"
+      },
+      "animations": {
+        "idle": "animation.unwritten.coral_guardian.idle",
+        "walk": "animation.unwritten.coral_guardian.walk",
+        "run": "animation.unwritten.coral_guardian.run",
+        "hurt": "animation.unwritten.coral_guardian.hurt",
+        "death": "animation.unwritten.coral_guardian.death",
+        "bite": "animation.unwritten.coral_guardian.bite",
+        "attack": "animation.unwritten.coral_guardian.attack",
+        "stun": "animation.unwritten.coral_guardian.stun",
+        "slash": "animation.unwritten.coral_guardian.slash",
+        "thrust": "animation.unwritten.coral_guardian.thrust",
+        "parry": "animation.unwritten.coral_guardian.parry",
+        "cast": "animation.unwritten.coral_guardian.cast",
+        "smash": "animation.unwritten.coral_guardian.smash",
+        "dodge": "animation.unwritten.coral_guardian.dodge",
+        "roar": "animation.unwritten.coral_guardian.roar",
+        "locomotion": "controller.animation.unwritten.coral_guardian"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#a56f70",
+        "overlay_color": "#83d3c9"
+      }
+    }
+  }
+}

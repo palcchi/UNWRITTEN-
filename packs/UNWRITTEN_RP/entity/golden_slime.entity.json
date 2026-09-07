@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:golden_slime",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/golden_slime"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.golden_slime"
+      },
+      "animations": {
+        "idle": "animation.unwritten.golden_slime.idle",
+        "walk": "animation.unwritten.golden_slime.walk",
+        "run": "animation.unwritten.golden_slime.run",
+        "hurt": "animation.unwritten.golden_slime.hurt",
+        "death": "animation.unwritten.golden_slime.death",
+        "bite": "animation.unwritten.golden_slime.bite",
+        "attack": "animation.unwritten.golden_slime.attack",
+        "stun": "animation.unwritten.golden_slime.stun",
+        "hop": "animation.unwritten.golden_slime.hop",
+        "slam": "animation.unwritten.golden_slime.slam",
+        "death_melt": "animation.unwritten.golden_slime.death_melt",
+        "roar": "animation.unwritten.golden_slime.roar",
+        "locomotion": "controller.animation.unwritten.golden_slime"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

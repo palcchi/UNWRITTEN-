@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:vharos",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/vharos"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.vharos"
+      },
+      "animations": {
+        "idle": "animation.unwritten.vharos.idle",
+        "walk": "animation.unwritten.vharos.walk",
+        "run": "animation.unwritten.vharos.run",
+        "hurt": "animation.unwritten.vharos.hurt",
+        "death": "animation.unwritten.vharos.death",
+        "bite": "animation.unwritten.vharos.bite",
+        "attack": "animation.unwritten.vharos.attack",
+        "stun": "animation.unwritten.vharos.stun",
+        "fly": "animation.unwritten.vharos.fly",
+        "wing_unfold": "animation.unwritten.vharos.wing_unfold",
+        "takeoff": "animation.unwritten.vharos.takeoff",
+        "land": "animation.unwritten.vharos.land",
+        "swim": "animation.unwritten.vharos.swim",
+        "tail_sweep": "animation.unwritten.vharos.tail_sweep",
+        "roar": "animation.unwritten.vharos.roar",
+        "breath": "animation.unwritten.vharos.breath",
+        "sleeping": "animation.unwritten.vharos.sleeping",
+        "awaken": "animation.unwritten.vharos.awaken",
+        "kneel": "animation.unwritten.vharos.kneel",
+        "transform": "animation.unwritten.vharos.transform",
+        "locomotion": "controller.animation.unwritten.vharos"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#303035",
+        "overlay_color": "#ff8c37"
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.unwritten.original_shield.idle": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.24000000000000002,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.original_shield.walk": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.19200000000000003,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.original_shield.run": {
+      "loop": true,
+      "animation_length": 0.55,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.275": [
+              0.0,
+              0.5760000000000001,
+              0.0
+            ],
+            "0.55": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.original_shield.hurt": {
+      "loop": false,
+      "animation_length": 0.35,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.175": [
+              -12,
+              0,
+              5
+            ],
+            "0.35": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.original_shield.death": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6": [
+              0,
+              0,
+              15
+            ],
+            "1.2": [
+              0,
+              0,
+              85
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.6": [
+              0.0,
+              -0.9600000000000001,
+              0.0
+            ],
+            "1.2": [
+              0.0,
+              -2.8800000000000003,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.original_shield.attack": {
+      "loop": false,
+      "animation_length": 0.8,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              0,
+              -18,
+              0
+            ],
+            "0.5333": [
+              15,
+              20,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

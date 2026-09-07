@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:reef_golem",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/reef_golem"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.reef_golem"
+      },
+      "animations": {
+        "idle": "animation.unwritten.reef_golem.idle",
+        "walk": "animation.unwritten.reef_golem.walk",
+        "run": "animation.unwritten.reef_golem.run",
+        "hurt": "animation.unwritten.reef_golem.hurt",
+        "death": "animation.unwritten.reef_golem.death",
+        "bite": "animation.unwritten.reef_golem.bite",
+        "attack": "animation.unwritten.reef_golem.attack",
+        "stun": "animation.unwritten.reef_golem.stun",
+        "slash": "animation.unwritten.reef_golem.slash",
+        "thrust": "animation.unwritten.reef_golem.thrust",
+        "parry": "animation.unwritten.reef_golem.parry",
+        "cast": "animation.unwritten.reef_golem.cast",
+        "smash": "animation.unwritten.reef_golem.smash",
+        "dodge": "animation.unwritten.reef_golem.dodge",
+        "roar": "animation.unwritten.reef_golem.roar",
+        "locomotion": "controller.animation.unwritten.reef_golem"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#a56f70",
+        "overlay_color": "#83d3c9"
+      }
+    }
+  }
+}

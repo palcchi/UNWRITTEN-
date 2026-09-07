@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:abyss_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/abyss_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.abyss_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.abyss_dragon.idle",
+        "walk": "animation.unwritten.abyss_dragon.walk",
+        "run": "animation.unwritten.abyss_dragon.run",
+        "hurt": "animation.unwritten.abyss_dragon.hurt",
+        "death": "animation.unwritten.abyss_dragon.death",
+        "bite": "animation.unwritten.abyss_dragon.bite",
+        "attack": "animation.unwritten.abyss_dragon.attack",
+        "stun": "animation.unwritten.abyss_dragon.stun",
+        "fly": "animation.unwritten.abyss_dragon.fly",
+        "wing_unfold": "animation.unwritten.abyss_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.abyss_dragon.takeoff",
+        "land": "animation.unwritten.abyss_dragon.land",
+        "swim": "animation.unwritten.abyss_dragon.swim",
+        "tail_sweep": "animation.unwritten.abyss_dragon.tail_sweep",
+        "roar": "animation.unwritten.abyss_dragon.roar",
+        "breath": "animation.unwritten.abyss_dragon.breath",
+        "sleeping": "animation.unwritten.abyss_dragon.sleeping",
+        "locomotion": "controller.animation.unwritten.abyss_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

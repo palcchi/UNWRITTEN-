@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:weeping_banshee",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/weeping_banshee"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.weeping_banshee"
+      },
+      "animations": {
+        "idle": "animation.unwritten.weeping_banshee.idle",
+        "walk": "animation.unwritten.weeping_banshee.walk",
+        "run": "animation.unwritten.weeping_banshee.run",
+        "hurt": "animation.unwritten.weeping_banshee.hurt",
+        "death": "animation.unwritten.weeping_banshee.death",
+        "bite": "animation.unwritten.weeping_banshee.bite",
+        "attack": "animation.unwritten.weeping_banshee.attack",
+        "stun": "animation.unwritten.weeping_banshee.stun",
+        "slash": "animation.unwritten.weeping_banshee.slash",
+        "thrust": "animation.unwritten.weeping_banshee.thrust",
+        "parry": "animation.unwritten.weeping_banshee.parry",
+        "cast": "animation.unwritten.weeping_banshee.cast",
+        "smash": "animation.unwritten.weeping_banshee.smash",
+        "dodge": "animation.unwritten.weeping_banshee.dodge",
+        "roar": "animation.unwritten.weeping_banshee.roar",
+        "locomotion": "controller.animation.unwritten.weeping_banshee"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#83b8b4",
+        "overlay_color": "#d1fff2"
+      }
+    }
+  }
+}

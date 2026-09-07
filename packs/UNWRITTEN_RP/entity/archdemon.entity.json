@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:archdemon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/archdemon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.archdemon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.archdemon.idle",
+        "walk": "animation.unwritten.archdemon.walk",
+        "run": "animation.unwritten.archdemon.run",
+        "hurt": "animation.unwritten.archdemon.hurt",
+        "death": "animation.unwritten.archdemon.death",
+        "bite": "animation.unwritten.archdemon.bite",
+        "attack": "animation.unwritten.archdemon.attack",
+        "stun": "animation.unwritten.archdemon.stun",
+        "fly": "animation.unwritten.archdemon.fly",
+        "wing_unfold": "animation.unwritten.archdemon.wing_unfold",
+        "takeoff": "animation.unwritten.archdemon.takeoff",
+        "land": "animation.unwritten.archdemon.land",
+        "slash": "animation.unwritten.archdemon.slash",
+        "thrust": "animation.unwritten.archdemon.thrust",
+        "parry": "animation.unwritten.archdemon.parry",
+        "cast": "animation.unwritten.archdemon.cast",
+        "smash": "animation.unwritten.archdemon.smash",
+        "dodge": "animation.unwritten.archdemon.dodge",
+        "roar": "animation.unwritten.archdemon.roar",
+        "locomotion": "controller.animation.unwritten.archdemon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

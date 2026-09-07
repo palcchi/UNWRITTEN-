@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:elara_grave",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/elara_grave"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.elara_grave"
+      },
+      "animations": {
+        "idle": "animation.unwritten.elara_grave.idle",
+        "walk": "animation.unwritten.elara_grave.walk",
+        "run": "animation.unwritten.elara_grave.run",
+        "hurt": "animation.unwritten.elara_grave.hurt",
+        "death": "animation.unwritten.elara_grave.death",
+        "attack": "animation.unwritten.elara_grave.attack",
+        "locomotion": "controller.animation.unwritten.elara_grave"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#616d71",
+        "overlay_color": "#8bd0cc"
+      }
+    }
+  }
+}

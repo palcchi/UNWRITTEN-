@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:sand_reaper",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/sand_reaper"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.sand_reaper"
+      },
+      "animations": {
+        "idle": "animation.unwritten.sand_reaper.idle",
+        "walk": "animation.unwritten.sand_reaper.walk",
+        "run": "animation.unwritten.sand_reaper.run",
+        "hurt": "animation.unwritten.sand_reaper.hurt",
+        "death": "animation.unwritten.sand_reaper.death",
+        "bite": "animation.unwritten.sand_reaper.bite",
+        "attack": "animation.unwritten.sand_reaper.attack",
+        "stun": "animation.unwritten.sand_reaper.stun",
+        "roar": "animation.unwritten.sand_reaper.roar",
+        "locomotion": "controller.animation.unwritten.sand_reaper"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

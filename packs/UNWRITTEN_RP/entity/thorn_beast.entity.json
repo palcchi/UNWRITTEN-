@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:thorn_beast",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/thorn_beast"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.thorn_beast"
+      },
+      "animations": {
+        "idle": "animation.unwritten.thorn_beast.idle",
+        "walk": "animation.unwritten.thorn_beast.walk",
+        "run": "animation.unwritten.thorn_beast.run",
+        "hurt": "animation.unwritten.thorn_beast.hurt",
+        "death": "animation.unwritten.thorn_beast.death",
+        "bite": "animation.unwritten.thorn_beast.bite",
+        "attack": "animation.unwritten.thorn_beast.attack",
+        "stun": "animation.unwritten.thorn_beast.stun",
+        "swim": "animation.unwritten.thorn_beast.swim",
+        "tail_sweep": "animation.unwritten.thorn_beast.tail_sweep",
+        "roar": "animation.unwritten.thorn_beast.roar",
+        "locomotion": "controller.animation.unwritten.thorn_beast"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

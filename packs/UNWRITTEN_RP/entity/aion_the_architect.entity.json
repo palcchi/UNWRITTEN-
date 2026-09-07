@@ -1,0 +1,67 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:aion_the_architect",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/aion_the_architect"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.aion_the_architect"
+      },
+      "animations": {
+        "idle": "animation.unwritten.aion_the_architect.idle",
+        "walk": "animation.unwritten.aion_the_architect.walk",
+        "run": "animation.unwritten.aion_the_architect.run",
+        "hurt": "animation.unwritten.aion_the_architect.hurt",
+        "death": "animation.unwritten.aion_the_architect.death",
+        "bite": "animation.unwritten.aion_the_architect.bite",
+        "attack": "animation.unwritten.aion_the_architect.attack",
+        "stun": "animation.unwritten.aion_the_architect.stun",
+        "slash": "animation.unwritten.aion_the_architect.slash",
+        "thrust": "animation.unwritten.aion_the_architect.thrust",
+        "parry": "animation.unwritten.aion_the_architect.parry",
+        "cast": "animation.unwritten.aion_the_architect.cast",
+        "smash": "animation.unwritten.aion_the_architect.smash",
+        "dodge": "animation.unwritten.aion_the_architect.dodge",
+        "roar": "animation.unwritten.aion_the_architect.roar",
+        "awaken": "animation.unwritten.aion_the_architect.awaken",
+        "kneel": "animation.unwritten.aion_the_architect.kneel",
+        "reach": "animation.unwritten.aion_the_architect.reach",
+        "transform": "animation.unwritten.aion_the_architect.transform",
+        "slash_1": "animation.unwritten.aion_the_architect.slash_1",
+        "slash_2": "animation.unwritten.aion_the_architect.slash_2",
+        "slash_3": "animation.unwritten.aion_the_architect.slash_3",
+        "slash_4": "animation.unwritten.aion_the_architect.slash_4",
+        "slash_5": "animation.unwritten.aion_the_architect.slash_5",
+        "thrust_1": "animation.unwritten.aion_the_architect.thrust_1",
+        "thrust_2": "animation.unwritten.aion_the_architect.thrust_2",
+        "thrust_3": "animation.unwritten.aion_the_architect.thrust_3",
+        "delete": "animation.unwritten.aion_the_architect.delete",
+        "copy": "animation.unwritten.aion_the_architect.copy",
+        "paste": "animation.unwritten.aion_the_architect.paste",
+        "rewind": "animation.unwritten.aion_the_architect.rewind",
+        "gravity_change": "animation.unwritten.aion_the_architect.gravity_change",
+        "dimensional_slash": "animation.unwritten.aion_the_architect.dimensional_slash",
+        "arena_rewrite": "animation.unwritten.aion_the_architect.arena_rewrite",
+        "authority_beam": "animation.unwritten.aion_the_architect.authority_beam",
+        "locomotion": "controller.animation.unwritten.aion_the_architect"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

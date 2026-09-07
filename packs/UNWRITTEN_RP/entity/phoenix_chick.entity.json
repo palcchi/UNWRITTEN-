@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:phoenix_chick",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/phoenix_chick"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.phoenix_chick"
+      },
+      "animations": {
+        "idle": "animation.unwritten.phoenix_chick.idle",
+        "walk": "animation.unwritten.phoenix_chick.walk",
+        "run": "animation.unwritten.phoenix_chick.run",
+        "hurt": "animation.unwritten.phoenix_chick.hurt",
+        "death": "animation.unwritten.phoenix_chick.death",
+        "bite": "animation.unwritten.phoenix_chick.bite",
+        "attack": "animation.unwritten.phoenix_chick.attack",
+        "stun": "animation.unwritten.phoenix_chick.stun",
+        "fly": "animation.unwritten.phoenix_chick.fly",
+        "wing_unfold": "animation.unwritten.phoenix_chick.wing_unfold",
+        "takeoff": "animation.unwritten.phoenix_chick.takeoff",
+        "land": "animation.unwritten.phoenix_chick.land",
+        "swim": "animation.unwritten.phoenix_chick.swim",
+        "tail_sweep": "animation.unwritten.phoenix_chick.tail_sweep",
+        "roar": "animation.unwritten.phoenix_chick.roar",
+        "sit": "animation.unwritten.phoenix_chick.sit",
+        "sleep": "animation.unwritten.phoenix_chick.sleep",
+        "yawn": "animation.unwritten.phoenix_chick.yawn",
+        "scratch_ear": "animation.unwritten.phoenix_chick.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.phoenix_chick.curious_head_tilt",
+        "angry_puff": "animation.unwritten.phoenix_chick.angry_puff",
+        "chase_tail": "animation.unwritten.phoenix_chick.chase_tail",
+        "climb": "animation.unwritten.phoenix_chick.climb",
+        "eat_cheese": "animation.unwritten.phoenix_chick.eat_cheese",
+        "steal_cheese": "animation.unwritten.phoenix_chick.steal_cheese",
+        "happy_bounce": "animation.unwritten.phoenix_chick.happy_bounce",
+        "shoulder_sit": "animation.unwritten.phoenix_chick.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.phoenix_chick"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#a33c28",
+        "overlay_color": "#ffd077"
+      }
+    }
+  }
+}

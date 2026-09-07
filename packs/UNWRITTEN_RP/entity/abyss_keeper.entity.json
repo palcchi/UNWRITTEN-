@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:abyss_keeper",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/abyss_keeper"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.abyss_keeper"
+      },
+      "animations": {
+        "idle": "animation.unwritten.abyss_keeper.idle",
+        "walk": "animation.unwritten.abyss_keeper.walk",
+        "run": "animation.unwritten.abyss_keeper.run",
+        "hurt": "animation.unwritten.abyss_keeper.hurt",
+        "death": "animation.unwritten.abyss_keeper.death",
+        "bite": "animation.unwritten.abyss_keeper.bite",
+        "attack": "animation.unwritten.abyss_keeper.attack",
+        "stun": "animation.unwritten.abyss_keeper.stun",
+        "slash": "animation.unwritten.abyss_keeper.slash",
+        "thrust": "animation.unwritten.abyss_keeper.thrust",
+        "parry": "animation.unwritten.abyss_keeper.parry",
+        "cast": "animation.unwritten.abyss_keeper.cast",
+        "smash": "animation.unwritten.abyss_keeper.smash",
+        "dodge": "animation.unwritten.abyss_keeper.dodge",
+        "roar": "animation.unwritten.abyss_keeper.roar",
+        "locomotion": "controller.animation.unwritten.abyss_keeper"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:angel",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/angel"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.angel"
+      },
+      "animations": {
+        "idle": "animation.unwritten.angel.idle",
+        "walk": "animation.unwritten.angel.walk",
+        "run": "animation.unwritten.angel.run",
+        "hurt": "animation.unwritten.angel.hurt",
+        "death": "animation.unwritten.angel.death",
+        "bite": "animation.unwritten.angel.bite",
+        "attack": "animation.unwritten.angel.attack",
+        "stun": "animation.unwritten.angel.stun",
+        "fly": "animation.unwritten.angel.fly",
+        "wing_unfold": "animation.unwritten.angel.wing_unfold",
+        "takeoff": "animation.unwritten.angel.takeoff",
+        "land": "animation.unwritten.angel.land",
+        "slash": "animation.unwritten.angel.slash",
+        "thrust": "animation.unwritten.angel.thrust",
+        "parry": "animation.unwritten.angel.parry",
+        "cast": "animation.unwritten.angel.cast",
+        "smash": "animation.unwritten.angel.smash",
+        "dodge": "animation.unwritten.angel.dodge",
+        "roar": "animation.unwritten.angel.roar",
+        "locomotion": "controller.animation.unwritten.angel"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

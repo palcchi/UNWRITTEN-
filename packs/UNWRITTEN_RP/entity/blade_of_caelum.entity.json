@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:blade_of_caelum",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/blade_of_caelum"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.blade_of_caelum"
+      },
+      "animations": {
+        "idle": "animation.unwritten.blade_of_caelum.idle",
+        "walk": "animation.unwritten.blade_of_caelum.walk",
+        "run": "animation.unwritten.blade_of_caelum.run",
+        "hurt": "animation.unwritten.blade_of_caelum.hurt",
+        "death": "animation.unwritten.blade_of_caelum.death",
+        "attack": "animation.unwritten.blade_of_caelum.attack",
+        "awaken": "animation.unwritten.blade_of_caelum.awaken",
+        "kneel": "animation.unwritten.blade_of_caelum.kneel",
+        "transform": "animation.unwritten.blade_of_caelum.transform",
+        "locomotion": "controller.animation.unwritten.blade_of_caelum"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

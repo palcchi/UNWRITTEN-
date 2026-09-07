@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_rider",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_rider"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_rider"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_rider.idle",
+        "walk": "animation.unwritten.goblin_rider.walk",
+        "run": "animation.unwritten.goblin_rider.run",
+        "hurt": "animation.unwritten.goblin_rider.hurt",
+        "death": "animation.unwritten.goblin_rider.death",
+        "bite": "animation.unwritten.goblin_rider.bite",
+        "attack": "animation.unwritten.goblin_rider.attack",
+        "stun": "animation.unwritten.goblin_rider.stun",
+        "swim": "animation.unwritten.goblin_rider.swim",
+        "tail_sweep": "animation.unwritten.goblin_rider.tail_sweep",
+        "roar": "animation.unwritten.goblin_rider.roar",
+        "locomotion": "controller.animation.unwritten.goblin_rider"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

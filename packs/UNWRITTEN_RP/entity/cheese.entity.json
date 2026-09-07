@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:cheese",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/cheese"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.cheese"
+      },
+      "animations": {
+        "idle": "animation.unwritten.cheese.idle",
+        "walk": "animation.unwritten.cheese.walk",
+        "run": "animation.unwritten.cheese.run",
+        "hurt": "animation.unwritten.cheese.hurt",
+        "death": "animation.unwritten.cheese.death",
+        "attack": "animation.unwritten.cheese.attack",
+        "locomotion": "controller.animation.unwritten.cheese"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

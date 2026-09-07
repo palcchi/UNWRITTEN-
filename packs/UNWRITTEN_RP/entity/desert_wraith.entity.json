@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:desert_wraith",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/desert_wraith"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.desert_wraith"
+      },
+      "animations": {
+        "idle": "animation.unwritten.desert_wraith.idle",
+        "walk": "animation.unwritten.desert_wraith.walk",
+        "run": "animation.unwritten.desert_wraith.run",
+        "hurt": "animation.unwritten.desert_wraith.hurt",
+        "death": "animation.unwritten.desert_wraith.death",
+        "bite": "animation.unwritten.desert_wraith.bite",
+        "attack": "animation.unwritten.desert_wraith.attack",
+        "stun": "animation.unwritten.desert_wraith.stun",
+        "slash": "animation.unwritten.desert_wraith.slash",
+        "thrust": "animation.unwritten.desert_wraith.thrust",
+        "parry": "animation.unwritten.desert_wraith.parry",
+        "cast": "animation.unwritten.desert_wraith.cast",
+        "smash": "animation.unwritten.desert_wraith.smash",
+        "dodge": "animation.unwritten.desert_wraith.dodge",
+        "roar": "animation.unwritten.desert_wraith.roar",
+        "locomotion": "controller.animation.unwritten.desert_wraith"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

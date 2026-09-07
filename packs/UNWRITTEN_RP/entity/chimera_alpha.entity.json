@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:chimera_alpha",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/chimera_alpha"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.chimera_alpha"
+      },
+      "animations": {
+        "idle": "animation.unwritten.chimera_alpha.idle",
+        "walk": "animation.unwritten.chimera_alpha.walk",
+        "run": "animation.unwritten.chimera_alpha.run",
+        "hurt": "animation.unwritten.chimera_alpha.hurt",
+        "death": "animation.unwritten.chimera_alpha.death",
+        "bite": "animation.unwritten.chimera_alpha.bite",
+        "attack": "animation.unwritten.chimera_alpha.attack",
+        "stun": "animation.unwritten.chimera_alpha.stun",
+        "swim": "animation.unwritten.chimera_alpha.swim",
+        "tail_sweep": "animation.unwritten.chimera_alpha.tail_sweep",
+        "roar": "animation.unwritten.chimera_alpha.roar",
+        "locomotion": "controller.animation.unwritten.chimera_alpha"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:blood_countess",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/blood_countess"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.blood_countess"
+      },
+      "animations": {
+        "idle": "animation.unwritten.blood_countess.idle",
+        "walk": "animation.unwritten.blood_countess.walk",
+        "run": "animation.unwritten.blood_countess.run",
+        "hurt": "animation.unwritten.blood_countess.hurt",
+        "death": "animation.unwritten.blood_countess.death",
+        "bite": "animation.unwritten.blood_countess.bite",
+        "attack": "animation.unwritten.blood_countess.attack",
+        "stun": "animation.unwritten.blood_countess.stun",
+        "slash": "animation.unwritten.blood_countess.slash",
+        "thrust": "animation.unwritten.blood_countess.thrust",
+        "parry": "animation.unwritten.blood_countess.parry",
+        "cast": "animation.unwritten.blood_countess.cast",
+        "smash": "animation.unwritten.blood_countess.smash",
+        "dodge": "animation.unwritten.blood_countess.dodge",
+        "roar": "animation.unwritten.blood_countess.roar",
+        "locomotion": "controller.animation.unwritten.blood_countess"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#852d46",
+        "overlay_color": "#f595a4"
+      }
+    }
+  }
+}

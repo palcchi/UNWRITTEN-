@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:behemoth_tyrant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/behemoth_tyrant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.behemoth_tyrant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.behemoth_tyrant.idle",
+        "walk": "animation.unwritten.behemoth_tyrant.walk",
+        "run": "animation.unwritten.behemoth_tyrant.run",
+        "hurt": "animation.unwritten.behemoth_tyrant.hurt",
+        "death": "animation.unwritten.behemoth_tyrant.death",
+        "bite": "animation.unwritten.behemoth_tyrant.bite",
+        "attack": "animation.unwritten.behemoth_tyrant.attack",
+        "stun": "animation.unwritten.behemoth_tyrant.stun",
+        "swim": "animation.unwritten.behemoth_tyrant.swim",
+        "tail_sweep": "animation.unwritten.behemoth_tyrant.tail_sweep",
+        "roar": "animation.unwritten.behemoth_tyrant.roar",
+        "locomotion": "controller.animation.unwritten.behemoth_tyrant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

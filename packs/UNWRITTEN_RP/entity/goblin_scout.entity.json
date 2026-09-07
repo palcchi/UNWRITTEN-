@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_scout",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_scout"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_scout"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_scout.idle",
+        "walk": "animation.unwritten.goblin_scout.walk",
+        "run": "animation.unwritten.goblin_scout.run",
+        "hurt": "animation.unwritten.goblin_scout.hurt",
+        "death": "animation.unwritten.goblin_scout.death",
+        "bite": "animation.unwritten.goblin_scout.bite",
+        "attack": "animation.unwritten.goblin_scout.attack",
+        "stun": "animation.unwritten.goblin_scout.stun",
+        "slash": "animation.unwritten.goblin_scout.slash",
+        "thrust": "animation.unwritten.goblin_scout.thrust",
+        "parry": "animation.unwritten.goblin_scout.parry",
+        "cast": "animation.unwritten.goblin_scout.cast",
+        "smash": "animation.unwritten.goblin_scout.smash",
+        "dodge": "animation.unwritten.goblin_scout.dodge",
+        "roar": "animation.unwritten.goblin_scout.roar",
+        "locomotion": "controller.animation.unwritten.goblin_scout"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

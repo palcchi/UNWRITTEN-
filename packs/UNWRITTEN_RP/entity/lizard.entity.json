@@ -1,0 +1,57 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lizard",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lizard"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lizard"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lizard.idle",
+        "walk": "animation.unwritten.lizard.walk",
+        "run": "animation.unwritten.lizard.run",
+        "hurt": "animation.unwritten.lizard.hurt",
+        "death": "animation.unwritten.lizard.death",
+        "bite": "animation.unwritten.lizard.bite",
+        "attack": "animation.unwritten.lizard.attack",
+        "stun": "animation.unwritten.lizard.stun",
+        "swim": "animation.unwritten.lizard.swim",
+        "tail_sweep": "animation.unwritten.lizard.tail_sweep",
+        "roar": "animation.unwritten.lizard.roar",
+        "sit": "animation.unwritten.lizard.sit",
+        "sleep": "animation.unwritten.lizard.sleep",
+        "yawn": "animation.unwritten.lizard.yawn",
+        "scratch_ear": "animation.unwritten.lizard.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.lizard.curious_head_tilt",
+        "angry_puff": "animation.unwritten.lizard.angry_puff",
+        "chase_tail": "animation.unwritten.lizard.chase_tail",
+        "climb": "animation.unwritten.lizard.climb",
+        "eat_cheese": "animation.unwritten.lizard.eat_cheese",
+        "steal_cheese": "animation.unwritten.lizard.steal_cheese",
+        "happy_bounce": "animation.unwritten.lizard.happy_bounce",
+        "shoulder_sit": "animation.unwritten.lizard.shoulder_sit",
+        "breath": "animation.unwritten.lizard.breath",
+        "sleeping": "animation.unwritten.lizard.sleeping",
+        "locomotion": "controller.animation.unwritten.lizard"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

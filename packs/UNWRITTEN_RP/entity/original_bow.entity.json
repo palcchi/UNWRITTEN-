@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:original_bow",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/original_bow"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.original_bow"
+      },
+      "animations": {
+        "idle": "animation.unwritten.original_bow.idle",
+        "walk": "animation.unwritten.original_bow.walk",
+        "run": "animation.unwritten.original_bow.run",
+        "hurt": "animation.unwritten.original_bow.hurt",
+        "death": "animation.unwritten.original_bow.death",
+        "attack": "animation.unwritten.original_bow.attack",
+        "locomotion": "controller.animation.unwritten.original_bow"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

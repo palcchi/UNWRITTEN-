@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:the_nameless_knight",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/the_nameless_knight"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.the_nameless_knight"
+      },
+      "animations": {
+        "idle": "animation.unwritten.the_nameless_knight.idle",
+        "walk": "animation.unwritten.the_nameless_knight.walk",
+        "run": "animation.unwritten.the_nameless_knight.run",
+        "hurt": "animation.unwritten.the_nameless_knight.hurt",
+        "death": "animation.unwritten.the_nameless_knight.death",
+        "bite": "animation.unwritten.the_nameless_knight.bite",
+        "attack": "animation.unwritten.the_nameless_knight.attack",
+        "stun": "animation.unwritten.the_nameless_knight.stun",
+        "slash": "animation.unwritten.the_nameless_knight.slash",
+        "thrust": "animation.unwritten.the_nameless_knight.thrust",
+        "parry": "animation.unwritten.the_nameless_knight.parry",
+        "cast": "animation.unwritten.the_nameless_knight.cast",
+        "smash": "animation.unwritten.the_nameless_knight.smash",
+        "dodge": "animation.unwritten.the_nameless_knight.dodge",
+        "roar": "animation.unwritten.the_nameless_knight.roar",
+        "awaken": "animation.unwritten.the_nameless_knight.awaken",
+        "kneel": "animation.unwritten.the_nameless_knight.kneel",
+        "reach": "animation.unwritten.the_nameless_knight.reach",
+        "transform": "animation.unwritten.the_nameless_knight.transform",
+        "slash_1": "animation.unwritten.the_nameless_knight.slash_1",
+        "slash_2": "animation.unwritten.the_nameless_knight.slash_2",
+        "slash_3": "animation.unwritten.the_nameless_knight.slash_3",
+        "slash_4": "animation.unwritten.the_nameless_knight.slash_4",
+        "slash_5": "animation.unwritten.the_nameless_knight.slash_5",
+        "thrust_1": "animation.unwritten.the_nameless_knight.thrust_1",
+        "thrust_2": "animation.unwritten.the_nameless_knight.thrust_2",
+        "thrust_3": "animation.unwritten.the_nameless_knight.thrust_3",
+        "locomotion": "controller.animation.unwritten.the_nameless_knight"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#59636c",
+        "overlay_color": "#b9c8c8"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:guild_master",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/guild_master"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.guild_master"
+      },
+      "animations": {
+        "idle": "animation.unwritten.guild_master.idle",
+        "walk": "animation.unwritten.guild_master.walk",
+        "run": "animation.unwritten.guild_master.run",
+        "hurt": "animation.unwritten.guild_master.hurt",
+        "death": "animation.unwritten.guild_master.death",
+        "bite": "animation.unwritten.guild_master.bite",
+        "attack": "animation.unwritten.guild_master.attack",
+        "stun": "animation.unwritten.guild_master.stun",
+        "slash": "animation.unwritten.guild_master.slash",
+        "thrust": "animation.unwritten.guild_master.thrust",
+        "parry": "animation.unwritten.guild_master.parry",
+        "cast": "animation.unwritten.guild_master.cast",
+        "smash": "animation.unwritten.guild_master.smash",
+        "dodge": "animation.unwritten.guild_master.dodge",
+        "roar": "animation.unwritten.guild_master.roar",
+        "locomotion": "controller.animation.unwritten.guild_master"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

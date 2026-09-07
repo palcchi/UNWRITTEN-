@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:wild_boar",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/wild_boar"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.wild_boar"
+      },
+      "animations": {
+        "idle": "animation.unwritten.wild_boar.idle",
+        "walk": "animation.unwritten.wild_boar.walk",
+        "run": "animation.unwritten.wild_boar.run",
+        "hurt": "animation.unwritten.wild_boar.hurt",
+        "death": "animation.unwritten.wild_boar.death",
+        "bite": "animation.unwritten.wild_boar.bite",
+        "attack": "animation.unwritten.wild_boar.attack",
+        "stun": "animation.unwritten.wild_boar.stun",
+        "swim": "animation.unwritten.wild_boar.swim",
+        "tail_sweep": "animation.unwritten.wild_boar.tail_sweep",
+        "roar": "animation.unwritten.wild_boar.roar",
+        "locomotion": "controller.animation.unwritten.wild_boar"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

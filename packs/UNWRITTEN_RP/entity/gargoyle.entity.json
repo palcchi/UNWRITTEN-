@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:gargoyle",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/gargoyle"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.gargoyle"
+      },
+      "animations": {
+        "idle": "animation.unwritten.gargoyle.idle",
+        "walk": "animation.unwritten.gargoyle.walk",
+        "run": "animation.unwritten.gargoyle.run",
+        "hurt": "animation.unwritten.gargoyle.hurt",
+        "death": "animation.unwritten.gargoyle.death",
+        "bite": "animation.unwritten.gargoyle.bite",
+        "attack": "animation.unwritten.gargoyle.attack",
+        "stun": "animation.unwritten.gargoyle.stun",
+        "fly": "animation.unwritten.gargoyle.fly",
+        "wing_unfold": "animation.unwritten.gargoyle.wing_unfold",
+        "takeoff": "animation.unwritten.gargoyle.takeoff",
+        "land": "animation.unwritten.gargoyle.land",
+        "slash": "animation.unwritten.gargoyle.slash",
+        "thrust": "animation.unwritten.gargoyle.thrust",
+        "parry": "animation.unwritten.gargoyle.parry",
+        "cast": "animation.unwritten.gargoyle.cast",
+        "smash": "animation.unwritten.gargoyle.smash",
+        "dodge": "animation.unwritten.gargoyle.dodge",
+        "roar": "animation.unwritten.gargoyle.roar",
+        "locomotion": "controller.animation.unwritten.gargoyle"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#616d71",
+        "overlay_color": "#8bd0cc"
+      }
+    }
+  }
+}

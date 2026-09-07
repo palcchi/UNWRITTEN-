@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:minotaur",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/minotaur"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.minotaur"
+      },
+      "animations": {
+        "idle": "animation.unwritten.minotaur.idle",
+        "walk": "animation.unwritten.minotaur.walk",
+        "run": "animation.unwritten.minotaur.run",
+        "hurt": "animation.unwritten.minotaur.hurt",
+        "death": "animation.unwritten.minotaur.death",
+        "bite": "animation.unwritten.minotaur.bite",
+        "attack": "animation.unwritten.minotaur.attack",
+        "stun": "animation.unwritten.minotaur.stun",
+        "swim": "animation.unwritten.minotaur.swim",
+        "tail_sweep": "animation.unwritten.minotaur.tail_sweep",
+        "slash": "animation.unwritten.minotaur.slash",
+        "thrust": "animation.unwritten.minotaur.thrust",
+        "parry": "animation.unwritten.minotaur.parry",
+        "cast": "animation.unwritten.minotaur.cast",
+        "smash": "animation.unwritten.minotaur.smash",
+        "dodge": "animation.unwritten.minotaur.dodge",
+        "roar": "animation.unwritten.minotaur.roar",
+        "locomotion": "controller.animation.unwritten.minotaur"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

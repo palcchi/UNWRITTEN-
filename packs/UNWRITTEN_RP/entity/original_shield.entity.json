@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:original_shield",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/original_shield"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.original_shield"
+      },
+      "animations": {
+        "idle": "animation.unwritten.original_shield.idle",
+        "walk": "animation.unwritten.original_shield.walk",
+        "run": "animation.unwritten.original_shield.run",
+        "hurt": "animation.unwritten.original_shield.hurt",
+        "death": "animation.unwritten.original_shield.death",
+        "attack": "animation.unwritten.original_shield.attack",
+        "locomotion": "controller.animation.unwritten.original_shield"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#59636c",
+        "overlay_color": "#b9c8c8"
+      }
+    }
+  }
+}

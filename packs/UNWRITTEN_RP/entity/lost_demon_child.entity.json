@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lost_demon_child",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lost_demon_child"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lost_demon_child"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lost_demon_child.idle",
+        "walk": "animation.unwritten.lost_demon_child.walk",
+        "run": "animation.unwritten.lost_demon_child.run",
+        "hurt": "animation.unwritten.lost_demon_child.hurt",
+        "death": "animation.unwritten.lost_demon_child.death",
+        "bite": "animation.unwritten.lost_demon_child.bite",
+        "attack": "animation.unwritten.lost_demon_child.attack",
+        "stun": "animation.unwritten.lost_demon_child.stun",
+        "slash": "animation.unwritten.lost_demon_child.slash",
+        "thrust": "animation.unwritten.lost_demon_child.thrust",
+        "parry": "animation.unwritten.lost_demon_child.parry",
+        "cast": "animation.unwritten.lost_demon_child.cast",
+        "smash": "animation.unwritten.lost_demon_child.smash",
+        "dodge": "animation.unwritten.lost_demon_child.dodge",
+        "roar": "animation.unwritten.lost_demon_child.roar",
+        "locomotion": "controller.animation.unwritten.lost_demon_child"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#705179",
+        "overlay_color": "#d2a0ed"
+      }
+    }
+  }
+}

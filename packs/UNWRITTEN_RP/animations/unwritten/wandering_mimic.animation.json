@@ -1,0 +1,353 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.unwritten.wandering_mimic.idle": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.35,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.wandering_mimic.walk": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "leg_l": {
+          "rotation": {
+            "0.0": [
+              23,
+              0,
+              0
+            ],
+            "0.5": [
+              -23,
+              0,
+              0
+            ],
+            "1.0": [
+              23,
+              0,
+              0
+            ]
+          }
+        },
+        "leg_r": {
+          "rotation": {
+            "0.0": [
+              -23,
+              0,
+              0
+            ],
+            "0.5": [
+              23,
+              0,
+              0
+            ],
+            "1.0": [
+              -23,
+              0,
+              0
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.27999999999999997,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.wandering_mimic.run": {
+      "loop": true,
+      "animation_length": 0.55,
+      "bones": {
+        "leg_l": {
+          "rotation": {
+            "0.0": [
+              40,
+              0,
+              0
+            ],
+            "0.275": [
+              -40,
+              0,
+              0
+            ],
+            "0.55": [
+              40,
+              0,
+              0
+            ]
+          }
+        },
+        "leg_r": {
+          "rotation": {
+            "0.0": [
+              -40,
+              0,
+              0
+            ],
+            "0.275": [
+              40,
+              0,
+              0
+            ],
+            "0.55": [
+              -40,
+              0,
+              0
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.275": [
+              0.0,
+              0.84,
+              0.0
+            ],
+            "0.55": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.wandering_mimic.hurt": {
+      "loop": false,
+      "animation_length": 0.35,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.175": [
+              -12,
+              0,
+              5
+            ],
+            "0.35": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.wandering_mimic.death": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6": [
+              0,
+              0,
+              15
+            ],
+            "1.2": [
+              0,
+              0,
+              85
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.6": [
+              0.0,
+              -1.4,
+              0.0
+            ],
+            "1.2": [
+              0.0,
+              -4.199999999999999,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.wandering_mimic.attack": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {
+        "lid": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.3333": [
+              -75,
+              0,
+              0
+            ],
+            "0.6667": [
+              -40,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "tongue": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.3333": [
+              0.0,
+              0.0,
+              -4.199999999999999
+            ],
+            "0.6667": [
+              0.0,
+              0.0,
+              -7.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.wandering_mimic.open": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {
+        "lid": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.3333": [
+              -75,
+              0,
+              0
+            ],
+            "0.6667": [
+              -40,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "tongue": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.3333": [
+              0.0,
+              0.0,
+              -4.199999999999999
+            ],
+            "0.6667": [
+              0.0,
+              0.0,
+              -7.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.wandering_mimic.disguise": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "lid": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:world_tree_spirit",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/world_tree_spirit"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.world_tree_spirit"
+      },
+      "animations": {
+        "idle": "animation.unwritten.world_tree_spirit.idle",
+        "walk": "animation.unwritten.world_tree_spirit.walk",
+        "run": "animation.unwritten.world_tree_spirit.run",
+        "hurt": "animation.unwritten.world_tree_spirit.hurt",
+        "death": "animation.unwritten.world_tree_spirit.death",
+        "bite": "animation.unwritten.world_tree_spirit.bite",
+        "attack": "animation.unwritten.world_tree_spirit.attack",
+        "stun": "animation.unwritten.world_tree_spirit.stun",
+        "slash": "animation.unwritten.world_tree_spirit.slash",
+        "thrust": "animation.unwritten.world_tree_spirit.thrust",
+        "parry": "animation.unwritten.world_tree_spirit.parry",
+        "cast": "animation.unwritten.world_tree_spirit.cast",
+        "smash": "animation.unwritten.world_tree_spirit.smash",
+        "dodge": "animation.unwritten.world_tree_spirit.dodge",
+        "roar": "animation.unwritten.world_tree_spirit.roar",
+        "sit": "animation.unwritten.world_tree_spirit.sit",
+        "sleep": "animation.unwritten.world_tree_spirit.sleep",
+        "yawn": "animation.unwritten.world_tree_spirit.yawn",
+        "scratch_ear": "animation.unwritten.world_tree_spirit.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.world_tree_spirit.curious_head_tilt",
+        "angry_puff": "animation.unwritten.world_tree_spirit.angry_puff",
+        "chase_tail": "animation.unwritten.world_tree_spirit.chase_tail",
+        "climb": "animation.unwritten.world_tree_spirit.climb",
+        "eat_cheese": "animation.unwritten.world_tree_spirit.eat_cheese",
+        "steal_cheese": "animation.unwritten.world_tree_spirit.steal_cheese",
+        "happy_bounce": "animation.unwritten.world_tree_spirit.happy_bounce",
+        "shoulder_sit": "animation.unwritten.world_tree_spirit.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.world_tree_spirit"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

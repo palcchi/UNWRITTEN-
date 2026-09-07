@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:frost_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/frost_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.frost_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.frost_dragon.idle",
+        "walk": "animation.unwritten.frost_dragon.walk",
+        "run": "animation.unwritten.frost_dragon.run",
+        "hurt": "animation.unwritten.frost_dragon.hurt",
+        "death": "animation.unwritten.frost_dragon.death",
+        "bite": "animation.unwritten.frost_dragon.bite",
+        "attack": "animation.unwritten.frost_dragon.attack",
+        "stun": "animation.unwritten.frost_dragon.stun",
+        "fly": "animation.unwritten.frost_dragon.fly",
+        "wing_unfold": "animation.unwritten.frost_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.frost_dragon.takeoff",
+        "land": "animation.unwritten.frost_dragon.land",
+        "swim": "animation.unwritten.frost_dragon.swim",
+        "tail_sweep": "animation.unwritten.frost_dragon.tail_sweep",
+        "roar": "animation.unwritten.frost_dragon.roar",
+        "breath": "animation.unwritten.frost_dragon.breath",
+        "sleeping": "animation.unwritten.frost_dragon.sleeping",
+        "locomotion": "controller.animation.unwritten.frost_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#719ab5",
+        "overlay_color": "#ddfcff"
+      }
+    }
+  }
+}

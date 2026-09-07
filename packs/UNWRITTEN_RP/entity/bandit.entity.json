@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:bandit",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/bandit"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.bandit"
+      },
+      "animations": {
+        "idle": "animation.unwritten.bandit.idle",
+        "walk": "animation.unwritten.bandit.walk",
+        "run": "animation.unwritten.bandit.run",
+        "hurt": "animation.unwritten.bandit.hurt",
+        "death": "animation.unwritten.bandit.death",
+        "bite": "animation.unwritten.bandit.bite",
+        "attack": "animation.unwritten.bandit.attack",
+        "stun": "animation.unwritten.bandit.stun",
+        "slash": "animation.unwritten.bandit.slash",
+        "thrust": "animation.unwritten.bandit.thrust",
+        "parry": "animation.unwritten.bandit.parry",
+        "cast": "animation.unwritten.bandit.cast",
+        "smash": "animation.unwritten.bandit.smash",
+        "dodge": "animation.unwritten.bandit.dodge",
+        "roar": "animation.unwritten.bandit.roar",
+        "locomotion": "controller.animation.unwritten.bandit"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:desert_golem",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/desert_golem"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.desert_golem"
+      },
+      "animations": {
+        "idle": "animation.unwritten.desert_golem.idle",
+        "walk": "animation.unwritten.desert_golem.walk",
+        "run": "animation.unwritten.desert_golem.run",
+        "hurt": "animation.unwritten.desert_golem.hurt",
+        "death": "animation.unwritten.desert_golem.death",
+        "bite": "animation.unwritten.desert_golem.bite",
+        "attack": "animation.unwritten.desert_golem.attack",
+        "stun": "animation.unwritten.desert_golem.stun",
+        "slash": "animation.unwritten.desert_golem.slash",
+        "thrust": "animation.unwritten.desert_golem.thrust",
+        "parry": "animation.unwritten.desert_golem.parry",
+        "cast": "animation.unwritten.desert_golem.cast",
+        "smash": "animation.unwritten.desert_golem.smash",
+        "dodge": "animation.unwritten.desert_golem.dodge",
+        "roar": "animation.unwritten.desert_golem.roar",
+        "locomotion": "controller.animation.unwritten.desert_golem"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

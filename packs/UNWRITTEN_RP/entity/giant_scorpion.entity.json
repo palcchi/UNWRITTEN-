@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:giant_scorpion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/giant_scorpion"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.giant_scorpion"
+      },
+      "animations": {
+        "idle": "animation.unwritten.giant_scorpion.idle",
+        "walk": "animation.unwritten.giant_scorpion.walk",
+        "run": "animation.unwritten.giant_scorpion.run",
+        "hurt": "animation.unwritten.giant_scorpion.hurt",
+        "death": "animation.unwritten.giant_scorpion.death",
+        "bite": "animation.unwritten.giant_scorpion.bite",
+        "attack": "animation.unwritten.giant_scorpion.attack",
+        "stun": "animation.unwritten.giant_scorpion.stun",
+        "roar": "animation.unwritten.giant_scorpion.roar",
+        "locomotion": "controller.animation.unwritten.giant_scorpion"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

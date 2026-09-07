@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:heaven_gatekeeper",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/heaven_gatekeeper"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.heaven_gatekeeper"
+      },
+      "animations": {
+        "idle": "animation.unwritten.heaven_gatekeeper.idle",
+        "walk": "animation.unwritten.heaven_gatekeeper.walk",
+        "run": "animation.unwritten.heaven_gatekeeper.run",
+        "hurt": "animation.unwritten.heaven_gatekeeper.hurt",
+        "death": "animation.unwritten.heaven_gatekeeper.death",
+        "bite": "animation.unwritten.heaven_gatekeeper.bite",
+        "attack": "animation.unwritten.heaven_gatekeeper.attack",
+        "stun": "animation.unwritten.heaven_gatekeeper.stun",
+        "fly": "animation.unwritten.heaven_gatekeeper.fly",
+        "wing_unfold": "animation.unwritten.heaven_gatekeeper.wing_unfold",
+        "takeoff": "animation.unwritten.heaven_gatekeeper.takeoff",
+        "land": "animation.unwritten.heaven_gatekeeper.land",
+        "slash": "animation.unwritten.heaven_gatekeeper.slash",
+        "thrust": "animation.unwritten.heaven_gatekeeper.thrust",
+        "parry": "animation.unwritten.heaven_gatekeeper.parry",
+        "cast": "animation.unwritten.heaven_gatekeeper.cast",
+        "smash": "animation.unwritten.heaven_gatekeeper.smash",
+        "dodge": "animation.unwritten.heaven_gatekeeper.dodge",
+        "roar": "animation.unwritten.heaven_gatekeeper.roar",
+        "locomotion": "controller.animation.unwritten.heaven_gatekeeper"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

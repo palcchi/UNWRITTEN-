@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:crimson_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/crimson_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.crimson_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.crimson_dragon.idle",
+        "walk": "animation.unwritten.crimson_dragon.walk",
+        "run": "animation.unwritten.crimson_dragon.run",
+        "hurt": "animation.unwritten.crimson_dragon.hurt",
+        "death": "animation.unwritten.crimson_dragon.death",
+        "bite": "animation.unwritten.crimson_dragon.bite",
+        "attack": "animation.unwritten.crimson_dragon.attack",
+        "stun": "animation.unwritten.crimson_dragon.stun",
+        "fly": "animation.unwritten.crimson_dragon.fly",
+        "wing_unfold": "animation.unwritten.crimson_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.crimson_dragon.takeoff",
+        "land": "animation.unwritten.crimson_dragon.land",
+        "swim": "animation.unwritten.crimson_dragon.swim",
+        "tail_sweep": "animation.unwritten.crimson_dragon.tail_sweep",
+        "roar": "animation.unwritten.crimson_dragon.roar",
+        "breath": "animation.unwritten.crimson_dragon.breath",
+        "sleeping": "animation.unwritten.crimson_dragon.sleeping",
+        "locomotion": "controller.animation.unwritten.crimson_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

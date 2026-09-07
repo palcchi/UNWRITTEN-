@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:infernal_general",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/infernal_general"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.infernal_general"
+      },
+      "animations": {
+        "idle": "animation.unwritten.infernal_general.idle",
+        "walk": "animation.unwritten.infernal_general.walk",
+        "run": "animation.unwritten.infernal_general.run",
+        "hurt": "animation.unwritten.infernal_general.hurt",
+        "death": "animation.unwritten.infernal_general.death",
+        "bite": "animation.unwritten.infernal_general.bite",
+        "attack": "animation.unwritten.infernal_general.attack",
+        "stun": "animation.unwritten.infernal_general.stun",
+        "fly": "animation.unwritten.infernal_general.fly",
+        "wing_unfold": "animation.unwritten.infernal_general.wing_unfold",
+        "takeoff": "animation.unwritten.infernal_general.takeoff",
+        "land": "animation.unwritten.infernal_general.land",
+        "slash": "animation.unwritten.infernal_general.slash",
+        "thrust": "animation.unwritten.infernal_general.thrust",
+        "parry": "animation.unwritten.infernal_general.parry",
+        "cast": "animation.unwritten.infernal_general.cast",
+        "smash": "animation.unwritten.infernal_general.smash",
+        "dodge": "animation.unwritten.infernal_general.dodge",
+        "roar": "animation.unwritten.infernal_general.roar",
+        "locomotion": "controller.animation.unwritten.infernal_general"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

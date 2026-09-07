@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:imp",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/imp"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.imp"
+      },
+      "animations": {
+        "idle": "animation.unwritten.imp.idle",
+        "walk": "animation.unwritten.imp.walk",
+        "run": "animation.unwritten.imp.run",
+        "hurt": "animation.unwritten.imp.hurt",
+        "death": "animation.unwritten.imp.death",
+        "bite": "animation.unwritten.imp.bite",
+        "attack": "animation.unwritten.imp.attack",
+        "stun": "animation.unwritten.imp.stun",
+        "fly": "animation.unwritten.imp.fly",
+        "wing_unfold": "animation.unwritten.imp.wing_unfold",
+        "takeoff": "animation.unwritten.imp.takeoff",
+        "land": "animation.unwritten.imp.land",
+        "slash": "animation.unwritten.imp.slash",
+        "thrust": "animation.unwritten.imp.thrust",
+        "parry": "animation.unwritten.imp.parry",
+        "cast": "animation.unwritten.imp.cast",
+        "smash": "animation.unwritten.imp.smash",
+        "dodge": "animation.unwritten.imp.dodge",
+        "roar": "animation.unwritten.imp.roar",
+        "locomotion": "controller.animation.unwritten.imp"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

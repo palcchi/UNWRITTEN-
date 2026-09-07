@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:giant_crab",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/giant_crab"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.giant_crab"
+      },
+      "animations": {
+        "idle": "animation.unwritten.giant_crab.idle",
+        "walk": "animation.unwritten.giant_crab.walk",
+        "run": "animation.unwritten.giant_crab.run",
+        "hurt": "animation.unwritten.giant_crab.hurt",
+        "death": "animation.unwritten.giant_crab.death",
+        "bite": "animation.unwritten.giant_crab.bite",
+        "attack": "animation.unwritten.giant_crab.attack",
+        "stun": "animation.unwritten.giant_crab.stun",
+        "roar": "animation.unwritten.giant_crab.roar",
+        "locomotion": "controller.animation.unwritten.giant_crab"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

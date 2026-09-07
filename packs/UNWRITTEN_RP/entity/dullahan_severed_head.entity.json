@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dullahan_severed_head",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dullahan_severed_head"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dullahan_severed_head"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dullahan_severed_head.idle",
+        "walk": "animation.unwritten.dullahan_severed_head.walk",
+        "run": "animation.unwritten.dullahan_severed_head.run",
+        "hurt": "animation.unwritten.dullahan_severed_head.hurt",
+        "death": "animation.unwritten.dullahan_severed_head.death",
+        "bite": "animation.unwritten.dullahan_severed_head.bite",
+        "attack": "animation.unwritten.dullahan_severed_head.attack",
+        "stun": "animation.unwritten.dullahan_severed_head.stun",
+        "roar": "animation.unwritten.dullahan_severed_head.roar",
+        "awaken": "animation.unwritten.dullahan_severed_head.awaken",
+        "kneel": "animation.unwritten.dullahan_severed_head.kneel",
+        "transform": "animation.unwritten.dullahan_severed_head.transform",
+        "locomotion": "controller.animation.unwritten.dullahan_severed_head"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

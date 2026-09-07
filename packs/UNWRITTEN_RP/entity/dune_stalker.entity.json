@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dune_stalker",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dune_stalker"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dune_stalker"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dune_stalker.idle",
+        "walk": "animation.unwritten.dune_stalker.walk",
+        "run": "animation.unwritten.dune_stalker.run",
+        "hurt": "animation.unwritten.dune_stalker.hurt",
+        "death": "animation.unwritten.dune_stalker.death",
+        "bite": "animation.unwritten.dune_stalker.bite",
+        "attack": "animation.unwritten.dune_stalker.attack",
+        "stun": "animation.unwritten.dune_stalker.stun",
+        "swim": "animation.unwritten.dune_stalker.swim",
+        "tail_sweep": "animation.unwritten.dune_stalker.tail_sweep",
+        "roar": "animation.unwritten.dune_stalker.roar",
+        "locomotion": "controller.animation.unwritten.dune_stalker"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

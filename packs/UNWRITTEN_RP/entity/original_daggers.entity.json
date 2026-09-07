@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:original_daggers",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/original_daggers"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.original_daggers"
+      },
+      "animations": {
+        "idle": "animation.unwritten.original_daggers.idle",
+        "walk": "animation.unwritten.original_daggers.walk",
+        "run": "animation.unwritten.original_daggers.run",
+        "hurt": "animation.unwritten.original_daggers.hurt",
+        "death": "animation.unwritten.original_daggers.death",
+        "attack": "animation.unwritten.original_daggers.attack",
+        "locomotion": "controller.animation.unwritten.original_daggers"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#59636c",
+        "overlay_color": "#b9c8c8"
+      }
+    }
+  }
+}

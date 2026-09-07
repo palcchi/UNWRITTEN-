@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:last_fairy",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/last_fairy"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.last_fairy"
+      },
+      "animations": {
+        "idle": "animation.unwritten.last_fairy.idle",
+        "walk": "animation.unwritten.last_fairy.walk",
+        "run": "animation.unwritten.last_fairy.run",
+        "hurt": "animation.unwritten.last_fairy.hurt",
+        "death": "animation.unwritten.last_fairy.death",
+        "bite": "animation.unwritten.last_fairy.bite",
+        "attack": "animation.unwritten.last_fairy.attack",
+        "stun": "animation.unwritten.last_fairy.stun",
+        "fly": "animation.unwritten.last_fairy.fly",
+        "wing_unfold": "animation.unwritten.last_fairy.wing_unfold",
+        "takeoff": "animation.unwritten.last_fairy.takeoff",
+        "land": "animation.unwritten.last_fairy.land",
+        "slash": "animation.unwritten.last_fairy.slash",
+        "thrust": "animation.unwritten.last_fairy.thrust",
+        "parry": "animation.unwritten.last_fairy.parry",
+        "cast": "animation.unwritten.last_fairy.cast",
+        "smash": "animation.unwritten.last_fairy.smash",
+        "dodge": "animation.unwritten.last_fairy.dodge",
+        "roar": "animation.unwritten.last_fairy.roar",
+        "locomotion": "controller.animation.unwritten.last_fairy"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

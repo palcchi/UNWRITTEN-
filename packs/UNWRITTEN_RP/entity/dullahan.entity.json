@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dullahan",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dullahan"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dullahan"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dullahan.idle",
+        "walk": "animation.unwritten.dullahan.walk",
+        "run": "animation.unwritten.dullahan.run",
+        "hurt": "animation.unwritten.dullahan.hurt",
+        "death": "animation.unwritten.dullahan.death",
+        "bite": "animation.unwritten.dullahan.bite",
+        "attack": "animation.unwritten.dullahan.attack",
+        "stun": "animation.unwritten.dullahan.stun",
+        "slash": "animation.unwritten.dullahan.slash",
+        "thrust": "animation.unwritten.dullahan.thrust",
+        "parry": "animation.unwritten.dullahan.parry",
+        "cast": "animation.unwritten.dullahan.cast",
+        "smash": "animation.unwritten.dullahan.smash",
+        "dodge": "animation.unwritten.dullahan.dodge",
+        "roar": "animation.unwritten.dullahan.roar",
+        "awaken": "animation.unwritten.dullahan.awaken",
+        "kneel": "animation.unwritten.dullahan.kneel",
+        "reach": "animation.unwritten.dullahan.reach",
+        "transform": "animation.unwritten.dullahan.transform",
+        "slash_1": "animation.unwritten.dullahan.slash_1",
+        "slash_2": "animation.unwritten.dullahan.slash_2",
+        "slash_3": "animation.unwritten.dullahan.slash_3",
+        "slash_4": "animation.unwritten.dullahan.slash_4",
+        "slash_5": "animation.unwritten.dullahan.slash_5",
+        "thrust_1": "animation.unwritten.dullahan.thrust_1",
+        "thrust_2": "animation.unwritten.dullahan.thrust_2",
+        "thrust_3": "animation.unwritten.dullahan.thrust_3",
+        "locomotion": "controller.animation.unwritten.dullahan"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

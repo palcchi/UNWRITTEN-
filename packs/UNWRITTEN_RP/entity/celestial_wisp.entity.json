@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:celestial_wisp",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/celestial_wisp"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.celestial_wisp"
+      },
+      "animations": {
+        "idle": "animation.unwritten.celestial_wisp.idle",
+        "walk": "animation.unwritten.celestial_wisp.walk",
+        "run": "animation.unwritten.celestial_wisp.run",
+        "hurt": "animation.unwritten.celestial_wisp.hurt",
+        "death": "animation.unwritten.celestial_wisp.death",
+        "bite": "animation.unwritten.celestial_wisp.bite",
+        "attack": "animation.unwritten.celestial_wisp.attack",
+        "stun": "animation.unwritten.celestial_wisp.stun",
+        "slash": "animation.unwritten.celestial_wisp.slash",
+        "thrust": "animation.unwritten.celestial_wisp.thrust",
+        "parry": "animation.unwritten.celestial_wisp.parry",
+        "cast": "animation.unwritten.celestial_wisp.cast",
+        "smash": "animation.unwritten.celestial_wisp.smash",
+        "dodge": "animation.unwritten.celestial_wisp.dodge",
+        "roar": "animation.unwritten.celestial_wisp.roar",
+        "locomotion": "controller.animation.unwritten.celestial_wisp"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

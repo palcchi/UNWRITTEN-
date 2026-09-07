@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ancient_golem",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ancient_golem"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ancient_golem"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ancient_golem.idle",
+        "walk": "animation.unwritten.ancient_golem.walk",
+        "run": "animation.unwritten.ancient_golem.run",
+        "hurt": "animation.unwritten.ancient_golem.hurt",
+        "death": "animation.unwritten.ancient_golem.death",
+        "bite": "animation.unwritten.ancient_golem.bite",
+        "attack": "animation.unwritten.ancient_golem.attack",
+        "stun": "animation.unwritten.ancient_golem.stun",
+        "slash": "animation.unwritten.ancient_golem.slash",
+        "thrust": "animation.unwritten.ancient_golem.thrust",
+        "parry": "animation.unwritten.ancient_golem.parry",
+        "cast": "animation.unwritten.ancient_golem.cast",
+        "smash": "animation.unwritten.ancient_golem.smash",
+        "dodge": "animation.unwritten.ancient_golem.dodge",
+        "roar": "animation.unwritten.ancient_golem.roar",
+        "locomotion": "controller.animation.unwritten.ancient_golem"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#616d71",
+        "overlay_color": "#8bd0cc"
+      }
+    }
+  }
+}

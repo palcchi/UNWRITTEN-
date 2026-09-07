@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:white_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/white_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.white_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.white_dragon.idle",
+        "walk": "animation.unwritten.white_dragon.walk",
+        "run": "animation.unwritten.white_dragon.run",
+        "hurt": "animation.unwritten.white_dragon.hurt",
+        "death": "animation.unwritten.white_dragon.death",
+        "bite": "animation.unwritten.white_dragon.bite",
+        "attack": "animation.unwritten.white_dragon.attack",
+        "stun": "animation.unwritten.white_dragon.stun",
+        "fly": "animation.unwritten.white_dragon.fly",
+        "wing_unfold": "animation.unwritten.white_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.white_dragon.takeoff",
+        "land": "animation.unwritten.white_dragon.land",
+        "swim": "animation.unwritten.white_dragon.swim",
+        "tail_sweep": "animation.unwritten.white_dragon.tail_sweep",
+        "roar": "animation.unwritten.white_dragon.roar",
+        "sit": "animation.unwritten.white_dragon.sit",
+        "sleep": "animation.unwritten.white_dragon.sleep",
+        "yawn": "animation.unwritten.white_dragon.yawn",
+        "scratch_ear": "animation.unwritten.white_dragon.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.white_dragon.curious_head_tilt",
+        "angry_puff": "animation.unwritten.white_dragon.angry_puff",
+        "chase_tail": "animation.unwritten.white_dragon.chase_tail",
+        "climb": "animation.unwritten.white_dragon.climb",
+        "eat_cheese": "animation.unwritten.white_dragon.eat_cheese",
+        "steal_cheese": "animation.unwritten.white_dragon.steal_cheese",
+        "happy_bounce": "animation.unwritten.white_dragon.happy_bounce",
+        "shoulder_sit": "animation.unwritten.white_dragon.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.white_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

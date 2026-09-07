@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:demon_berserker",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/demon_berserker"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.demon_berserker"
+      },
+      "animations": {
+        "idle": "animation.unwritten.demon_berserker.idle",
+        "walk": "animation.unwritten.demon_berserker.walk",
+        "run": "animation.unwritten.demon_berserker.run",
+        "hurt": "animation.unwritten.demon_berserker.hurt",
+        "death": "animation.unwritten.demon_berserker.death",
+        "bite": "animation.unwritten.demon_berserker.bite",
+        "attack": "animation.unwritten.demon_berserker.attack",
+        "stun": "animation.unwritten.demon_berserker.stun",
+        "slash": "animation.unwritten.demon_berserker.slash",
+        "thrust": "animation.unwritten.demon_berserker.thrust",
+        "parry": "animation.unwritten.demon_berserker.parry",
+        "cast": "animation.unwritten.demon_berserker.cast",
+        "smash": "animation.unwritten.demon_berserker.smash",
+        "dodge": "animation.unwritten.demon_berserker.dodge",
+        "roar": "animation.unwritten.demon_berserker.roar",
+        "locomotion": "controller.animation.unwritten.demon_berserker"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

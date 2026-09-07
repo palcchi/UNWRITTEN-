@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:king_without_an_army",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/king_without_an_army"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.king_without_an_army"
+      },
+      "animations": {
+        "idle": "animation.unwritten.king_without_an_army.idle",
+        "walk": "animation.unwritten.king_without_an_army.walk",
+        "run": "animation.unwritten.king_without_an_army.run",
+        "hurt": "animation.unwritten.king_without_an_army.hurt",
+        "death": "animation.unwritten.king_without_an_army.death",
+        "bite": "animation.unwritten.king_without_an_army.bite",
+        "attack": "animation.unwritten.king_without_an_army.attack",
+        "stun": "animation.unwritten.king_without_an_army.stun",
+        "slash": "animation.unwritten.king_without_an_army.slash",
+        "thrust": "animation.unwritten.king_without_an_army.thrust",
+        "parry": "animation.unwritten.king_without_an_army.parry",
+        "cast": "animation.unwritten.king_without_an_army.cast",
+        "smash": "animation.unwritten.king_without_an_army.smash",
+        "dodge": "animation.unwritten.king_without_an_army.dodge",
+        "roar": "animation.unwritten.king_without_an_army.roar",
+        "locomotion": "controller.animation.unwritten.king_without_an_army"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

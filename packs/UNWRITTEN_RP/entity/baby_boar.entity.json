@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:baby_boar",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/baby_boar"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.baby_boar"
+      },
+      "animations": {
+        "idle": "animation.unwritten.baby_boar.idle",
+        "walk": "animation.unwritten.baby_boar.walk",
+        "run": "animation.unwritten.baby_boar.run",
+        "hurt": "animation.unwritten.baby_boar.hurt",
+        "death": "animation.unwritten.baby_boar.death",
+        "bite": "animation.unwritten.baby_boar.bite",
+        "attack": "animation.unwritten.baby_boar.attack",
+        "stun": "animation.unwritten.baby_boar.stun",
+        "swim": "animation.unwritten.baby_boar.swim",
+        "tail_sweep": "animation.unwritten.baby_boar.tail_sweep",
+        "roar": "animation.unwritten.baby_boar.roar",
+        "sit": "animation.unwritten.baby_boar.sit",
+        "sleep": "animation.unwritten.baby_boar.sleep",
+        "yawn": "animation.unwritten.baby_boar.yawn",
+        "scratch_ear": "animation.unwritten.baby_boar.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.baby_boar.curious_head_tilt",
+        "angry_puff": "animation.unwritten.baby_boar.angry_puff",
+        "chase_tail": "animation.unwritten.baby_boar.chase_tail",
+        "climb": "animation.unwritten.baby_boar.climb",
+        "eat_cheese": "animation.unwritten.baby_boar.eat_cheese",
+        "steal_cheese": "animation.unwritten.baby_boar.steal_cheese",
+        "happy_bounce": "animation.unwritten.baby_boar.happy_bounce",
+        "shoulder_sit": "animation.unwritten.baby_boar.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.baby_boar"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:cyclops_warden",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/cyclops_warden"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.cyclops_warden"
+      },
+      "animations": {
+        "idle": "animation.unwritten.cyclops_warden.idle",
+        "walk": "animation.unwritten.cyclops_warden.walk",
+        "run": "animation.unwritten.cyclops_warden.run",
+        "hurt": "animation.unwritten.cyclops_warden.hurt",
+        "death": "animation.unwritten.cyclops_warden.death",
+        "bite": "animation.unwritten.cyclops_warden.bite",
+        "attack": "animation.unwritten.cyclops_warden.attack",
+        "stun": "animation.unwritten.cyclops_warden.stun",
+        "slash": "animation.unwritten.cyclops_warden.slash",
+        "thrust": "animation.unwritten.cyclops_warden.thrust",
+        "parry": "animation.unwritten.cyclops_warden.parry",
+        "cast": "animation.unwritten.cyclops_warden.cast",
+        "smash": "animation.unwritten.cyclops_warden.smash",
+        "dodge": "animation.unwritten.cyclops_warden.dodge",
+        "roar": "animation.unwritten.cyclops_warden.roar",
+        "locomotion": "controller.animation.unwritten.cyclops_warden"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#616d71",
+        "overlay_color": "#8bd0cc"
+      }
+    }
+  }
+}

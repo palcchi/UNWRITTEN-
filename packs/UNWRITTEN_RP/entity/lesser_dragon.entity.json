@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lesser_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lesser_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lesser_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lesser_dragon.idle",
+        "walk": "animation.unwritten.lesser_dragon.walk",
+        "run": "animation.unwritten.lesser_dragon.run",
+        "hurt": "animation.unwritten.lesser_dragon.hurt",
+        "death": "animation.unwritten.lesser_dragon.death",
+        "bite": "animation.unwritten.lesser_dragon.bite",
+        "attack": "animation.unwritten.lesser_dragon.attack",
+        "stun": "animation.unwritten.lesser_dragon.stun",
+        "fly": "animation.unwritten.lesser_dragon.fly",
+        "wing_unfold": "animation.unwritten.lesser_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.lesser_dragon.takeoff",
+        "land": "animation.unwritten.lesser_dragon.land",
+        "swim": "animation.unwritten.lesser_dragon.swim",
+        "tail_sweep": "animation.unwritten.lesser_dragon.tail_sweep",
+        "roar": "animation.unwritten.lesser_dragon.roar",
+        "breath": "animation.unwritten.lesser_dragon.breath",
+        "sleeping": "animation.unwritten.lesser_dragon.sleeping",
+        "locomotion": "controller.animation.unwritten.lesser_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:stone_guardian",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/stone_guardian"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.stone_guardian"
+      },
+      "animations": {
+        "idle": "animation.unwritten.stone_guardian.idle",
+        "walk": "animation.unwritten.stone_guardian.walk",
+        "run": "animation.unwritten.stone_guardian.run",
+        "hurt": "animation.unwritten.stone_guardian.hurt",
+        "death": "animation.unwritten.stone_guardian.death",
+        "bite": "animation.unwritten.stone_guardian.bite",
+        "attack": "animation.unwritten.stone_guardian.attack",
+        "stun": "animation.unwritten.stone_guardian.stun",
+        "slash": "animation.unwritten.stone_guardian.slash",
+        "thrust": "animation.unwritten.stone_guardian.thrust",
+        "parry": "animation.unwritten.stone_guardian.parry",
+        "cast": "animation.unwritten.stone_guardian.cast",
+        "smash": "animation.unwritten.stone_guardian.smash",
+        "dodge": "animation.unwritten.stone_guardian.dodge",
+        "roar": "animation.unwritten.stone_guardian.roar",
+        "locomotion": "controller.animation.unwritten.stone_guardian"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#616d71",
+        "overlay_color": "#8bd0cc"
+      }
+    }
+  }
+}

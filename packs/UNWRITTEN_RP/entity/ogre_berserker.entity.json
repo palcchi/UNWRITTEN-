@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ogre_berserker",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ogre_berserker"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ogre_berserker"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ogre_berserker.idle",
+        "walk": "animation.unwritten.ogre_berserker.walk",
+        "run": "animation.unwritten.ogre_berserker.run",
+        "hurt": "animation.unwritten.ogre_berserker.hurt",
+        "death": "animation.unwritten.ogre_berserker.death",
+        "bite": "animation.unwritten.ogre_berserker.bite",
+        "attack": "animation.unwritten.ogre_berserker.attack",
+        "stun": "animation.unwritten.ogre_berserker.stun",
+        "slash": "animation.unwritten.ogre_berserker.slash",
+        "thrust": "animation.unwritten.ogre_berserker.thrust",
+        "parry": "animation.unwritten.ogre_berserker.parry",
+        "cast": "animation.unwritten.ogre_berserker.cast",
+        "smash": "animation.unwritten.ogre_berserker.smash",
+        "dodge": "animation.unwritten.ogre_berserker.dodge",
+        "roar": "animation.unwritten.ogre_berserker.roar",
+        "locomotion": "controller.animation.unwritten.ogre_berserker"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

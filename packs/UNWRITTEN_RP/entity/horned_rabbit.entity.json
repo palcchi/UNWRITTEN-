@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:horned_rabbit",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/horned_rabbit"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.horned_rabbit"
+      },
+      "animations": {
+        "idle": "animation.unwritten.horned_rabbit.idle",
+        "walk": "animation.unwritten.horned_rabbit.walk",
+        "run": "animation.unwritten.horned_rabbit.run",
+        "hurt": "animation.unwritten.horned_rabbit.hurt",
+        "death": "animation.unwritten.horned_rabbit.death",
+        "bite": "animation.unwritten.horned_rabbit.bite",
+        "attack": "animation.unwritten.horned_rabbit.attack",
+        "stun": "animation.unwritten.horned_rabbit.stun",
+        "hop": "animation.unwritten.horned_rabbit.hop",
+        "roar": "animation.unwritten.horned_rabbit.roar",
+        "locomotion": "controller.animation.unwritten.horned_rabbit"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d8cfb0",
+        "overlay_color": "#a696da"
+      }
+    }
+  }
+}

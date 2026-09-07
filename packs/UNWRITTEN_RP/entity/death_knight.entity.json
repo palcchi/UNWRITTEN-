@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:death_knight",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/death_knight"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.death_knight"
+      },
+      "animations": {
+        "idle": "animation.unwritten.death_knight.idle",
+        "walk": "animation.unwritten.death_knight.walk",
+        "run": "animation.unwritten.death_knight.run",
+        "hurt": "animation.unwritten.death_knight.hurt",
+        "death": "animation.unwritten.death_knight.death",
+        "bite": "animation.unwritten.death_knight.bite",
+        "attack": "animation.unwritten.death_knight.attack",
+        "stun": "animation.unwritten.death_knight.stun",
+        "slash": "animation.unwritten.death_knight.slash",
+        "thrust": "animation.unwritten.death_knight.thrust",
+        "parry": "animation.unwritten.death_knight.parry",
+        "cast": "animation.unwritten.death_knight.cast",
+        "smash": "animation.unwritten.death_knight.smash",
+        "dodge": "animation.unwritten.death_knight.dodge",
+        "roar": "animation.unwritten.death_knight.roar",
+        "locomotion": "controller.animation.unwritten.death_knight"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

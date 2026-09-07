@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dragon_emperor",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dragon_emperor"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dragon_emperor"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dragon_emperor.idle",
+        "walk": "animation.unwritten.dragon_emperor.walk",
+        "run": "animation.unwritten.dragon_emperor.run",
+        "hurt": "animation.unwritten.dragon_emperor.hurt",
+        "death": "animation.unwritten.dragon_emperor.death",
+        "bite": "animation.unwritten.dragon_emperor.bite",
+        "attack": "animation.unwritten.dragon_emperor.attack",
+        "stun": "animation.unwritten.dragon_emperor.stun",
+        "fly": "animation.unwritten.dragon_emperor.fly",
+        "wing_unfold": "animation.unwritten.dragon_emperor.wing_unfold",
+        "takeoff": "animation.unwritten.dragon_emperor.takeoff",
+        "land": "animation.unwritten.dragon_emperor.land",
+        "swim": "animation.unwritten.dragon_emperor.swim",
+        "tail_sweep": "animation.unwritten.dragon_emperor.tail_sweep",
+        "roar": "animation.unwritten.dragon_emperor.roar",
+        "breath": "animation.unwritten.dragon_emperor.breath",
+        "sleeping": "animation.unwritten.dragon_emperor.sleeping",
+        "locomotion": "controller.animation.unwritten.dragon_emperor"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

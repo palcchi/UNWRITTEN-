@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:refugee",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/refugee"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.refugee"
+      },
+      "animations": {
+        "idle": "animation.unwritten.refugee.idle",
+        "walk": "animation.unwritten.refugee.walk",
+        "run": "animation.unwritten.refugee.run",
+        "hurt": "animation.unwritten.refugee.hurt",
+        "death": "animation.unwritten.refugee.death",
+        "bite": "animation.unwritten.refugee.bite",
+        "attack": "animation.unwritten.refugee.attack",
+        "stun": "animation.unwritten.refugee.stun",
+        "slash": "animation.unwritten.refugee.slash",
+        "thrust": "animation.unwritten.refugee.thrust",
+        "parry": "animation.unwritten.refugee.parry",
+        "cast": "animation.unwritten.refugee.cast",
+        "smash": "animation.unwritten.refugee.smash",
+        "dodge": "animation.unwritten.refugee.dodge",
+        "roar": "animation.unwritten.refugee.roar",
+        "locomotion": "controller.animation.unwritten.refugee"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

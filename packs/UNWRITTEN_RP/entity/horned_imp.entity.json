@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:horned_imp",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/horned_imp"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.horned_imp"
+      },
+      "animations": {
+        "idle": "animation.unwritten.horned_imp.idle",
+        "walk": "animation.unwritten.horned_imp.walk",
+        "run": "animation.unwritten.horned_imp.run",
+        "hurt": "animation.unwritten.horned_imp.hurt",
+        "death": "animation.unwritten.horned_imp.death",
+        "bite": "animation.unwritten.horned_imp.bite",
+        "attack": "animation.unwritten.horned_imp.attack",
+        "stun": "animation.unwritten.horned_imp.stun",
+        "fly": "animation.unwritten.horned_imp.fly",
+        "wing_unfold": "animation.unwritten.horned_imp.wing_unfold",
+        "takeoff": "animation.unwritten.horned_imp.takeoff",
+        "land": "animation.unwritten.horned_imp.land",
+        "slash": "animation.unwritten.horned_imp.slash",
+        "thrust": "animation.unwritten.horned_imp.thrust",
+        "parry": "animation.unwritten.horned_imp.parry",
+        "cast": "animation.unwritten.horned_imp.cast",
+        "smash": "animation.unwritten.horned_imp.smash",
+        "dodge": "animation.unwritten.horned_imp.dodge",
+        "roar": "animation.unwritten.horned_imp.roar",
+        "locomotion": "controller.animation.unwritten.horned_imp"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

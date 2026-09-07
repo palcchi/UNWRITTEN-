@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:demon_general",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/demon_general"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.demon_general"
+      },
+      "animations": {
+        "idle": "animation.unwritten.demon_general.idle",
+        "walk": "animation.unwritten.demon_general.walk",
+        "run": "animation.unwritten.demon_general.run",
+        "hurt": "animation.unwritten.demon_general.hurt",
+        "death": "animation.unwritten.demon_general.death",
+        "bite": "animation.unwritten.demon_general.bite",
+        "attack": "animation.unwritten.demon_general.attack",
+        "stun": "animation.unwritten.demon_general.stun",
+        "fly": "animation.unwritten.demon_general.fly",
+        "wing_unfold": "animation.unwritten.demon_general.wing_unfold",
+        "takeoff": "animation.unwritten.demon_general.takeoff",
+        "land": "animation.unwritten.demon_general.land",
+        "slash": "animation.unwritten.demon_general.slash",
+        "thrust": "animation.unwritten.demon_general.thrust",
+        "parry": "animation.unwritten.demon_general.parry",
+        "cast": "animation.unwritten.demon_general.cast",
+        "smash": "animation.unwritten.demon_general.smash",
+        "dodge": "animation.unwritten.demon_general.dodge",
+        "roar": "animation.unwritten.demon_general.roar",
+        "locomotion": "controller.animation.unwritten.demon_general"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

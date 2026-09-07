@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_archer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_archer"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_archer"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_archer.idle",
+        "walk": "animation.unwritten.goblin_archer.walk",
+        "run": "animation.unwritten.goblin_archer.run",
+        "hurt": "animation.unwritten.goblin_archer.hurt",
+        "death": "animation.unwritten.goblin_archer.death",
+        "bite": "animation.unwritten.goblin_archer.bite",
+        "attack": "animation.unwritten.goblin_archer.attack",
+        "stun": "animation.unwritten.goblin_archer.stun",
+        "slash": "animation.unwritten.goblin_archer.slash",
+        "thrust": "animation.unwritten.goblin_archer.thrust",
+        "parry": "animation.unwritten.goblin_archer.parry",
+        "cast": "animation.unwritten.goblin_archer.cast",
+        "smash": "animation.unwritten.goblin_archer.smash",
+        "dodge": "animation.unwritten.goblin_archer.dodge",
+        "bow_attack": "animation.unwritten.goblin_archer.bow_attack",
+        "roar": "animation.unwritten.goblin_archer.roar",
+        "locomotion": "controller.animation.unwritten.goblin_archer"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

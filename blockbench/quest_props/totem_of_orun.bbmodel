@@ -1,0 +1,675 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "bedrock",
+    "box_uv": false
+  },
+  "name": "Totem of Orun",
+  "model_identifier": "unwritten.totem_of_orun",
+  "visible_box": [
+    6,
+    6,
+    0.25
+  ],
+  "resolution": {
+    "width": 128,
+    "height": 64
+  },
+  "elements": [
+    {
+      "name": "body_0",
+      "from": [
+        -2.0,
+        0.0,
+        -1.6
+      ],
+      "to": [
+        2.0,
+        8.0,
+        1.6
+      ],
+      "autouv": 0,
+      "color": 0,
+      "uuid": "dbae872c-02b4-53eb-9665-854d4d8d0dbd",
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            5.0,
+            9.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            5.0,
+            9.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            1,
+            4.2,
+            9.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            1,
+            1,
+            4.2,
+            9.0
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            5.0,
+            4.2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            5.0,
+            4.2
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "box_uv": false,
+      "rescale": false,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "core_1",
+      "from": [
+        -1.6,
+        2.4,
+        -3.76
+      ],
+      "to": [
+        1.6,
+        5.6,
+        -2.5599999999999996
+      ],
+      "autouv": 0,
+      "color": 4,
+      "uuid": "864e747b-868b-51a5-ad9c-8596a8c879e3",
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            33,
+            4.2,
+            36.2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            33,
+            4.2,
+            36.2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            33,
+            2.2,
+            36.2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            1,
+            33,
+            2.2,
+            36.2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            33,
+            4.2,
+            34.2
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            33,
+            4.2,
+            34.2
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "box_uv": false,
+      "rescale": false,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "root",
+      "origin": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "uuid": "6cdf7ee7-ae5c-5ca9-bff7-e1544b9e426a",
+      "export": true,
+      "isOpen": false,
+      "children": [
+        {
+          "name": "body",
+          "origin": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uuid": "7d53dea7-6e8c-5a6d-9e9c-730c6b72f25a",
+          "export": true,
+          "isOpen": false,
+          "children": [
+            "dbae872c-02b4-53eb-9665-854d4d8d0dbd",
+            {
+              "name": "core",
+              "origin": [
+                -0.0,
+                4.0,
+                -3.2
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "uuid": "6aa9b005-dbc9-581b-b572-bfcba8f99063",
+              "export": true,
+              "isOpen": false,
+              "children": [
+                "864e747b-868b-51a5-ad9c-8596a8c879e3"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "totem_of_orun.png",
+      "uuid": "c5260a2b-49bd-579a-aab9-c67437ee439d",
+      "id": "0",
+      "mode": "bitmap",
+      "saved": false,
+      "width": 128,
+      "height": 64,
+      "uv_width": 128,
+      "uv_height": 64,
+      "source": "data:image/png;base64,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"
+    }
+  ],
+  "animations": [
+    {
+      "uuid": "eeab4723-792f-596a-8a2c-91f8fcba942f",
+      "name": "animation.unwritten.totem_of_orun.idle",
+      "loop": "loop",
+      "override": false,
+      "length": 2,
+      "snapping": 20,
+      "animators": {
+        "7d53dea7-6e8c-5a6d-9e9c-730c6b72f25a": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "a0252519-e182-562f-a809-34964946e58f",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.2",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "b9fd7a80-5f17-5c9c-86bf-4daf99c829e5",
+              "time": 1.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "be1a8982-f7f1-50e3-97ed-b516a1df8896",
+              "time": 2.0,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "930bab8f-59ab-58f5-b2a7-e5456f036b08",
+      "name": "animation.unwritten.totem_of_orun.walk",
+      "loop": "loop",
+      "override": false,
+      "length": 1,
+      "snapping": 20,
+      "animators": {
+        "7d53dea7-6e8c-5a6d-9e9c-730c6b72f25a": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "bdcc1f7c-52c2-547b-a5d9-47e9e4dc118b",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.16000000000000003",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "1dd6b6ac-249d-5be4-ac33-7655096b50e0",
+              "time": 0.5,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "839472af-b12e-560f-b048-81f90752f05f",
+              "time": 1.0,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "8285b673-39de-5525-b425-3294727285b4",
+      "name": "animation.unwritten.totem_of_orun.run",
+      "loop": "loop",
+      "override": false,
+      "length": 0.55,
+      "snapping": 20,
+      "animators": {
+        "7d53dea7-6e8c-5a6d-9e9c-730c6b72f25a": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "f6fe24b0-0c37-58df-abda-8e30e8ea39b6",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.48",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "c7f1ece2-f3fd-5fda-9d20-8665f1f7a7e7",
+              "time": 0.275,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "3ce4d2bd-a639-5b96-bc41-5ef8ff1e2a7c",
+              "time": 0.55,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "459cc32d-4fd5-5a0d-af53-1f1c25bd6de9",
+      "name": "animation.unwritten.totem_of_orun.hurt",
+      "loop": "once",
+      "override": false,
+      "length": 0.35,
+      "snapping": 20,
+      "animators": {
+        "7d53dea7-6e8c-5a6d-9e9c-730c6b72f25a": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "be7b5347-bb63-5669-bbf8-ab593c9aec79",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "12",
+                  "y": "0",
+                  "z": "5"
+                }
+              ],
+              "uuid": "c81af424-4465-5af8-ba13-86ebeaa33284",
+              "time": 0.175,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "ca8e2261-1c3b-5297-8c59-7d3723044755",
+              "time": 0.35,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "aa376f0b-071a-58c9-9781-001e7dd8f6ab",
+      "name": "animation.unwritten.totem_of_orun.death",
+      "loop": "once",
+      "override": false,
+      "length": 1.2,
+      "snapping": 20,
+      "animators": {
+        "6cdf7ee7-ae5c-5ca9-bff7-e1544b9e426a": {
+          "name": "root",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "795ba992-ab36-561c-aae0-8929f1fbee95",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "15"
+                }
+              ],
+              "uuid": "a2eff610-40cd-5620-b9c3-2fb802a17316",
+              "time": 0.6,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "85"
+                }
+              ],
+              "uuid": "318af9dc-2244-558a-a686-bf473ea72df4",
+              "time": 1.2,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        },
+        "7d53dea7-6e8c-5a6d-9e9c-730c6b72f25a": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "6ac0def5-77d6-5ebb-9ba6-500bbb6b2be6",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "-0.8",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "8fa0ed3e-e459-508f-be62-ceea09991d19",
+              "time": 0.6,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "-2.4000000000000004",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "6e675905-9d83-505f-a84a-988de281cdcf",
+              "time": 1.2,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "b66d7faf-98b3-57bd-a387-cf0a900e8deb",
+      "name": "animation.unwritten.totem_of_orun.attack",
+      "loop": "once",
+      "override": false,
+      "length": 0.8,
+      "snapping": 20,
+      "animators": {
+        "7d53dea7-6e8c-5a6d-9e9c-730c6b72f25a": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "f158fde9-a047-575e-8dc0-b7d1ab73cb30",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "18",
+                  "z": "0"
+                }
+              ],
+              "uuid": "ee1afc11-e00f-5cba-ad28-04061f50bee5",
+              "time": 0.2667,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "-15",
+                  "y": "-20",
+                  "z": "0"
+                }
+              ],
+              "uuid": "04a4a12c-55b0-5d32-90b2-5342a2c905f8",
+              "time": 0.5333,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "127a5fee-3479-5d8e-9e4b-efb91b854a51",
+              "time": 0.8,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

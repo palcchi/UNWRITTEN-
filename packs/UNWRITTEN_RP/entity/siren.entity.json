@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:siren",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/siren"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.siren"
+      },
+      "animations": {
+        "idle": "animation.unwritten.siren.idle",
+        "walk": "animation.unwritten.siren.walk",
+        "run": "animation.unwritten.siren.run",
+        "hurt": "animation.unwritten.siren.hurt",
+        "death": "animation.unwritten.siren.death",
+        "bite": "animation.unwritten.siren.bite",
+        "attack": "animation.unwritten.siren.attack",
+        "stun": "animation.unwritten.siren.stun",
+        "swim": "animation.unwritten.siren.swim",
+        "tail_sweep": "animation.unwritten.siren.tail_sweep",
+        "roar": "animation.unwritten.siren.roar",
+        "locomotion": "controller.animation.unwritten.siren"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

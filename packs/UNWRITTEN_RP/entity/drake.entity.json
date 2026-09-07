@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:drake",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/drake"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.drake"
+      },
+      "animations": {
+        "idle": "animation.unwritten.drake.idle",
+        "walk": "animation.unwritten.drake.walk",
+        "run": "animation.unwritten.drake.run",
+        "hurt": "animation.unwritten.drake.hurt",
+        "death": "animation.unwritten.drake.death",
+        "bite": "animation.unwritten.drake.bite",
+        "attack": "animation.unwritten.drake.attack",
+        "stun": "animation.unwritten.drake.stun",
+        "swim": "animation.unwritten.drake.swim",
+        "tail_sweep": "animation.unwritten.drake.tail_sweep",
+        "roar": "animation.unwritten.drake.roar",
+        "breath": "animation.unwritten.drake.breath",
+        "sleeping": "animation.unwritten.drake.sleeping",
+        "locomotion": "controller.animation.unwritten.drake"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:bone_scorpion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/bone_scorpion"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.bone_scorpion"
+      },
+      "animations": {
+        "idle": "animation.unwritten.bone_scorpion.idle",
+        "walk": "animation.unwritten.bone_scorpion.walk",
+        "run": "animation.unwritten.bone_scorpion.run",
+        "hurt": "animation.unwritten.bone_scorpion.hurt",
+        "death": "animation.unwritten.bone_scorpion.death",
+        "bite": "animation.unwritten.bone_scorpion.bite",
+        "attack": "animation.unwritten.bone_scorpion.attack",
+        "stun": "animation.unwritten.bone_scorpion.stun",
+        "roar": "animation.unwritten.bone_scorpion.roar",
+        "locomotion": "controller.animation.unwritten.bone_scorpion"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

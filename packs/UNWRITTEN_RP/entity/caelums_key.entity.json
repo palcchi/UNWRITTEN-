@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:caelums_key",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/caelums_key"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.caelums_key"
+      },
+      "animations": {
+        "idle": "animation.unwritten.caelums_key.idle",
+        "walk": "animation.unwritten.caelums_key.walk",
+        "run": "animation.unwritten.caelums_key.run",
+        "hurt": "animation.unwritten.caelums_key.hurt",
+        "death": "animation.unwritten.caelums_key.death",
+        "attack": "animation.unwritten.caelums_key.attack",
+        "locomotion": "controller.animation.unwritten.caelums_key"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

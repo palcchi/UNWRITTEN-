@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:harpy_queen",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/harpy_queen"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.harpy_queen"
+      },
+      "animations": {
+        "idle": "animation.unwritten.harpy_queen.idle",
+        "walk": "animation.unwritten.harpy_queen.walk",
+        "run": "animation.unwritten.harpy_queen.run",
+        "hurt": "animation.unwritten.harpy_queen.hurt",
+        "death": "animation.unwritten.harpy_queen.death",
+        "bite": "animation.unwritten.harpy_queen.bite",
+        "attack": "animation.unwritten.harpy_queen.attack",
+        "stun": "animation.unwritten.harpy_queen.stun",
+        "fly": "animation.unwritten.harpy_queen.fly",
+        "wing_unfold": "animation.unwritten.harpy_queen.wing_unfold",
+        "takeoff": "animation.unwritten.harpy_queen.takeoff",
+        "land": "animation.unwritten.harpy_queen.land",
+        "swim": "animation.unwritten.harpy_queen.swim",
+        "tail_sweep": "animation.unwritten.harpy_queen.tail_sweep",
+        "roar": "animation.unwritten.harpy_queen.roar",
+        "locomotion": "controller.animation.unwritten.harpy_queen"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_brute",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_brute"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_brute"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_brute.idle",
+        "walk": "animation.unwritten.goblin_brute.walk",
+        "run": "animation.unwritten.goblin_brute.run",
+        "hurt": "animation.unwritten.goblin_brute.hurt",
+        "death": "animation.unwritten.goblin_brute.death",
+        "bite": "animation.unwritten.goblin_brute.bite",
+        "attack": "animation.unwritten.goblin_brute.attack",
+        "stun": "animation.unwritten.goblin_brute.stun",
+        "slash": "animation.unwritten.goblin_brute.slash",
+        "thrust": "animation.unwritten.goblin_brute.thrust",
+        "parry": "animation.unwritten.goblin_brute.parry",
+        "cast": "animation.unwritten.goblin_brute.cast",
+        "smash": "animation.unwritten.goblin_brute.smash",
+        "dodge": "animation.unwritten.goblin_brute.dodge",
+        "roar": "animation.unwritten.goblin_brute.roar",
+        "locomotion": "controller.animation.unwritten.goblin_brute"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

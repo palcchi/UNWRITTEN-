@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:kobold_chieftain",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/kobold_chieftain"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.kobold_chieftain"
+      },
+      "animations": {
+        "idle": "animation.unwritten.kobold_chieftain.idle",
+        "walk": "animation.unwritten.kobold_chieftain.walk",
+        "run": "animation.unwritten.kobold_chieftain.run",
+        "hurt": "animation.unwritten.kobold_chieftain.hurt",
+        "death": "animation.unwritten.kobold_chieftain.death",
+        "bite": "animation.unwritten.kobold_chieftain.bite",
+        "attack": "animation.unwritten.kobold_chieftain.attack",
+        "stun": "animation.unwritten.kobold_chieftain.stun",
+        "swim": "animation.unwritten.kobold_chieftain.swim",
+        "tail_sweep": "animation.unwritten.kobold_chieftain.tail_sweep",
+        "slash": "animation.unwritten.kobold_chieftain.slash",
+        "thrust": "animation.unwritten.kobold_chieftain.thrust",
+        "parry": "animation.unwritten.kobold_chieftain.parry",
+        "cast": "animation.unwritten.kobold_chieftain.cast",
+        "smash": "animation.unwritten.kobold_chieftain.smash",
+        "dodge": "animation.unwritten.kobold_chieftain.dodge",
+        "roar": "animation.unwritten.kobold_chieftain.roar",
+        "locomotion": "controller.animation.unwritten.kobold_chieftain"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#9c633f",
+        "overlay_color": "#ddac70"
+      }
+    }
+  }
+}

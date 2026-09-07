@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:celestial_fox",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/celestial_fox"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.celestial_fox"
+      },
+      "animations": {
+        "idle": "animation.unwritten.celestial_fox.idle",
+        "walk": "animation.unwritten.celestial_fox.walk",
+        "run": "animation.unwritten.celestial_fox.run",
+        "hurt": "animation.unwritten.celestial_fox.hurt",
+        "death": "animation.unwritten.celestial_fox.death",
+        "bite": "animation.unwritten.celestial_fox.bite",
+        "attack": "animation.unwritten.celestial_fox.attack",
+        "stun": "animation.unwritten.celestial_fox.stun",
+        "fly": "animation.unwritten.celestial_fox.fly",
+        "wing_unfold": "animation.unwritten.celestial_fox.wing_unfold",
+        "takeoff": "animation.unwritten.celestial_fox.takeoff",
+        "land": "animation.unwritten.celestial_fox.land",
+        "swim": "animation.unwritten.celestial_fox.swim",
+        "tail_sweep": "animation.unwritten.celestial_fox.tail_sweep",
+        "roar": "animation.unwritten.celestial_fox.roar",
+        "sit": "animation.unwritten.celestial_fox.sit",
+        "sleep": "animation.unwritten.celestial_fox.sleep",
+        "yawn": "animation.unwritten.celestial_fox.yawn",
+        "scratch_ear": "animation.unwritten.celestial_fox.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.celestial_fox.curious_head_tilt",
+        "angry_puff": "animation.unwritten.celestial_fox.angry_puff",
+        "chase_tail": "animation.unwritten.celestial_fox.chase_tail",
+        "climb": "animation.unwritten.celestial_fox.climb",
+        "eat_cheese": "animation.unwritten.celestial_fox.eat_cheese",
+        "steal_cheese": "animation.unwritten.celestial_fox.steal_cheese",
+        "happy_bounce": "animation.unwritten.celestial_fox.happy_bounce",
+        "shoulder_sit": "animation.unwritten.celestial_fox.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.celestial_fox"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

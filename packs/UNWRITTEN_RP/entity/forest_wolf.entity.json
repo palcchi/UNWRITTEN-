@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:forest_wolf",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/forest_wolf"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.forest_wolf"
+      },
+      "animations": {
+        "idle": "animation.unwritten.forest_wolf.idle",
+        "walk": "animation.unwritten.forest_wolf.walk",
+        "run": "animation.unwritten.forest_wolf.run",
+        "hurt": "animation.unwritten.forest_wolf.hurt",
+        "death": "animation.unwritten.forest_wolf.death",
+        "bite": "animation.unwritten.forest_wolf.bite",
+        "attack": "animation.unwritten.forest_wolf.attack",
+        "stun": "animation.unwritten.forest_wolf.stun",
+        "swim": "animation.unwritten.forest_wolf.swim",
+        "tail_sweep": "animation.unwritten.forest_wolf.tail_sweep",
+        "roar": "animation.unwritten.forest_wolf.roar",
+        "locomotion": "controller.animation.unwritten.forest_wolf"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

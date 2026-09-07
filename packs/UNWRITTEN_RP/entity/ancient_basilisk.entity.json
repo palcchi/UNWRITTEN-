@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ancient_basilisk",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ancient_basilisk"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ancient_basilisk"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ancient_basilisk.idle",
+        "walk": "animation.unwritten.ancient_basilisk.walk",
+        "run": "animation.unwritten.ancient_basilisk.run",
+        "hurt": "animation.unwritten.ancient_basilisk.hurt",
+        "death": "animation.unwritten.ancient_basilisk.death",
+        "bite": "animation.unwritten.ancient_basilisk.bite",
+        "attack": "animation.unwritten.ancient_basilisk.attack",
+        "stun": "animation.unwritten.ancient_basilisk.stun",
+        "swim": "animation.unwritten.ancient_basilisk.swim",
+        "tail_sweep": "animation.unwritten.ancient_basilisk.tail_sweep",
+        "roar": "animation.unwritten.ancient_basilisk.roar",
+        "breath": "animation.unwritten.ancient_basilisk.breath",
+        "sleeping": "animation.unwritten.ancient_basilisk.sleeping",
+        "locomotion": "controller.animation.unwritten.ancient_basilisk"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#576f3d",
+        "overlay_color": "#b8f077"
+      }
+    }
+  }
+}

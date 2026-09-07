@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:winged_demon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/winged_demon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.winged_demon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.winged_demon.idle",
+        "walk": "animation.unwritten.winged_demon.walk",
+        "run": "animation.unwritten.winged_demon.run",
+        "hurt": "animation.unwritten.winged_demon.hurt",
+        "death": "animation.unwritten.winged_demon.death",
+        "bite": "animation.unwritten.winged_demon.bite",
+        "attack": "animation.unwritten.winged_demon.attack",
+        "stun": "animation.unwritten.winged_demon.stun",
+        "fly": "animation.unwritten.winged_demon.fly",
+        "wing_unfold": "animation.unwritten.winged_demon.wing_unfold",
+        "takeoff": "animation.unwritten.winged_demon.takeoff",
+        "land": "animation.unwritten.winged_demon.land",
+        "slash": "animation.unwritten.winged_demon.slash",
+        "thrust": "animation.unwritten.winged_demon.thrust",
+        "parry": "animation.unwritten.winged_demon.parry",
+        "cast": "animation.unwritten.winged_demon.cast",
+        "smash": "animation.unwritten.winged_demon.smash",
+        "dodge": "animation.unwritten.winged_demon.dodge",
+        "roar": "animation.unwritten.winged_demon.roar",
+        "locomotion": "controller.animation.unwritten.winged_demon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

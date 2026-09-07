@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:world_serpent",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/world_serpent"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.world_serpent"
+      },
+      "animations": {
+        "idle": "animation.unwritten.world_serpent.idle",
+        "walk": "animation.unwritten.world_serpent.walk",
+        "run": "animation.unwritten.world_serpent.run",
+        "hurt": "animation.unwritten.world_serpent.hurt",
+        "death": "animation.unwritten.world_serpent.death",
+        "bite": "animation.unwritten.world_serpent.bite",
+        "attack": "animation.unwritten.world_serpent.attack",
+        "stun": "animation.unwritten.world_serpent.stun",
+        "swim": "animation.unwritten.world_serpent.swim",
+        "tail_sweep": "animation.unwritten.world_serpent.tail_sweep",
+        "roar": "animation.unwritten.world_serpent.roar",
+        "locomotion": "controller.animation.unwritten.world_serpent"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

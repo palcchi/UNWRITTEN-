@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:red_slime",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/red_slime"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.red_slime"
+      },
+      "animations": {
+        "idle": "animation.unwritten.red_slime.idle",
+        "walk": "animation.unwritten.red_slime.walk",
+        "run": "animation.unwritten.red_slime.run",
+        "hurt": "animation.unwritten.red_slime.hurt",
+        "death": "animation.unwritten.red_slime.death",
+        "bite": "animation.unwritten.red_slime.bite",
+        "attack": "animation.unwritten.red_slime.attack",
+        "stun": "animation.unwritten.red_slime.stun",
+        "hop": "animation.unwritten.red_slime.hop",
+        "slam": "animation.unwritten.red_slime.slam",
+        "death_melt": "animation.unwritten.red_slime.death_melt",
+        "roar": "animation.unwritten.red_slime.roar",
+        "locomotion": "controller.animation.unwritten.red_slime"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

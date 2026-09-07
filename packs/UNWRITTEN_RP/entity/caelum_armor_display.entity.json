@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:caelum_armor_display",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/caelum_armor_display"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.caelum_armor_display"
+      },
+      "animations": {
+        "idle": "animation.unwritten.caelum_armor_display.idle",
+        "walk": "animation.unwritten.caelum_armor_display.walk",
+        "run": "animation.unwritten.caelum_armor_display.run",
+        "hurt": "animation.unwritten.caelum_armor_display.hurt",
+        "death": "animation.unwritten.caelum_armor_display.death",
+        "bite": "animation.unwritten.caelum_armor_display.bite",
+        "attack": "animation.unwritten.caelum_armor_display.attack",
+        "stun": "animation.unwritten.caelum_armor_display.stun",
+        "slash": "animation.unwritten.caelum_armor_display.slash",
+        "thrust": "animation.unwritten.caelum_armor_display.thrust",
+        "parry": "animation.unwritten.caelum_armor_display.parry",
+        "cast": "animation.unwritten.caelum_armor_display.cast",
+        "smash": "animation.unwritten.caelum_armor_display.smash",
+        "dodge": "animation.unwritten.caelum_armor_display.dodge",
+        "roar": "animation.unwritten.caelum_armor_display.roar",
+        "awaken": "animation.unwritten.caelum_armor_display.awaken",
+        "kneel": "animation.unwritten.caelum_armor_display.kneel",
+        "reach": "animation.unwritten.caelum_armor_display.reach",
+        "transform": "animation.unwritten.caelum_armor_display.transform",
+        "slash_1": "animation.unwritten.caelum_armor_display.slash_1",
+        "slash_2": "animation.unwritten.caelum_armor_display.slash_2",
+        "slash_3": "animation.unwritten.caelum_armor_display.slash_3",
+        "slash_4": "animation.unwritten.caelum_armor_display.slash_4",
+        "slash_5": "animation.unwritten.caelum_armor_display.slash_5",
+        "thrust_1": "animation.unwritten.caelum_armor_display.thrust_1",
+        "thrust_2": "animation.unwritten.caelum_armor_display.thrust_2",
+        "thrust_3": "animation.unwritten.caelum_armor_display.thrust_3",
+        "locomotion": "controller.animation.unwritten.caelum_armor_display"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

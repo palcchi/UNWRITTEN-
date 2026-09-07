@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:orun_right_arm",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/orun_right_arm"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.orun_right_arm"
+      },
+      "animations": {
+        "idle": "animation.unwritten.orun_right_arm.idle",
+        "walk": "animation.unwritten.orun_right_arm.walk",
+        "run": "animation.unwritten.orun_right_arm.run",
+        "hurt": "animation.unwritten.orun_right_arm.hurt",
+        "death": "animation.unwritten.orun_right_arm.death",
+        "attack": "animation.unwritten.orun_right_arm.attack",
+        "awaken": "animation.unwritten.orun_right_arm.awaken",
+        "kneel": "animation.unwritten.orun_right_arm.kneel",
+        "transform": "animation.unwritten.orun_right_arm.transform",
+        "locomotion": "controller.animation.unwritten.orun_right_arm"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:little_morrow",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/little_morrow"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.little_morrow"
+      },
+      "animations": {
+        "idle": "animation.unwritten.little_morrow.idle",
+        "walk": "animation.unwritten.little_morrow.walk",
+        "run": "animation.unwritten.little_morrow.run",
+        "hurt": "animation.unwritten.little_morrow.hurt",
+        "death": "animation.unwritten.little_morrow.death",
+        "bite": "animation.unwritten.little_morrow.bite",
+        "attack": "animation.unwritten.little_morrow.attack",
+        "stun": "animation.unwritten.little_morrow.stun",
+        "fly": "animation.unwritten.little_morrow.fly",
+        "wing_unfold": "animation.unwritten.little_morrow.wing_unfold",
+        "takeoff": "animation.unwritten.little_morrow.takeoff",
+        "land": "animation.unwritten.little_morrow.land",
+        "swim": "animation.unwritten.little_morrow.swim",
+        "tail_sweep": "animation.unwritten.little_morrow.tail_sweep",
+        "roar": "animation.unwritten.little_morrow.roar",
+        "sit": "animation.unwritten.little_morrow.sit",
+        "sleep": "animation.unwritten.little_morrow.sleep",
+        "yawn": "animation.unwritten.little_morrow.yawn",
+        "scratch_ear": "animation.unwritten.little_morrow.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.little_morrow.curious_head_tilt",
+        "angry_puff": "animation.unwritten.little_morrow.angry_puff",
+        "chase_tail": "animation.unwritten.little_morrow.chase_tail",
+        "climb": "animation.unwritten.little_morrow.climb",
+        "eat_cheese": "animation.unwritten.little_morrow.eat_cheese",
+        "steal_cheese": "animation.unwritten.little_morrow.steal_cheese",
+        "happy_bounce": "animation.unwritten.little_morrow.happy_bounce",
+        "shoulder_sit": "animation.unwritten.little_morrow.shoulder_sit",
+        "awaken": "animation.unwritten.little_morrow.awaken",
+        "kneel": "animation.unwritten.little_morrow.kneel",
+        "transform": "animation.unwritten.little_morrow.transform",
+        "locomotion": "controller.animation.unwritten.little_morrow"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d8cfb0",
+        "overlay_color": "#a696da"
+      }
+    }
+  }
+}

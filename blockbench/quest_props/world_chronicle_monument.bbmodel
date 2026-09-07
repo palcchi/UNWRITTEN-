@@ -1,0 +1,657 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "bedrock",
+    "box_uv": false
+  },
+  "name": "World Chronicle Monument",
+  "model_identifier": "unwritten.world_chronicle_monument",
+  "visible_box": [
+    9.0,
+    9.0,
+    1.5
+  ],
+  "resolution": {
+    "width": 128,
+    "height": 64
+  },
+  "elements": [
+    {
+      "name": "body_0",
+      "from": [
+        -15.0,
+        0.0,
+        -4.5
+      ],
+      "to": [
+        15.0,
+        48.0,
+        4.5
+      ],
+      "autouv": 0,
+      "color": 0,
+      "uuid": "51278a5f-7293-56a8-9fc7-b62f2d8db393",
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            16.0,
+            25.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1,
+            1,
+            16.0,
+            25.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            1,
+            1,
+            5.5,
+            25.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            1,
+            1,
+            5.5,
+            25.0
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1,
+            1,
+            16.0,
+            5.5
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            16.0,
+            5.5
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "box_uv": false,
+      "rescale": false,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "body_1",
+      "from": [
+        -21.0,
+        0.0,
+        -12.0
+      ],
+      "to": [
+        21.0,
+        6.0,
+        12.0
+      ],
+      "autouv": 0,
+      "color": 1,
+      "uuid": "4c79e4bc-4286-52b8-b3cd-637e1b92b679",
+      "faces": {
+        "north": {
+          "uv": [
+            33,
+            1,
+            57.0,
+            4.43
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            33,
+            1,
+            57.0,
+            4.43
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            33,
+            1,
+            46.71,
+            4.43
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            33,
+            1,
+            46.71,
+            4.43
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            33,
+            1,
+            57.0,
+            14.71
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            33,
+            1,
+            57.0,
+            14.71
+          ],
+          "texture": 0
+        }
+      },
+      "type": "cube",
+      "box_uv": false,
+      "rescale": false,
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "outliner": [
+    {
+      "name": "root",
+      "origin": [
+        -0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "uuid": "951f14a3-3dc4-560f-910b-846db0a1d584",
+      "export": true,
+      "isOpen": false,
+      "children": [
+        {
+          "name": "body",
+          "origin": [
+            -0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uuid": "d16301cc-7215-53d7-8e1e-182108081f95",
+          "export": true,
+          "isOpen": false,
+          "children": [
+            "51278a5f-7293-56a8-9fc7-b62f2d8db393",
+            "4c79e4bc-4286-52b8-b3cd-637e1b92b679"
+          ]
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "path": "",
+      "name": "world_chronicle_monument.png",
+      "uuid": "4469d4ce-561a-5801-89f1-e7b110e2c379",
+      "id": "0",
+      "mode": "bitmap",
+      "saved": false,
+      "width": 128,
+      "height": 64,
+      "uv_width": 128,
+      "uv_height": 64,
+      "source": "data:image/png;base64,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"
+    }
+  ],
+  "animations": [
+    {
+      "uuid": "6411d113-bff1-55af-bf2d-aa708f80d064",
+      "name": "animation.unwritten.world_chronicle_monument.idle",
+      "loop": "loop",
+      "override": false,
+      "length": 2,
+      "snapping": 20,
+      "animators": {
+        "d16301cc-7215-53d7-8e1e-182108081f95": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "6171dbc1-8ce2-51d5-a478-6d860c080b48",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.75",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "53e21a86-5c8d-56ba-abbb-6e2ece496a64",
+              "time": 1.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "57b80f99-fba6-5a1c-b0df-7aef8721b2ce",
+              "time": 2.0,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "f45d5307-f61c-5b43-8f78-dfa97f58a383",
+      "name": "animation.unwritten.world_chronicle_monument.walk",
+      "loop": "loop",
+      "override": false,
+      "length": 1,
+      "snapping": 20,
+      "animators": {
+        "d16301cc-7215-53d7-8e1e-182108081f95": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "369307ee-99e6-5241-97ed-f530a4922798",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.6000000000000001",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "1a3a4ebb-0675-5ac8-b5e3-49e97baa4ff0",
+              "time": 0.5,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "9f1de146-0971-50b9-b119-e612384e29c3",
+              "time": 1.0,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "f585e753-60ac-52ef-a0d2-c75901b1fc95",
+      "name": "animation.unwritten.world_chronicle_monument.run",
+      "loop": "loop",
+      "override": false,
+      "length": 0.55,
+      "snapping": 20,
+      "animators": {
+        "d16301cc-7215-53d7-8e1e-182108081f95": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "68964e66-3d0c-5996-8da5-824521f98e71",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "1.7999999999999998",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "ba368c92-cc55-5b50-ba6e-179ca5760d54",
+              "time": 0.275,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "73e2204d-7d53-58e0-aa81-a9c88afc4802",
+              "time": 0.55,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "ae4c7897-f020-5221-9f0e-e568749cf4fd",
+      "name": "animation.unwritten.world_chronicle_monument.hurt",
+      "loop": "once",
+      "override": false,
+      "length": 0.35,
+      "snapping": 20,
+      "animators": {
+        "d16301cc-7215-53d7-8e1e-182108081f95": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "b6600919-1a27-5a8f-9ce3-3f98c26a1660",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "12",
+                  "y": "0",
+                  "z": "5"
+                }
+              ],
+              "uuid": "e075d440-aa57-5a58-8243-5c4ae6361401",
+              "time": 0.175,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "1c5a99d0-b511-51af-8de4-9a9b586b2f12",
+              "time": 0.35,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "265d6ba3-b610-5123-a489-09516d377eee",
+      "name": "animation.unwritten.world_chronicle_monument.death",
+      "loop": "once",
+      "override": false,
+      "length": 1.2,
+      "snapping": 20,
+      "animators": {
+        "951f14a3-3dc4-560f-910b-846db0a1d584": {
+          "name": "root",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "c1e6e39c-60d9-50ec-892a-cdc543c0bcf8",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "15"
+                }
+              ],
+              "uuid": "853f2f86-b480-52aa-b87b-8f36c01cdfd4",
+              "time": 0.6,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "85"
+                }
+              ],
+              "uuid": "1680e6d1-d886-5bda-9550-787fb6eef3fb",
+              "time": 1.2,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        },
+        "d16301cc-7215-53d7-8e1e-182108081f95": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "0.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "2c28049b-50e8-5086-8292-c33c47956373",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "-3.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "4f27aab6-6a3e-53cf-b90a-2773a292ba17",
+              "time": 0.6,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "position",
+              "data_points": [
+                {
+                  "x": "-0.0",
+                  "y": "-9.0",
+                  "z": "0.0"
+                }
+              ],
+              "uuid": "59ed7c2e-895b-55d1-a681-c465b9b796fc",
+              "time": 1.2,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "uuid": "4d0f019e-65a9-5d3b-a314-e0db89f49072",
+      "name": "animation.unwritten.world_chronicle_monument.attack",
+      "loop": "once",
+      "override": false,
+      "length": 0.8,
+      "snapping": 20,
+      "animators": {
+        "d16301cc-7215-53d7-8e1e-182108081f95": {
+          "name": "body",
+          "type": "bone",
+          "keyframes": [
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "2da5ef2f-0eed-56d4-87af-b05b166d3a30",
+              "time": 0.0,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "18",
+                  "z": "0"
+                }
+              ],
+              "uuid": "cc3a4d3e-4cc3-5577-b4d4-ef30a69e4b97",
+              "time": 0.2667,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "-15",
+                  "y": "-20",
+                  "z": "0"
+                }
+              ],
+              "uuid": "46a08b37-3684-5e5c-9b49-aeb06b73ab31",
+              "time": 0.5333,
+              "color": -1,
+              "interpolation": "linear"
+            },
+            {
+              "channel": "rotation",
+              "data_points": [
+                {
+                  "x": "0",
+                  "y": "0",
+                  "z": "0"
+                }
+              ],
+              "uuid": "ddfefcb1-338b-5c9c-adef-a2591590ad03",
+              "time": 0.8,
+              "color": -1,
+              "interpolation": "linear"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:spectral_chain",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/spectral_chain"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.spectral_chain"
+      },
+      "animations": {
+        "idle": "animation.unwritten.spectral_chain.idle",
+        "walk": "animation.unwritten.spectral_chain.walk",
+        "run": "animation.unwritten.spectral_chain.run",
+        "hurt": "animation.unwritten.spectral_chain.hurt",
+        "death": "animation.unwritten.spectral_chain.death",
+        "attack": "animation.unwritten.spectral_chain.attack",
+        "awaken": "animation.unwritten.spectral_chain.awaken",
+        "kneel": "animation.unwritten.spectral_chain.kneel",
+        "transform": "animation.unwritten.spectral_chain.transform",
+        "locomotion": "controller.animation.unwritten.spectral_chain"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#83b8b4",
+        "overlay_color": "#d1fff2"
+      }
+    }
+  }
+}

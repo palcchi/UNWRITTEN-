@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dog",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dog"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dog"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dog.idle",
+        "walk": "animation.unwritten.dog.walk",
+        "run": "animation.unwritten.dog.run",
+        "hurt": "animation.unwritten.dog.hurt",
+        "death": "animation.unwritten.dog.death",
+        "bite": "animation.unwritten.dog.bite",
+        "attack": "animation.unwritten.dog.attack",
+        "stun": "animation.unwritten.dog.stun",
+        "swim": "animation.unwritten.dog.swim",
+        "tail_sweep": "animation.unwritten.dog.tail_sweep",
+        "roar": "animation.unwritten.dog.roar",
+        "sit": "animation.unwritten.dog.sit",
+        "sleep": "animation.unwritten.dog.sleep",
+        "yawn": "animation.unwritten.dog.yawn",
+        "scratch_ear": "animation.unwritten.dog.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.dog.curious_head_tilt",
+        "angry_puff": "animation.unwritten.dog.angry_puff",
+        "chase_tail": "animation.unwritten.dog.chase_tail",
+        "climb": "animation.unwritten.dog.climb",
+        "eat_cheese": "animation.unwritten.dog.eat_cheese",
+        "steal_cheese": "animation.unwritten.dog.steal_cheese",
+        "happy_bounce": "animation.unwritten.dog.happy_bounce",
+        "shoulder_sit": "animation.unwritten.dog.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.dog"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

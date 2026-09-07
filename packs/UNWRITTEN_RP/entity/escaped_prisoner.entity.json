@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:escaped_prisoner",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/escaped_prisoner"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.escaped_prisoner"
+      },
+      "animations": {
+        "idle": "animation.unwritten.escaped_prisoner.idle",
+        "walk": "animation.unwritten.escaped_prisoner.walk",
+        "run": "animation.unwritten.escaped_prisoner.run",
+        "hurt": "animation.unwritten.escaped_prisoner.hurt",
+        "death": "animation.unwritten.escaped_prisoner.death",
+        "bite": "animation.unwritten.escaped_prisoner.bite",
+        "attack": "animation.unwritten.escaped_prisoner.attack",
+        "stun": "animation.unwritten.escaped_prisoner.stun",
+        "slash": "animation.unwritten.escaped_prisoner.slash",
+        "thrust": "animation.unwritten.escaped_prisoner.thrust",
+        "parry": "animation.unwritten.escaped_prisoner.parry",
+        "cast": "animation.unwritten.escaped_prisoner.cast",
+        "smash": "animation.unwritten.escaped_prisoner.smash",
+        "dodge": "animation.unwritten.escaped_prisoner.dodge",
+        "roar": "animation.unwritten.escaped_prisoner.roar",
+        "locomotion": "controller.animation.unwritten.escaped_prisoner"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#636975",
+        "overlay_color": "#bac8c8"
+      }
+    }
+  }
+}

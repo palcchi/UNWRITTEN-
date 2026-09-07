@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_warrior",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_warrior"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_warrior"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_warrior.idle",
+        "walk": "animation.unwritten.goblin_warrior.walk",
+        "run": "animation.unwritten.goblin_warrior.run",
+        "hurt": "animation.unwritten.goblin_warrior.hurt",
+        "death": "animation.unwritten.goblin_warrior.death",
+        "bite": "animation.unwritten.goblin_warrior.bite",
+        "attack": "animation.unwritten.goblin_warrior.attack",
+        "stun": "animation.unwritten.goblin_warrior.stun",
+        "slash": "animation.unwritten.goblin_warrior.slash",
+        "thrust": "animation.unwritten.goblin_warrior.thrust",
+        "parry": "animation.unwritten.goblin_warrior.parry",
+        "cast": "animation.unwritten.goblin_warrior.cast",
+        "smash": "animation.unwritten.goblin_warrior.smash",
+        "dodge": "animation.unwritten.goblin_warrior.dodge",
+        "roar": "animation.unwritten.goblin_warrior.roar",
+        "locomotion": "controller.animation.unwritten.goblin_warrior"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

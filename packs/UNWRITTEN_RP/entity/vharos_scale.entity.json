@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:vharos_scale",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/vharos_scale"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.vharos_scale"
+      },
+      "animations": {
+        "idle": "animation.unwritten.vharos_scale.idle",
+        "walk": "animation.unwritten.vharos_scale.walk",
+        "run": "animation.unwritten.vharos_scale.run",
+        "hurt": "animation.unwritten.vharos_scale.hurt",
+        "death": "animation.unwritten.vharos_scale.death",
+        "attack": "animation.unwritten.vharos_scale.attack",
+        "locomotion": "controller.animation.unwritten.vharos_scale"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#303035",
+        "overlay_color": "#ff8c37"
+      }
+    }
+  }
+}

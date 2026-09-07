@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:throne_guardian",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/throne_guardian"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.throne_guardian"
+      },
+      "animations": {
+        "idle": "animation.unwritten.throne_guardian.idle",
+        "walk": "animation.unwritten.throne_guardian.walk",
+        "run": "animation.unwritten.throne_guardian.run",
+        "hurt": "animation.unwritten.throne_guardian.hurt",
+        "death": "animation.unwritten.throne_guardian.death",
+        "bite": "animation.unwritten.throne_guardian.bite",
+        "attack": "animation.unwritten.throne_guardian.attack",
+        "stun": "animation.unwritten.throne_guardian.stun",
+        "slash": "animation.unwritten.throne_guardian.slash",
+        "thrust": "animation.unwritten.throne_guardian.thrust",
+        "parry": "animation.unwritten.throne_guardian.parry",
+        "cast": "animation.unwritten.throne_guardian.cast",
+        "smash": "animation.unwritten.throne_guardian.smash",
+        "dodge": "animation.unwritten.throne_guardian.dodge",
+        "roar": "animation.unwritten.throne_guardian.roar",
+        "locomotion": "controller.animation.unwritten.throne_guardian"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

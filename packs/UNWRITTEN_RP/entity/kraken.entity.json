@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:kraken",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/kraken"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.kraken"
+      },
+      "animations": {
+        "idle": "animation.unwritten.kraken.idle",
+        "walk": "animation.unwritten.kraken.walk",
+        "run": "animation.unwritten.kraken.run",
+        "hurt": "animation.unwritten.kraken.hurt",
+        "death": "animation.unwritten.kraken.death",
+        "bite": "animation.unwritten.kraken.bite",
+        "attack": "animation.unwritten.kraken.attack",
+        "stun": "animation.unwritten.kraken.stun",
+        "swim": "animation.unwritten.kraken.swim",
+        "roar": "animation.unwritten.kraken.roar",
+        "locomotion": "controller.animation.unwritten.kraken"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#705179",
+        "overlay_color": "#d2a0ed"
+      }
+    }
+  }
+}

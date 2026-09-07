@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ancient_seraph",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ancient_seraph"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ancient_seraph"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ancient_seraph.idle",
+        "walk": "animation.unwritten.ancient_seraph.walk",
+        "run": "animation.unwritten.ancient_seraph.run",
+        "hurt": "animation.unwritten.ancient_seraph.hurt",
+        "death": "animation.unwritten.ancient_seraph.death",
+        "bite": "animation.unwritten.ancient_seraph.bite",
+        "attack": "animation.unwritten.ancient_seraph.attack",
+        "stun": "animation.unwritten.ancient_seraph.stun",
+        "fly": "animation.unwritten.ancient_seraph.fly",
+        "wing_unfold": "animation.unwritten.ancient_seraph.wing_unfold",
+        "takeoff": "animation.unwritten.ancient_seraph.takeoff",
+        "land": "animation.unwritten.ancient_seraph.land",
+        "slash": "animation.unwritten.ancient_seraph.slash",
+        "thrust": "animation.unwritten.ancient_seraph.thrust",
+        "parry": "animation.unwritten.ancient_seraph.parry",
+        "cast": "animation.unwritten.ancient_seraph.cast",
+        "smash": "animation.unwritten.ancient_seraph.smash",
+        "dodge": "animation.unwritten.ancient_seraph.dodge",
+        "roar": "animation.unwritten.ancient_seraph.roar",
+        "locomotion": "controller.animation.unwritten.ancient_seraph"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:demon_houndmaster",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/demon_houndmaster"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.demon_houndmaster"
+      },
+      "animations": {
+        "idle": "animation.unwritten.demon_houndmaster.idle",
+        "walk": "animation.unwritten.demon_houndmaster.walk",
+        "run": "animation.unwritten.demon_houndmaster.run",
+        "hurt": "animation.unwritten.demon_houndmaster.hurt",
+        "death": "animation.unwritten.demon_houndmaster.death",
+        "bite": "animation.unwritten.demon_houndmaster.bite",
+        "attack": "animation.unwritten.demon_houndmaster.attack",
+        "stun": "animation.unwritten.demon_houndmaster.stun",
+        "slash": "animation.unwritten.demon_houndmaster.slash",
+        "thrust": "animation.unwritten.demon_houndmaster.thrust",
+        "parry": "animation.unwritten.demon_houndmaster.parry",
+        "cast": "animation.unwritten.demon_houndmaster.cast",
+        "smash": "animation.unwritten.demon_houndmaster.smash",
+        "dodge": "animation.unwritten.demon_houndmaster.dodge",
+        "roar": "animation.unwritten.demon_houndmaster.roar",
+        "locomotion": "controller.animation.unwritten.demon_houndmaster"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

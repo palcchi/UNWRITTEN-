@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:verdant_giant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/verdant_giant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.verdant_giant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.verdant_giant.idle",
+        "walk": "animation.unwritten.verdant_giant.walk",
+        "run": "animation.unwritten.verdant_giant.run",
+        "hurt": "animation.unwritten.verdant_giant.hurt",
+        "death": "animation.unwritten.verdant_giant.death",
+        "bite": "animation.unwritten.verdant_giant.bite",
+        "attack": "animation.unwritten.verdant_giant.attack",
+        "stun": "animation.unwritten.verdant_giant.stun",
+        "slash": "animation.unwritten.verdant_giant.slash",
+        "thrust": "animation.unwritten.verdant_giant.thrust",
+        "parry": "animation.unwritten.verdant_giant.parry",
+        "cast": "animation.unwritten.verdant_giant.cast",
+        "smash": "animation.unwritten.verdant_giant.smash",
+        "dodge": "animation.unwritten.verdant_giant.dodge",
+        "roar": "animation.unwritten.verdant_giant.roar",
+        "awaken": "animation.unwritten.verdant_giant.awaken",
+        "kneel": "animation.unwritten.verdant_giant.kneel",
+        "reach": "animation.unwritten.verdant_giant.reach",
+        "transform": "animation.unwritten.verdant_giant.transform",
+        "slash_1": "animation.unwritten.verdant_giant.slash_1",
+        "slash_2": "animation.unwritten.verdant_giant.slash_2",
+        "slash_3": "animation.unwritten.verdant_giant.slash_3",
+        "slash_4": "animation.unwritten.verdant_giant.slash_4",
+        "slash_5": "animation.unwritten.verdant_giant.slash_5",
+        "thrust_1": "animation.unwritten.verdant_giant.thrust_1",
+        "thrust_2": "animation.unwritten.verdant_giant.thrust_2",
+        "thrust_3": "animation.unwritten.verdant_giant.thrust_3",
+        "locomotion": "controller.animation.unwritten.verdant_giant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

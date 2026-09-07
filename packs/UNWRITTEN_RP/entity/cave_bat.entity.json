@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:cave_bat",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/cave_bat"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.cave_bat"
+      },
+      "animations": {
+        "idle": "animation.unwritten.cave_bat.idle",
+        "walk": "animation.unwritten.cave_bat.walk",
+        "run": "animation.unwritten.cave_bat.run",
+        "hurt": "animation.unwritten.cave_bat.hurt",
+        "death": "animation.unwritten.cave_bat.death",
+        "bite": "animation.unwritten.cave_bat.bite",
+        "attack": "animation.unwritten.cave_bat.attack",
+        "stun": "animation.unwritten.cave_bat.stun",
+        "fly": "animation.unwritten.cave_bat.fly",
+        "wing_unfold": "animation.unwritten.cave_bat.wing_unfold",
+        "takeoff": "animation.unwritten.cave_bat.takeoff",
+        "land": "animation.unwritten.cave_bat.land",
+        "swim": "animation.unwritten.cave_bat.swim",
+        "tail_sweep": "animation.unwritten.cave_bat.tail_sweep",
+        "roar": "animation.unwritten.cave_bat.roar",
+        "locomotion": "controller.animation.unwritten.cave_bat"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

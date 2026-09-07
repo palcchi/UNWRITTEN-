@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ghost_whale",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ghost_whale"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ghost_whale"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ghost_whale.idle",
+        "walk": "animation.unwritten.ghost_whale.walk",
+        "run": "animation.unwritten.ghost_whale.run",
+        "hurt": "animation.unwritten.ghost_whale.hurt",
+        "death": "animation.unwritten.ghost_whale.death",
+        "bite": "animation.unwritten.ghost_whale.bite",
+        "attack": "animation.unwritten.ghost_whale.attack",
+        "stun": "animation.unwritten.ghost_whale.stun",
+        "swim": "animation.unwritten.ghost_whale.swim",
+        "tail_sweep": "animation.unwritten.ghost_whale.tail_sweep",
+        "roar": "animation.unwritten.ghost_whale.roar",
+        "locomotion": "controller.animation.unwritten.ghost_whale"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#83b8b4",
+        "overlay_color": "#d1fff2"
+      }
+    }
+  }
+}

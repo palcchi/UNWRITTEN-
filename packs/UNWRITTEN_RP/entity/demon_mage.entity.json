@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:demon_mage",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/demon_mage"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.demon_mage"
+      },
+      "animations": {
+        "idle": "animation.unwritten.demon_mage.idle",
+        "walk": "animation.unwritten.demon_mage.walk",
+        "run": "animation.unwritten.demon_mage.run",
+        "hurt": "animation.unwritten.demon_mage.hurt",
+        "death": "animation.unwritten.demon_mage.death",
+        "bite": "animation.unwritten.demon_mage.bite",
+        "attack": "animation.unwritten.demon_mage.attack",
+        "stun": "animation.unwritten.demon_mage.stun",
+        "slash": "animation.unwritten.demon_mage.slash",
+        "thrust": "animation.unwritten.demon_mage.thrust",
+        "parry": "animation.unwritten.demon_mage.parry",
+        "cast": "animation.unwritten.demon_mage.cast",
+        "smash": "animation.unwritten.demon_mage.smash",
+        "dodge": "animation.unwritten.demon_mage.dodge",
+        "roar": "animation.unwritten.demon_mage.roar",
+        "locomotion": "controller.animation.unwritten.demon_mage"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#705179",
+        "overlay_color": "#d2a0ed"
+      }
+    }
+  }
+}

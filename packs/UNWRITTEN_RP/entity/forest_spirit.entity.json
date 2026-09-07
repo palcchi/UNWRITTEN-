@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:forest_spirit",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/forest_spirit"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.forest_spirit"
+      },
+      "animations": {
+        "idle": "animation.unwritten.forest_spirit.idle",
+        "walk": "animation.unwritten.forest_spirit.walk",
+        "run": "animation.unwritten.forest_spirit.run",
+        "hurt": "animation.unwritten.forest_spirit.hurt",
+        "death": "animation.unwritten.forest_spirit.death",
+        "bite": "animation.unwritten.forest_spirit.bite",
+        "attack": "animation.unwritten.forest_spirit.attack",
+        "stun": "animation.unwritten.forest_spirit.stun",
+        "slash": "animation.unwritten.forest_spirit.slash",
+        "thrust": "animation.unwritten.forest_spirit.thrust",
+        "parry": "animation.unwritten.forest_spirit.parry",
+        "cast": "animation.unwritten.forest_spirit.cast",
+        "smash": "animation.unwritten.forest_spirit.smash",
+        "dodge": "animation.unwritten.forest_spirit.dodge",
+        "roar": "animation.unwritten.forest_spirit.roar",
+        "locomotion": "controller.animation.unwritten.forest_spirit"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

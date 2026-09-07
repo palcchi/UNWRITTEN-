@@ -1,0 +1,312 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.unwritten.sproutling.idle": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.08888888888888889,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              2,
+              0,
+              0
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.sproutling.walk": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.07111111111111111,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.sproutling.run": {
+      "loop": true,
+      "animation_length": 0.55,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.275": [
+              0.0,
+              0.21333333333333335,
+              0.0
+            ],
+            "0.55": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.sproutling.hurt": {
+      "loop": false,
+      "animation_length": 0.35,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.175": [
+              -12,
+              0,
+              5
+            ],
+            "0.35": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.sproutling.death": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6": [
+              0,
+              0,
+              15
+            ],
+            "1.2": [
+              0,
+              0,
+              85
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.6": [
+              0.0,
+              -0.35555555555555557,
+              0.0
+            ],
+            "1.2": [
+              0.0,
+              -1.0666666666666667,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.sproutling.bite": {
+      "loop": false,
+      "animation_length": 0.7,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2333": [
+              -15,
+              0,
+              0
+            ],
+            "0.4667": [
+              20,
+              0,
+              0
+            ],
+            "0.7": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.sproutling.attack": {
+      "loop": false,
+      "animation_length": 0.8,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              0,
+              -18,
+              0
+            ],
+            "0.5333": [
+              15,
+              20,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              -15,
+              0,
+              0
+            ],
+            "0.5333": [
+              18,
+              0,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.sproutling.stun": {
+      "loop": true,
+      "animation_length": 1.2,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4": [
+              0,
+              0,
+              12
+            ],
+            "0.8": [
+              0,
+              0,
+              -12
+            ],
+            "1.2": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.sproutling.roar": {
+      "loop": false,
+      "animation_length": 1.7,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5667": [
+              -35,
+              0,
+              0
+            ],
+            "1.1333": [
+              -25,
+              8,
+              0
+            ],
+            "1.7": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:undead_king",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/undead_king"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.undead_king"
+      },
+      "animations": {
+        "idle": "animation.unwritten.undead_king.idle",
+        "walk": "animation.unwritten.undead_king.walk",
+        "run": "animation.unwritten.undead_king.run",
+        "hurt": "animation.unwritten.undead_king.hurt",
+        "death": "animation.unwritten.undead_king.death",
+        "bite": "animation.unwritten.undead_king.bite",
+        "attack": "animation.unwritten.undead_king.attack",
+        "stun": "animation.unwritten.undead_king.stun",
+        "slash": "animation.unwritten.undead_king.slash",
+        "thrust": "animation.unwritten.undead_king.thrust",
+        "parry": "animation.unwritten.undead_king.parry",
+        "cast": "animation.unwritten.undead_king.cast",
+        "smash": "animation.unwritten.undead_king.smash",
+        "dodge": "animation.unwritten.undead_king.dodge",
+        "roar": "animation.unwritten.undead_king.roar",
+        "locomotion": "controller.animation.unwritten.undead_king"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

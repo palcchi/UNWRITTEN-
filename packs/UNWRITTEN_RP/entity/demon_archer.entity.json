@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:demon_archer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/demon_archer"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.demon_archer"
+      },
+      "animations": {
+        "idle": "animation.unwritten.demon_archer.idle",
+        "walk": "animation.unwritten.demon_archer.walk",
+        "run": "animation.unwritten.demon_archer.run",
+        "hurt": "animation.unwritten.demon_archer.hurt",
+        "death": "animation.unwritten.demon_archer.death",
+        "bite": "animation.unwritten.demon_archer.bite",
+        "attack": "animation.unwritten.demon_archer.attack",
+        "stun": "animation.unwritten.demon_archer.stun",
+        "slash": "animation.unwritten.demon_archer.slash",
+        "thrust": "animation.unwritten.demon_archer.thrust",
+        "parry": "animation.unwritten.demon_archer.parry",
+        "cast": "animation.unwritten.demon_archer.cast",
+        "smash": "animation.unwritten.demon_archer.smash",
+        "dodge": "animation.unwritten.demon_archer.dodge",
+        "bow_attack": "animation.unwritten.demon_archer.bow_attack",
+        "roar": "animation.unwritten.demon_archer.roar",
+        "locomotion": "controller.animation.unwritten.demon_archer"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

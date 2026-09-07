@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:verdant_the_last_father",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/verdant_the_last_father"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.verdant_the_last_father"
+      },
+      "animations": {
+        "idle": "animation.unwritten.verdant_the_last_father.idle",
+        "walk": "animation.unwritten.verdant_the_last_father.walk",
+        "run": "animation.unwritten.verdant_the_last_father.run",
+        "hurt": "animation.unwritten.verdant_the_last_father.hurt",
+        "death": "animation.unwritten.verdant_the_last_father.death",
+        "bite": "animation.unwritten.verdant_the_last_father.bite",
+        "attack": "animation.unwritten.verdant_the_last_father.attack",
+        "stun": "animation.unwritten.verdant_the_last_father.stun",
+        "slash": "animation.unwritten.verdant_the_last_father.slash",
+        "thrust": "animation.unwritten.verdant_the_last_father.thrust",
+        "parry": "animation.unwritten.verdant_the_last_father.parry",
+        "cast": "animation.unwritten.verdant_the_last_father.cast",
+        "smash": "animation.unwritten.verdant_the_last_father.smash",
+        "dodge": "animation.unwritten.verdant_the_last_father.dodge",
+        "roar": "animation.unwritten.verdant_the_last_father.roar",
+        "awaken": "animation.unwritten.verdant_the_last_father.awaken",
+        "kneel": "animation.unwritten.verdant_the_last_father.kneel",
+        "reach": "animation.unwritten.verdant_the_last_father.reach",
+        "transform": "animation.unwritten.verdant_the_last_father.transform",
+        "slash_1": "animation.unwritten.verdant_the_last_father.slash_1",
+        "slash_2": "animation.unwritten.verdant_the_last_father.slash_2",
+        "slash_3": "animation.unwritten.verdant_the_last_father.slash_3",
+        "slash_4": "animation.unwritten.verdant_the_last_father.slash_4",
+        "slash_5": "animation.unwritten.verdant_the_last_father.slash_5",
+        "thrust_1": "animation.unwritten.verdant_the_last_father.thrust_1",
+        "thrust_2": "animation.unwritten.verdant_the_last_father.thrust_2",
+        "thrust_3": "animation.unwritten.verdant_the_last_father.thrust_3",
+        "locomotion": "controller.animation.unwritten.verdant_the_last_father"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

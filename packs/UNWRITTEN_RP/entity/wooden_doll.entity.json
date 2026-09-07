@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:wooden_doll",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/wooden_doll"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.wooden_doll"
+      },
+      "animations": {
+        "idle": "animation.unwritten.wooden_doll.idle",
+        "walk": "animation.unwritten.wooden_doll.walk",
+        "run": "animation.unwritten.wooden_doll.run",
+        "hurt": "animation.unwritten.wooden_doll.hurt",
+        "death": "animation.unwritten.wooden_doll.death",
+        "attack": "animation.unwritten.wooden_doll.attack",
+        "locomotion": "controller.animation.unwritten.wooden_doll"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:drowned_admiral",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/drowned_admiral"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.drowned_admiral"
+      },
+      "animations": {
+        "idle": "animation.unwritten.drowned_admiral.idle",
+        "walk": "animation.unwritten.drowned_admiral.walk",
+        "run": "animation.unwritten.drowned_admiral.run",
+        "hurt": "animation.unwritten.drowned_admiral.hurt",
+        "death": "animation.unwritten.drowned_admiral.death",
+        "bite": "animation.unwritten.drowned_admiral.bite",
+        "attack": "animation.unwritten.drowned_admiral.attack",
+        "stun": "animation.unwritten.drowned_admiral.stun",
+        "slash": "animation.unwritten.drowned_admiral.slash",
+        "thrust": "animation.unwritten.drowned_admiral.thrust",
+        "parry": "animation.unwritten.drowned_admiral.parry",
+        "cast": "animation.unwritten.drowned_admiral.cast",
+        "smash": "animation.unwritten.drowned_admiral.smash",
+        "dodge": "animation.unwritten.drowned_admiral.dodge",
+        "roar": "animation.unwritten.drowned_admiral.roar",
+        "locomotion": "controller.animation.unwritten.drowned_admiral"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

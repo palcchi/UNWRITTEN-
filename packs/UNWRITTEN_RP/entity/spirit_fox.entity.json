@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:spirit_fox",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/spirit_fox"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.spirit_fox"
+      },
+      "animations": {
+        "idle": "animation.unwritten.spirit_fox.idle",
+        "walk": "animation.unwritten.spirit_fox.walk",
+        "run": "animation.unwritten.spirit_fox.run",
+        "hurt": "animation.unwritten.spirit_fox.hurt",
+        "death": "animation.unwritten.spirit_fox.death",
+        "bite": "animation.unwritten.spirit_fox.bite",
+        "attack": "animation.unwritten.spirit_fox.attack",
+        "stun": "animation.unwritten.spirit_fox.stun",
+        "swim": "animation.unwritten.spirit_fox.swim",
+        "tail_sweep": "animation.unwritten.spirit_fox.tail_sweep",
+        "roar": "animation.unwritten.spirit_fox.roar",
+        "sit": "animation.unwritten.spirit_fox.sit",
+        "sleep": "animation.unwritten.spirit_fox.sleep",
+        "yawn": "animation.unwritten.spirit_fox.yawn",
+        "scratch_ear": "animation.unwritten.spirit_fox.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.spirit_fox.curious_head_tilt",
+        "angry_puff": "animation.unwritten.spirit_fox.angry_puff",
+        "chase_tail": "animation.unwritten.spirit_fox.chase_tail",
+        "climb": "animation.unwritten.spirit_fox.climb",
+        "eat_cheese": "animation.unwritten.spirit_fox.eat_cheese",
+        "steal_cheese": "animation.unwritten.spirit_fox.steal_cheese",
+        "happy_bounce": "animation.unwritten.spirit_fox.happy_bounce",
+        "shoulder_sit": "animation.unwritten.spirit_fox.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.spirit_fox"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#83b8b4",
+        "overlay_color": "#d1fff2"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:kitsune",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/kitsune"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.kitsune"
+      },
+      "animations": {
+        "idle": "animation.unwritten.kitsune.idle",
+        "walk": "animation.unwritten.kitsune.walk",
+        "run": "animation.unwritten.kitsune.run",
+        "hurt": "animation.unwritten.kitsune.hurt",
+        "death": "animation.unwritten.kitsune.death",
+        "bite": "animation.unwritten.kitsune.bite",
+        "attack": "animation.unwritten.kitsune.attack",
+        "stun": "animation.unwritten.kitsune.stun",
+        "swim": "animation.unwritten.kitsune.swim",
+        "tail_sweep": "animation.unwritten.kitsune.tail_sweep",
+        "roar": "animation.unwritten.kitsune.roar",
+        "sit": "animation.unwritten.kitsune.sit",
+        "sleep": "animation.unwritten.kitsune.sleep",
+        "yawn": "animation.unwritten.kitsune.yawn",
+        "scratch_ear": "animation.unwritten.kitsune.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.kitsune.curious_head_tilt",
+        "angry_puff": "animation.unwritten.kitsune.angry_puff",
+        "chase_tail": "animation.unwritten.kitsune.chase_tail",
+        "climb": "animation.unwritten.kitsune.climb",
+        "eat_cheese": "animation.unwritten.kitsune.eat_cheese",
+        "steal_cheese": "animation.unwritten.kitsune.steal_cheese",
+        "happy_bounce": "animation.unwritten.kitsune.happy_bounce",
+        "shoulder_sit": "animation.unwritten.kitsune.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.kitsune"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

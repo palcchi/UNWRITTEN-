@@ -1,0 +1,188 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.unwritten.world_chronicle_monument",
+        "texture_width": 128,
+        "texture_height": 64,
+        "visible_bounds_width": 9.0,
+        "visible_bounds_height": 9.0,
+        "visible_bounds_offset": [
+          0,
+          1.5,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "body",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -15.0,
+                0.0,
+                -4.5
+              ],
+              "size": [
+                30.0,
+                48.0,
+                9.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    15.0,
+                    24.0
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    15.0,
+                    24.0
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    4.5,
+                    24.0
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    4.5,
+                    24.0
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    15.0,
+                    4.5
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    15.0,
+                    4.5
+                  ]
+                }
+              }
+            },
+            {
+              "origin": [
+                -21.0,
+                0.0,
+                -12.0
+              ],
+              "size": [
+                42.0,
+                6.0,
+                24.0
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    24.0,
+                    3.43
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    24.0,
+                    3.43
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    13.71,
+                    3.43
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    13.71,
+                    3.43
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    24.0,
+                    13.71
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    33,
+                    1
+                  ],
+                  "uv_size": [
+                    24.0,
+                    13.71
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

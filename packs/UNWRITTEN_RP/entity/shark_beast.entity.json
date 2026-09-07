@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:shark_beast",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/shark_beast"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.shark_beast"
+      },
+      "animations": {
+        "idle": "animation.unwritten.shark_beast.idle",
+        "walk": "animation.unwritten.shark_beast.walk",
+        "run": "animation.unwritten.shark_beast.run",
+        "hurt": "animation.unwritten.shark_beast.hurt",
+        "death": "animation.unwritten.shark_beast.death",
+        "bite": "animation.unwritten.shark_beast.bite",
+        "attack": "animation.unwritten.shark_beast.attack",
+        "stun": "animation.unwritten.shark_beast.stun",
+        "swim": "animation.unwritten.shark_beast.swim",
+        "tail_sweep": "animation.unwritten.shark_beast.tail_sweep",
+        "roar": "animation.unwritten.shark_beast.roar",
+        "locomotion": "controller.animation.unwritten.shark_beast"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

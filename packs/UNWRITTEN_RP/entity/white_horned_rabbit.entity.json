@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:white_horned_rabbit",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/white_horned_rabbit"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.white_horned_rabbit"
+      },
+      "animations": {
+        "idle": "animation.unwritten.white_horned_rabbit.idle",
+        "walk": "animation.unwritten.white_horned_rabbit.walk",
+        "run": "animation.unwritten.white_horned_rabbit.run",
+        "hurt": "animation.unwritten.white_horned_rabbit.hurt",
+        "death": "animation.unwritten.white_horned_rabbit.death",
+        "bite": "animation.unwritten.white_horned_rabbit.bite",
+        "attack": "animation.unwritten.white_horned_rabbit.attack",
+        "stun": "animation.unwritten.white_horned_rabbit.stun",
+        "hop": "animation.unwritten.white_horned_rabbit.hop",
+        "roar": "animation.unwritten.white_horned_rabbit.roar",
+        "locomotion": "controller.animation.unwritten.white_horned_rabbit"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

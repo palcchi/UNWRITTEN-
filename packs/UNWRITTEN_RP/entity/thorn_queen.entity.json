@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:thorn_queen",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/thorn_queen"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.thorn_queen"
+      },
+      "animations": {
+        "idle": "animation.unwritten.thorn_queen.idle",
+        "walk": "animation.unwritten.thorn_queen.walk",
+        "run": "animation.unwritten.thorn_queen.run",
+        "hurt": "animation.unwritten.thorn_queen.hurt",
+        "death": "animation.unwritten.thorn_queen.death",
+        "bite": "animation.unwritten.thorn_queen.bite",
+        "attack": "animation.unwritten.thorn_queen.attack",
+        "stun": "animation.unwritten.thorn_queen.stun",
+        "slash": "animation.unwritten.thorn_queen.slash",
+        "thrust": "animation.unwritten.thorn_queen.thrust",
+        "parry": "animation.unwritten.thorn_queen.parry",
+        "cast": "animation.unwritten.thorn_queen.cast",
+        "smash": "animation.unwritten.thorn_queen.smash",
+        "dodge": "animation.unwritten.thorn_queen.dodge",
+        "roar": "animation.unwritten.thorn_queen.roar",
+        "locomotion": "controller.animation.unwritten.thorn_queen"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

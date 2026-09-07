@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lesser_succubus",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lesser_succubus"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lesser_succubus"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lesser_succubus.idle",
+        "walk": "animation.unwritten.lesser_succubus.walk",
+        "run": "animation.unwritten.lesser_succubus.run",
+        "hurt": "animation.unwritten.lesser_succubus.hurt",
+        "death": "animation.unwritten.lesser_succubus.death",
+        "bite": "animation.unwritten.lesser_succubus.bite",
+        "attack": "animation.unwritten.lesser_succubus.attack",
+        "stun": "animation.unwritten.lesser_succubus.stun",
+        "fly": "animation.unwritten.lesser_succubus.fly",
+        "wing_unfold": "animation.unwritten.lesser_succubus.wing_unfold",
+        "takeoff": "animation.unwritten.lesser_succubus.takeoff",
+        "land": "animation.unwritten.lesser_succubus.land",
+        "slash": "animation.unwritten.lesser_succubus.slash",
+        "thrust": "animation.unwritten.lesser_succubus.thrust",
+        "parry": "animation.unwritten.lesser_succubus.parry",
+        "cast": "animation.unwritten.lesser_succubus.cast",
+        "smash": "animation.unwritten.lesser_succubus.smash",
+        "dodge": "animation.unwritten.lesser_succubus.dodge",
+        "roar": "animation.unwritten.lesser_succubus.roar",
+        "locomotion": "controller.animation.unwritten.lesser_succubus"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#705179",
+        "overlay_color": "#d2a0ed"
+      }
+    }
+  }
+}

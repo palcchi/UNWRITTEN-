@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:forgotten_giant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/forgotten_giant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.forgotten_giant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.forgotten_giant.idle",
+        "walk": "animation.unwritten.forgotten_giant.walk",
+        "run": "animation.unwritten.forgotten_giant.run",
+        "hurt": "animation.unwritten.forgotten_giant.hurt",
+        "death": "animation.unwritten.forgotten_giant.death",
+        "bite": "animation.unwritten.forgotten_giant.bite",
+        "attack": "animation.unwritten.forgotten_giant.attack",
+        "stun": "animation.unwritten.forgotten_giant.stun",
+        "slash": "animation.unwritten.forgotten_giant.slash",
+        "thrust": "animation.unwritten.forgotten_giant.thrust",
+        "parry": "animation.unwritten.forgotten_giant.parry",
+        "cast": "animation.unwritten.forgotten_giant.cast",
+        "smash": "animation.unwritten.forgotten_giant.smash",
+        "dodge": "animation.unwritten.forgotten_giant.dodge",
+        "roar": "animation.unwritten.forgotten_giant.roar",
+        "locomotion": "controller.animation.unwritten.forgotten_giant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#616d71",
+        "overlay_color": "#8bd0cc"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:hellhound",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/hellhound"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.hellhound"
+      },
+      "animations": {
+        "idle": "animation.unwritten.hellhound.idle",
+        "walk": "animation.unwritten.hellhound.walk",
+        "run": "animation.unwritten.hellhound.run",
+        "hurt": "animation.unwritten.hellhound.hurt",
+        "death": "animation.unwritten.hellhound.death",
+        "bite": "animation.unwritten.hellhound.bite",
+        "attack": "animation.unwritten.hellhound.attack",
+        "stun": "animation.unwritten.hellhound.stun",
+        "swim": "animation.unwritten.hellhound.swim",
+        "tail_sweep": "animation.unwritten.hellhound.tail_sweep",
+        "roar": "animation.unwritten.hellhound.roar",
+        "locomotion": "controller.animation.unwritten.hellhound"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#a33c28",
+        "overlay_color": "#ffd077"
+      }
+    }
+  }
+}

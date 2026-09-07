@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:giant_oni",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/giant_oni"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.giant_oni"
+      },
+      "animations": {
+        "idle": "animation.unwritten.giant_oni.idle",
+        "walk": "animation.unwritten.giant_oni.walk",
+        "run": "animation.unwritten.giant_oni.run",
+        "hurt": "animation.unwritten.giant_oni.hurt",
+        "death": "animation.unwritten.giant_oni.death",
+        "bite": "animation.unwritten.giant_oni.bite",
+        "attack": "animation.unwritten.giant_oni.attack",
+        "stun": "animation.unwritten.giant_oni.stun",
+        "slash": "animation.unwritten.giant_oni.slash",
+        "thrust": "animation.unwritten.giant_oni.thrust",
+        "parry": "animation.unwritten.giant_oni.parry",
+        "cast": "animation.unwritten.giant_oni.cast",
+        "smash": "animation.unwritten.giant_oni.smash",
+        "dodge": "animation.unwritten.giant_oni.dodge",
+        "roar": "animation.unwritten.giant_oni.roar",
+        "locomotion": "controller.animation.unwritten.giant_oni"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

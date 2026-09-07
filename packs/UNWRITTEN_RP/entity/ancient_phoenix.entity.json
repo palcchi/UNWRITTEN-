@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ancient_phoenix",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ancient_phoenix"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ancient_phoenix"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ancient_phoenix.idle",
+        "walk": "animation.unwritten.ancient_phoenix.walk",
+        "run": "animation.unwritten.ancient_phoenix.run",
+        "hurt": "animation.unwritten.ancient_phoenix.hurt",
+        "death": "animation.unwritten.ancient_phoenix.death",
+        "bite": "animation.unwritten.ancient_phoenix.bite",
+        "attack": "animation.unwritten.ancient_phoenix.attack",
+        "stun": "animation.unwritten.ancient_phoenix.stun",
+        "fly": "animation.unwritten.ancient_phoenix.fly",
+        "wing_unfold": "animation.unwritten.ancient_phoenix.wing_unfold",
+        "takeoff": "animation.unwritten.ancient_phoenix.takeoff",
+        "land": "animation.unwritten.ancient_phoenix.land",
+        "swim": "animation.unwritten.ancient_phoenix.swim",
+        "tail_sweep": "animation.unwritten.ancient_phoenix.tail_sweep",
+        "roar": "animation.unwritten.ancient_phoenix.roar",
+        "sit": "animation.unwritten.ancient_phoenix.sit",
+        "sleep": "animation.unwritten.ancient_phoenix.sleep",
+        "yawn": "animation.unwritten.ancient_phoenix.yawn",
+        "scratch_ear": "animation.unwritten.ancient_phoenix.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.ancient_phoenix.curious_head_tilt",
+        "angry_puff": "animation.unwritten.ancient_phoenix.angry_puff",
+        "chase_tail": "animation.unwritten.ancient_phoenix.chase_tail",
+        "climb": "animation.unwritten.ancient_phoenix.climb",
+        "eat_cheese": "animation.unwritten.ancient_phoenix.eat_cheese",
+        "steal_cheese": "animation.unwritten.ancient_phoenix.steal_cheese",
+        "happy_bounce": "animation.unwritten.ancient_phoenix.happy_bounce",
+        "shoulder_sit": "animation.unwritten.ancient_phoenix.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.ancient_phoenix"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#a33c28",
+        "overlay_color": "#ffd077"
+      }
+    }
+  }
+}

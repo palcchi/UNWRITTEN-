@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:academy_instructor",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/academy_instructor"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.academy_instructor"
+      },
+      "animations": {
+        "idle": "animation.unwritten.academy_instructor.idle",
+        "walk": "animation.unwritten.academy_instructor.walk",
+        "run": "animation.unwritten.academy_instructor.run",
+        "hurt": "animation.unwritten.academy_instructor.hurt",
+        "death": "animation.unwritten.academy_instructor.death",
+        "bite": "animation.unwritten.academy_instructor.bite",
+        "attack": "animation.unwritten.academy_instructor.attack",
+        "stun": "animation.unwritten.academy_instructor.stun",
+        "slash": "animation.unwritten.academy_instructor.slash",
+        "thrust": "animation.unwritten.academy_instructor.thrust",
+        "parry": "animation.unwritten.academy_instructor.parry",
+        "cast": "animation.unwritten.academy_instructor.cast",
+        "smash": "animation.unwritten.academy_instructor.smash",
+        "dodge": "animation.unwritten.academy_instructor.dodge",
+        "roar": "animation.unwritten.academy_instructor.roar",
+        "locomotion": "controller.animation.unwritten.academy_instructor"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

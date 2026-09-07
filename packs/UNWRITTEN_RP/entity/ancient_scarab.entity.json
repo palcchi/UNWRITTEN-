@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ancient_scarab",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ancient_scarab"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ancient_scarab"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ancient_scarab.idle",
+        "walk": "animation.unwritten.ancient_scarab.walk",
+        "run": "animation.unwritten.ancient_scarab.run",
+        "hurt": "animation.unwritten.ancient_scarab.hurt",
+        "death": "animation.unwritten.ancient_scarab.death",
+        "bite": "animation.unwritten.ancient_scarab.bite",
+        "attack": "animation.unwritten.ancient_scarab.attack",
+        "stun": "animation.unwritten.ancient_scarab.stun",
+        "roar": "animation.unwritten.ancient_scarab.roar",
+        "locomotion": "controller.animation.unwritten.ancient_scarab"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

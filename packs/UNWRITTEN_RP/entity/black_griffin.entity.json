@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:black_griffin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/black_griffin"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.black_griffin"
+      },
+      "animations": {
+        "idle": "animation.unwritten.black_griffin.idle",
+        "walk": "animation.unwritten.black_griffin.walk",
+        "run": "animation.unwritten.black_griffin.run",
+        "hurt": "animation.unwritten.black_griffin.hurt",
+        "death": "animation.unwritten.black_griffin.death",
+        "bite": "animation.unwritten.black_griffin.bite",
+        "attack": "animation.unwritten.black_griffin.attack",
+        "stun": "animation.unwritten.black_griffin.stun",
+        "fly": "animation.unwritten.black_griffin.fly",
+        "wing_unfold": "animation.unwritten.black_griffin.wing_unfold",
+        "takeoff": "animation.unwritten.black_griffin.takeoff",
+        "land": "animation.unwritten.black_griffin.land",
+        "swim": "animation.unwritten.black_griffin.swim",
+        "tail_sweep": "animation.unwritten.black_griffin.tail_sweep",
+        "roar": "animation.unwritten.black_griffin.roar",
+        "locomotion": "controller.animation.unwritten.black_griffin"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

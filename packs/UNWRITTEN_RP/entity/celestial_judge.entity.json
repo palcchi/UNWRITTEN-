@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:celestial_judge",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/celestial_judge"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.celestial_judge"
+      },
+      "animations": {
+        "idle": "animation.unwritten.celestial_judge.idle",
+        "walk": "animation.unwritten.celestial_judge.walk",
+        "run": "animation.unwritten.celestial_judge.run",
+        "hurt": "animation.unwritten.celestial_judge.hurt",
+        "death": "animation.unwritten.celestial_judge.death",
+        "bite": "animation.unwritten.celestial_judge.bite",
+        "attack": "animation.unwritten.celestial_judge.attack",
+        "stun": "animation.unwritten.celestial_judge.stun",
+        "slash": "animation.unwritten.celestial_judge.slash",
+        "thrust": "animation.unwritten.celestial_judge.thrust",
+        "parry": "animation.unwritten.celestial_judge.parry",
+        "cast": "animation.unwritten.celestial_judge.cast",
+        "smash": "animation.unwritten.celestial_judge.smash",
+        "dodge": "animation.unwritten.celestial_judge.dodge",
+        "roar": "animation.unwritten.celestial_judge.roar",
+        "locomotion": "controller.animation.unwritten.celestial_judge"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

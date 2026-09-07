@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:sand_worm",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/sand_worm"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.sand_worm"
+      },
+      "animations": {
+        "idle": "animation.unwritten.sand_worm.idle",
+        "walk": "animation.unwritten.sand_worm.walk",
+        "run": "animation.unwritten.sand_worm.run",
+        "hurt": "animation.unwritten.sand_worm.hurt",
+        "death": "animation.unwritten.sand_worm.death",
+        "bite": "animation.unwritten.sand_worm.bite",
+        "attack": "animation.unwritten.sand_worm.attack",
+        "stun": "animation.unwritten.sand_worm.stun",
+        "swim": "animation.unwritten.sand_worm.swim",
+        "tail_sweep": "animation.unwritten.sand_worm.tail_sweep",
+        "roar": "animation.unwritten.sand_worm.roar",
+        "locomotion": "controller.animation.unwritten.sand_worm"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

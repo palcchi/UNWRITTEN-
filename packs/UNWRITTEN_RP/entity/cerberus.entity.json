@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:cerberus",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/cerberus"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.cerberus"
+      },
+      "animations": {
+        "idle": "animation.unwritten.cerberus.idle",
+        "walk": "animation.unwritten.cerberus.walk",
+        "run": "animation.unwritten.cerberus.run",
+        "hurt": "animation.unwritten.cerberus.hurt",
+        "death": "animation.unwritten.cerberus.death",
+        "bite": "animation.unwritten.cerberus.bite",
+        "attack": "animation.unwritten.cerberus.attack",
+        "stun": "animation.unwritten.cerberus.stun",
+        "swim": "animation.unwritten.cerberus.swim",
+        "tail_sweep": "animation.unwritten.cerberus.tail_sweep",
+        "roar": "animation.unwritten.cerberus.roar",
+        "locomotion": "controller.animation.unwritten.cerberus"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#a33c28",
+        "overlay_color": "#ffd077"
+      }
+    }
+  }
+}

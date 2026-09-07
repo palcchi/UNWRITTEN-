@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:illegal_merchant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/illegal_merchant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.illegal_merchant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.illegal_merchant.idle",
+        "walk": "animation.unwritten.illegal_merchant.walk",
+        "run": "animation.unwritten.illegal_merchant.run",
+        "hurt": "animation.unwritten.illegal_merchant.hurt",
+        "death": "animation.unwritten.illegal_merchant.death",
+        "bite": "animation.unwritten.illegal_merchant.bite",
+        "attack": "animation.unwritten.illegal_merchant.attack",
+        "stun": "animation.unwritten.illegal_merchant.stun",
+        "slash": "animation.unwritten.illegal_merchant.slash",
+        "thrust": "animation.unwritten.illegal_merchant.thrust",
+        "parry": "animation.unwritten.illegal_merchant.parry",
+        "cast": "animation.unwritten.illegal_merchant.cast",
+        "smash": "animation.unwritten.illegal_merchant.smash",
+        "dodge": "animation.unwritten.illegal_merchant.dodge",
+        "roar": "animation.unwritten.illegal_merchant.roar",
+        "locomotion": "controller.animation.unwritten.illegal_merchant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

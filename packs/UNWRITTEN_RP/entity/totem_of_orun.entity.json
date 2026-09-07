@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:totem_of_orun",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/totem_of_orun"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.totem_of_orun"
+      },
+      "animations": {
+        "idle": "animation.unwritten.totem_of_orun.idle",
+        "walk": "animation.unwritten.totem_of_orun.walk",
+        "run": "animation.unwritten.totem_of_orun.run",
+        "hurt": "animation.unwritten.totem_of_orun.hurt",
+        "death": "animation.unwritten.totem_of_orun.death",
+        "attack": "animation.unwritten.totem_of_orun.attack",
+        "locomotion": "controller.animation.unwritten.totem_of_orun"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

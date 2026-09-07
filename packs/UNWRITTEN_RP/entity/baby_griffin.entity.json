@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:baby_griffin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/baby_griffin"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.baby_griffin"
+      },
+      "animations": {
+        "idle": "animation.unwritten.baby_griffin.idle",
+        "walk": "animation.unwritten.baby_griffin.walk",
+        "run": "animation.unwritten.baby_griffin.run",
+        "hurt": "animation.unwritten.baby_griffin.hurt",
+        "death": "animation.unwritten.baby_griffin.death",
+        "bite": "animation.unwritten.baby_griffin.bite",
+        "attack": "animation.unwritten.baby_griffin.attack",
+        "stun": "animation.unwritten.baby_griffin.stun",
+        "fly": "animation.unwritten.baby_griffin.fly",
+        "wing_unfold": "animation.unwritten.baby_griffin.wing_unfold",
+        "takeoff": "animation.unwritten.baby_griffin.takeoff",
+        "land": "animation.unwritten.baby_griffin.land",
+        "swim": "animation.unwritten.baby_griffin.swim",
+        "tail_sweep": "animation.unwritten.baby_griffin.tail_sweep",
+        "roar": "animation.unwritten.baby_griffin.roar",
+        "sit": "animation.unwritten.baby_griffin.sit",
+        "sleep": "animation.unwritten.baby_griffin.sleep",
+        "yawn": "animation.unwritten.baby_griffin.yawn",
+        "scratch_ear": "animation.unwritten.baby_griffin.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.baby_griffin.curious_head_tilt",
+        "angry_puff": "animation.unwritten.baby_griffin.angry_puff",
+        "chase_tail": "animation.unwritten.baby_griffin.chase_tail",
+        "climb": "animation.unwritten.baby_griffin.climb",
+        "eat_cheese": "animation.unwritten.baby_griffin.eat_cheese",
+        "steal_cheese": "animation.unwritten.baby_griffin.steal_cheese",
+        "happy_bounce": "animation.unwritten.baby_griffin.happy_bounce",
+        "shoulder_sit": "animation.unwritten.baby_griffin.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.baby_griffin"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

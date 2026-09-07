@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:kobold",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/kobold"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.kobold"
+      },
+      "animations": {
+        "idle": "animation.unwritten.kobold.idle",
+        "walk": "animation.unwritten.kobold.walk",
+        "run": "animation.unwritten.kobold.run",
+        "hurt": "animation.unwritten.kobold.hurt",
+        "death": "animation.unwritten.kobold.death",
+        "bite": "animation.unwritten.kobold.bite",
+        "attack": "animation.unwritten.kobold.attack",
+        "stun": "animation.unwritten.kobold.stun",
+        "swim": "animation.unwritten.kobold.swim",
+        "tail_sweep": "animation.unwritten.kobold.tail_sweep",
+        "slash": "animation.unwritten.kobold.slash",
+        "thrust": "animation.unwritten.kobold.thrust",
+        "parry": "animation.unwritten.kobold.parry",
+        "cast": "animation.unwritten.kobold.cast",
+        "smash": "animation.unwritten.kobold.smash",
+        "dodge": "animation.unwritten.kobold.dodge",
+        "roar": "animation.unwritten.kobold.roar",
+        "locomotion": "controller.animation.unwritten.kobold"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#9c633f",
+        "overlay_color": "#ddac70"
+      }
+    }
+  }
+}

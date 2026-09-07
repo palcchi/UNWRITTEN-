@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:heros_journal",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/heros_journal"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.heros_journal"
+      },
+      "animations": {
+        "idle": "animation.unwritten.heros_journal.idle",
+        "walk": "animation.unwritten.heros_journal.walk",
+        "run": "animation.unwritten.heros_journal.run",
+        "hurt": "animation.unwritten.heros_journal.hurt",
+        "death": "animation.unwritten.heros_journal.death",
+        "attack": "animation.unwritten.heros_journal.attack",
+        "locomotion": "controller.animation.unwritten.heros_journal"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

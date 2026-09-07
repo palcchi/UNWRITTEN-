@@ -1,0 +1,46 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dullahan_horse",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dullahan_horse"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dullahan_horse"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dullahan_horse.idle",
+        "walk": "animation.unwritten.dullahan_horse.walk",
+        "run": "animation.unwritten.dullahan_horse.run",
+        "hurt": "animation.unwritten.dullahan_horse.hurt",
+        "death": "animation.unwritten.dullahan_horse.death",
+        "bite": "animation.unwritten.dullahan_horse.bite",
+        "attack": "animation.unwritten.dullahan_horse.attack",
+        "stun": "animation.unwritten.dullahan_horse.stun",
+        "swim": "animation.unwritten.dullahan_horse.swim",
+        "tail_sweep": "animation.unwritten.dullahan_horse.tail_sweep",
+        "roar": "animation.unwritten.dullahan_horse.roar",
+        "awaken": "animation.unwritten.dullahan_horse.awaken",
+        "kneel": "animation.unwritten.dullahan_horse.kneel",
+        "transform": "animation.unwritten.dullahan_horse.transform",
+        "locomotion": "controller.animation.unwritten.dullahan_horse"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#24233b",
+        "overlay_color": "#ad8bdb"
+      }
+    }
+  }
+}

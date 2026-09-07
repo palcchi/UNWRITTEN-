@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:fenrir",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/fenrir"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.fenrir"
+      },
+      "animations": {
+        "idle": "animation.unwritten.fenrir.idle",
+        "walk": "animation.unwritten.fenrir.walk",
+        "run": "animation.unwritten.fenrir.run",
+        "hurt": "animation.unwritten.fenrir.hurt",
+        "death": "animation.unwritten.fenrir.death",
+        "bite": "animation.unwritten.fenrir.bite",
+        "attack": "animation.unwritten.fenrir.attack",
+        "stun": "animation.unwritten.fenrir.stun",
+        "swim": "animation.unwritten.fenrir.swim",
+        "tail_sweep": "animation.unwritten.fenrir.tail_sweep",
+        "roar": "animation.unwritten.fenrir.roar",
+        "locomotion": "controller.animation.unwritten.fenrir"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:three_headed_hydra",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/three_headed_hydra"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.three_headed_hydra"
+      },
+      "animations": {
+        "idle": "animation.unwritten.three_headed_hydra.idle",
+        "walk": "animation.unwritten.three_headed_hydra.walk",
+        "run": "animation.unwritten.three_headed_hydra.run",
+        "hurt": "animation.unwritten.three_headed_hydra.hurt",
+        "death": "animation.unwritten.three_headed_hydra.death",
+        "bite": "animation.unwritten.three_headed_hydra.bite",
+        "attack": "animation.unwritten.three_headed_hydra.attack",
+        "stun": "animation.unwritten.three_headed_hydra.stun",
+        "swim": "animation.unwritten.three_headed_hydra.swim",
+        "tail_sweep": "animation.unwritten.three_headed_hydra.tail_sweep",
+        "roar": "animation.unwritten.three_headed_hydra.roar",
+        "locomotion": "controller.animation.unwritten.three_headed_hydra"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:orun_left_foot",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/orun_left_foot"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.orun_left_foot"
+      },
+      "animations": {
+        "idle": "animation.unwritten.orun_left_foot.idle",
+        "walk": "animation.unwritten.orun_left_foot.walk",
+        "run": "animation.unwritten.orun_left_foot.run",
+        "hurt": "animation.unwritten.orun_left_foot.hurt",
+        "death": "animation.unwritten.orun_left_foot.death",
+        "attack": "animation.unwritten.orun_left_foot.attack",
+        "awaken": "animation.unwritten.orun_left_foot.awaken",
+        "kneel": "animation.unwritten.orun_left_foot.kneel",
+        "transform": "animation.unwritten.orun_left_foot.transform",
+        "locomotion": "controller.animation.unwritten.orun_left_foot"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

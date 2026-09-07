@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:behemoth",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/behemoth"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.behemoth"
+      },
+      "animations": {
+        "idle": "animation.unwritten.behemoth.idle",
+        "walk": "animation.unwritten.behemoth.walk",
+        "run": "animation.unwritten.behemoth.run",
+        "hurt": "animation.unwritten.behemoth.hurt",
+        "death": "animation.unwritten.behemoth.death",
+        "bite": "animation.unwritten.behemoth.bite",
+        "attack": "animation.unwritten.behemoth.attack",
+        "stun": "animation.unwritten.behemoth.stun",
+        "swim": "animation.unwritten.behemoth.swim",
+        "tail_sweep": "animation.unwritten.behemoth.tail_sweep",
+        "roar": "animation.unwritten.behemoth.roar",
+        "locomotion": "controller.animation.unwritten.behemoth"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

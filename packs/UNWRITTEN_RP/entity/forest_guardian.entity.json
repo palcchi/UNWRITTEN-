@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:forest_guardian",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/forest_guardian"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.forest_guardian"
+      },
+      "animations": {
+        "idle": "animation.unwritten.forest_guardian.idle",
+        "walk": "animation.unwritten.forest_guardian.walk",
+        "run": "animation.unwritten.forest_guardian.run",
+        "hurt": "animation.unwritten.forest_guardian.hurt",
+        "death": "animation.unwritten.forest_guardian.death",
+        "bite": "animation.unwritten.forest_guardian.bite",
+        "attack": "animation.unwritten.forest_guardian.attack",
+        "stun": "animation.unwritten.forest_guardian.stun",
+        "swim": "animation.unwritten.forest_guardian.swim",
+        "tail_sweep": "animation.unwritten.forest_guardian.tail_sweep",
+        "roar": "animation.unwritten.forest_guardian.roar",
+        "locomotion": "controller.animation.unwritten.forest_guardian"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

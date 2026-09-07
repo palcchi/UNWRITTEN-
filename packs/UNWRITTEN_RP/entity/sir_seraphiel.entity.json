@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:sir_seraphiel",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/sir_seraphiel"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.sir_seraphiel"
+      },
+      "animations": {
+        "idle": "animation.unwritten.sir_seraphiel.idle",
+        "walk": "animation.unwritten.sir_seraphiel.walk",
+        "run": "animation.unwritten.sir_seraphiel.run",
+        "hurt": "animation.unwritten.sir_seraphiel.hurt",
+        "death": "animation.unwritten.sir_seraphiel.death",
+        "bite": "animation.unwritten.sir_seraphiel.bite",
+        "attack": "animation.unwritten.sir_seraphiel.attack",
+        "stun": "animation.unwritten.sir_seraphiel.stun",
+        "slash": "animation.unwritten.sir_seraphiel.slash",
+        "thrust": "animation.unwritten.sir_seraphiel.thrust",
+        "parry": "animation.unwritten.sir_seraphiel.parry",
+        "cast": "animation.unwritten.sir_seraphiel.cast",
+        "smash": "animation.unwritten.sir_seraphiel.smash",
+        "dodge": "animation.unwritten.sir_seraphiel.dodge",
+        "roar": "animation.unwritten.sir_seraphiel.roar",
+        "awaken": "animation.unwritten.sir_seraphiel.awaken",
+        "kneel": "animation.unwritten.sir_seraphiel.kneel",
+        "reach": "animation.unwritten.sir_seraphiel.reach",
+        "transform": "animation.unwritten.sir_seraphiel.transform",
+        "slash_1": "animation.unwritten.sir_seraphiel.slash_1",
+        "slash_2": "animation.unwritten.sir_seraphiel.slash_2",
+        "slash_3": "animation.unwritten.sir_seraphiel.slash_3",
+        "slash_4": "animation.unwritten.sir_seraphiel.slash_4",
+        "slash_5": "animation.unwritten.sir_seraphiel.slash_5",
+        "thrust_1": "animation.unwritten.sir_seraphiel.thrust_1",
+        "thrust_2": "animation.unwritten.sir_seraphiel.thrust_2",
+        "thrust_3": "animation.unwritten.sir_seraphiel.thrust_3",
+        "locomotion": "controller.animation.unwritten.sir_seraphiel"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

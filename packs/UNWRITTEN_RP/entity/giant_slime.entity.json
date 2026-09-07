@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:giant_slime",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/giant_slime"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.giant_slime"
+      },
+      "animations": {
+        "idle": "animation.unwritten.giant_slime.idle",
+        "walk": "animation.unwritten.giant_slime.walk",
+        "run": "animation.unwritten.giant_slime.run",
+        "hurt": "animation.unwritten.giant_slime.hurt",
+        "death": "animation.unwritten.giant_slime.death",
+        "bite": "animation.unwritten.giant_slime.bite",
+        "attack": "animation.unwritten.giant_slime.attack",
+        "stun": "animation.unwritten.giant_slime.stun",
+        "hop": "animation.unwritten.giant_slime.hop",
+        "slam": "animation.unwritten.giant_slime.slam",
+        "death_melt": "animation.unwritten.giant_slime.death_melt",
+        "roar": "animation.unwritten.giant_slime.roar",
+        "locomotion": "controller.animation.unwritten.giant_slime"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

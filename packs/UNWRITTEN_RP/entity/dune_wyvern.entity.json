@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dune_wyvern",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dune_wyvern"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dune_wyvern"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dune_wyvern.idle",
+        "walk": "animation.unwritten.dune_wyvern.walk",
+        "run": "animation.unwritten.dune_wyvern.run",
+        "hurt": "animation.unwritten.dune_wyvern.hurt",
+        "death": "animation.unwritten.dune_wyvern.death",
+        "bite": "animation.unwritten.dune_wyvern.bite",
+        "attack": "animation.unwritten.dune_wyvern.attack",
+        "stun": "animation.unwritten.dune_wyvern.stun",
+        "fly": "animation.unwritten.dune_wyvern.fly",
+        "wing_unfold": "animation.unwritten.dune_wyvern.wing_unfold",
+        "takeoff": "animation.unwritten.dune_wyvern.takeoff",
+        "land": "animation.unwritten.dune_wyvern.land",
+        "swim": "animation.unwritten.dune_wyvern.swim",
+        "tail_sweep": "animation.unwritten.dune_wyvern.tail_sweep",
+        "roar": "animation.unwritten.dune_wyvern.roar",
+        "breath": "animation.unwritten.dune_wyvern.breath",
+        "sleeping": "animation.unwritten.dune_wyvern.sleeping",
+        "locomotion": "controller.animation.unwritten.dune_wyvern"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

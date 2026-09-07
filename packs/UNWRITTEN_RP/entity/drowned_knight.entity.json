@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:drowned_knight",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/drowned_knight"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.drowned_knight"
+      },
+      "animations": {
+        "idle": "animation.unwritten.drowned_knight.idle",
+        "walk": "animation.unwritten.drowned_knight.walk",
+        "run": "animation.unwritten.drowned_knight.run",
+        "hurt": "animation.unwritten.drowned_knight.hurt",
+        "death": "animation.unwritten.drowned_knight.death",
+        "bite": "animation.unwritten.drowned_knight.bite",
+        "attack": "animation.unwritten.drowned_knight.attack",
+        "stun": "animation.unwritten.drowned_knight.stun",
+        "slash": "animation.unwritten.drowned_knight.slash",
+        "thrust": "animation.unwritten.drowned_knight.thrust",
+        "parry": "animation.unwritten.drowned_knight.parry",
+        "cast": "animation.unwritten.drowned_knight.cast",
+        "smash": "animation.unwritten.drowned_knight.smash",
+        "dodge": "animation.unwritten.drowned_knight.dodge",
+        "roar": "animation.unwritten.drowned_knight.roar",
+        "locomotion": "controller.animation.unwritten.drowned_knight"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

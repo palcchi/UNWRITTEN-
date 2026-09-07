@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:coral_crawler",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/coral_crawler"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.coral_crawler"
+      },
+      "animations": {
+        "idle": "animation.unwritten.coral_crawler.idle",
+        "walk": "animation.unwritten.coral_crawler.walk",
+        "run": "animation.unwritten.coral_crawler.run",
+        "hurt": "animation.unwritten.coral_crawler.hurt",
+        "death": "animation.unwritten.coral_crawler.death",
+        "bite": "animation.unwritten.coral_crawler.bite",
+        "attack": "animation.unwritten.coral_crawler.attack",
+        "stun": "animation.unwritten.coral_crawler.stun",
+        "roar": "animation.unwritten.coral_crawler.roar",
+        "locomotion": "controller.animation.unwritten.coral_crawler"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#a56f70",
+        "overlay_color": "#83d3c9"
+      }
+    }
+  }
+}

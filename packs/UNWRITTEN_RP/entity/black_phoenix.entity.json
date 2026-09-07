@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:black_phoenix",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/black_phoenix"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.black_phoenix"
+      },
+      "animations": {
+        "idle": "animation.unwritten.black_phoenix.idle",
+        "walk": "animation.unwritten.black_phoenix.walk",
+        "run": "animation.unwritten.black_phoenix.run",
+        "hurt": "animation.unwritten.black_phoenix.hurt",
+        "death": "animation.unwritten.black_phoenix.death",
+        "bite": "animation.unwritten.black_phoenix.bite",
+        "attack": "animation.unwritten.black_phoenix.attack",
+        "stun": "animation.unwritten.black_phoenix.stun",
+        "fly": "animation.unwritten.black_phoenix.fly",
+        "wing_unfold": "animation.unwritten.black_phoenix.wing_unfold",
+        "takeoff": "animation.unwritten.black_phoenix.takeoff",
+        "land": "animation.unwritten.black_phoenix.land",
+        "swim": "animation.unwritten.black_phoenix.swim",
+        "tail_sweep": "animation.unwritten.black_phoenix.tail_sweep",
+        "roar": "animation.unwritten.black_phoenix.roar",
+        "locomotion": "controller.animation.unwritten.black_phoenix"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#24233b",
+        "overlay_color": "#ad8bdb"
+      }
+    }
+  }
+}

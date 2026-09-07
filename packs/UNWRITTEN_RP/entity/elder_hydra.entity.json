@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:elder_hydra",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/elder_hydra"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.elder_hydra"
+      },
+      "animations": {
+        "idle": "animation.unwritten.elder_hydra.idle",
+        "walk": "animation.unwritten.elder_hydra.walk",
+        "run": "animation.unwritten.elder_hydra.run",
+        "hurt": "animation.unwritten.elder_hydra.hurt",
+        "death": "animation.unwritten.elder_hydra.death",
+        "bite": "animation.unwritten.elder_hydra.bite",
+        "attack": "animation.unwritten.elder_hydra.attack",
+        "stun": "animation.unwritten.elder_hydra.stun",
+        "swim": "animation.unwritten.elder_hydra.swim",
+        "tail_sweep": "animation.unwritten.elder_hydra.tail_sweep",
+        "roar": "animation.unwritten.elder_hydra.roar",
+        "locomotion": "controller.animation.unwritten.elder_hydra"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#705179",
+        "overlay_color": "#d2a0ed"
+      }
+    }
+  }
+}

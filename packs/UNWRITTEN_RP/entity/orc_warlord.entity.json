@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:orc_warlord",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/orc_warlord"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.orc_warlord"
+      },
+      "animations": {
+        "idle": "animation.unwritten.orc_warlord.idle",
+        "walk": "animation.unwritten.orc_warlord.walk",
+        "run": "animation.unwritten.orc_warlord.run",
+        "hurt": "animation.unwritten.orc_warlord.hurt",
+        "death": "animation.unwritten.orc_warlord.death",
+        "bite": "animation.unwritten.orc_warlord.bite",
+        "attack": "animation.unwritten.orc_warlord.attack",
+        "stun": "animation.unwritten.orc_warlord.stun",
+        "slash": "animation.unwritten.orc_warlord.slash",
+        "thrust": "animation.unwritten.orc_warlord.thrust",
+        "parry": "animation.unwritten.orc_warlord.parry",
+        "cast": "animation.unwritten.orc_warlord.cast",
+        "smash": "animation.unwritten.orc_warlord.smash",
+        "dodge": "animation.unwritten.orc_warlord.dodge",
+        "roar": "animation.unwritten.orc_warlord.roar",
+        "locomotion": "controller.animation.unwritten.orc_warlord"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:asterra_guard",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/asterra_guard"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.asterra_guard"
+      },
+      "animations": {
+        "idle": "animation.unwritten.asterra_guard.idle",
+        "walk": "animation.unwritten.asterra_guard.walk",
+        "run": "animation.unwritten.asterra_guard.run",
+        "hurt": "animation.unwritten.asterra_guard.hurt",
+        "death": "animation.unwritten.asterra_guard.death",
+        "bite": "animation.unwritten.asterra_guard.bite",
+        "attack": "animation.unwritten.asterra_guard.attack",
+        "stun": "animation.unwritten.asterra_guard.stun",
+        "slash": "animation.unwritten.asterra_guard.slash",
+        "thrust": "animation.unwritten.asterra_guard.thrust",
+        "parry": "animation.unwritten.asterra_guard.parry",
+        "cast": "animation.unwritten.asterra_guard.cast",
+        "smash": "animation.unwritten.asterra_guard.smash",
+        "dodge": "animation.unwritten.asterra_guard.dodge",
+        "roar": "animation.unwritten.asterra_guard.roar",
+        "locomotion": "controller.animation.unwritten.asterra_guard"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#59636c",
+        "overlay_color": "#b9c8c8"
+      }
+    }
+  }
+}

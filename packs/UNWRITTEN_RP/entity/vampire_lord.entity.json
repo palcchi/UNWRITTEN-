@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:vampire_lord",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/vampire_lord"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.vampire_lord"
+      },
+      "animations": {
+        "idle": "animation.unwritten.vampire_lord.idle",
+        "walk": "animation.unwritten.vampire_lord.walk",
+        "run": "animation.unwritten.vampire_lord.run",
+        "hurt": "animation.unwritten.vampire_lord.hurt",
+        "death": "animation.unwritten.vampire_lord.death",
+        "bite": "animation.unwritten.vampire_lord.bite",
+        "attack": "animation.unwritten.vampire_lord.attack",
+        "stun": "animation.unwritten.vampire_lord.stun",
+        "slash": "animation.unwritten.vampire_lord.slash",
+        "thrust": "animation.unwritten.vampire_lord.thrust",
+        "parry": "animation.unwritten.vampire_lord.parry",
+        "cast": "animation.unwritten.vampire_lord.cast",
+        "smash": "animation.unwritten.vampire_lord.smash",
+        "dodge": "animation.unwritten.vampire_lord.dodge",
+        "roar": "animation.unwritten.vampire_lord.roar",
+        "locomotion": "controller.animation.unwritten.vampire_lord"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

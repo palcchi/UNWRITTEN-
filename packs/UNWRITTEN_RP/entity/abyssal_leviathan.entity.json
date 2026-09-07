@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:abyssal_leviathan",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/abyssal_leviathan"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.abyssal_leviathan"
+      },
+      "animations": {
+        "idle": "animation.unwritten.abyssal_leviathan.idle",
+        "walk": "animation.unwritten.abyssal_leviathan.walk",
+        "run": "animation.unwritten.abyssal_leviathan.run",
+        "hurt": "animation.unwritten.abyssal_leviathan.hurt",
+        "death": "animation.unwritten.abyssal_leviathan.death",
+        "bite": "animation.unwritten.abyssal_leviathan.bite",
+        "attack": "animation.unwritten.abyssal_leviathan.attack",
+        "stun": "animation.unwritten.abyssal_leviathan.stun",
+        "swim": "animation.unwritten.abyssal_leviathan.swim",
+        "tail_sweep": "animation.unwritten.abyssal_leviathan.tail_sweep",
+        "roar": "animation.unwritten.abyssal_leviathan.roar",
+        "locomotion": "controller.animation.unwritten.abyssal_leviathan"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

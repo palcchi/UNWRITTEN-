@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:heaven_lion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/heaven_lion"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.heaven_lion"
+      },
+      "animations": {
+        "idle": "animation.unwritten.heaven_lion.idle",
+        "walk": "animation.unwritten.heaven_lion.walk",
+        "run": "animation.unwritten.heaven_lion.run",
+        "hurt": "animation.unwritten.heaven_lion.hurt",
+        "death": "animation.unwritten.heaven_lion.death",
+        "bite": "animation.unwritten.heaven_lion.bite",
+        "attack": "animation.unwritten.heaven_lion.attack",
+        "stun": "animation.unwritten.heaven_lion.stun",
+        "fly": "animation.unwritten.heaven_lion.fly",
+        "wing_unfold": "animation.unwritten.heaven_lion.wing_unfold",
+        "takeoff": "animation.unwritten.heaven_lion.takeoff",
+        "land": "animation.unwritten.heaven_lion.land",
+        "swim": "animation.unwritten.heaven_lion.swim",
+        "tail_sweep": "animation.unwritten.heaven_lion.tail_sweep",
+        "roar": "animation.unwritten.heaven_lion.roar",
+        "sit": "animation.unwritten.heaven_lion.sit",
+        "sleep": "animation.unwritten.heaven_lion.sleep",
+        "yawn": "animation.unwritten.heaven_lion.yawn",
+        "scratch_ear": "animation.unwritten.heaven_lion.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.heaven_lion.curious_head_tilt",
+        "angry_puff": "animation.unwritten.heaven_lion.angry_puff",
+        "chase_tail": "animation.unwritten.heaven_lion.chase_tail",
+        "climb": "animation.unwritten.heaven_lion.climb",
+        "eat_cheese": "animation.unwritten.heaven_lion.eat_cheese",
+        "steal_cheese": "animation.unwritten.heaven_lion.steal_cheese",
+        "happy_bounce": "animation.unwritten.heaven_lion.happy_bounce",
+        "shoulder_sit": "animation.unwritten.heaven_lion.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.heaven_lion"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

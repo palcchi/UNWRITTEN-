@@ -1,0 +1,254 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.unwritten.orun_core_chamber.idle": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              1.6551724137931034,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.orun_core_chamber.walk": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              1.3241379310344827,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.orun_core_chamber.run": {
+      "loop": true,
+      "animation_length": 0.55,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.275": [
+              0.0,
+              3.972413793103448,
+              0.0
+            ],
+            "0.55": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.orun_core_chamber.hurt": {
+      "loop": false,
+      "animation_length": 0.35,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.175": [
+              -12,
+              0,
+              5
+            ],
+            "0.35": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.orun_core_chamber.death": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6": [
+              0,
+              0,
+              15
+            ],
+            "1.2": [
+              0,
+              0,
+              85
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.6": [
+              0.0,
+              -6.620689655172414,
+              0.0
+            ],
+            "1.2": [
+              0.0,
+              -19.862068965517242,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.orun_core_chamber.attack": {
+      "loop": false,
+      "animation_length": 0.8,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              0,
+              -18,
+              0
+            ],
+            "0.5333": [
+              15,
+              20,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.orun_core_chamber.awaken": {
+      "loop": false,
+      "animation_length": 3,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              -26.482758620689655,
+              0.0
+            ],
+            "1.5": [
+              0.0,
+              -19.862068965517242,
+              0.0
+            ],
+            "3.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.orun_core_chamber.kneel": {
+      "loop": false,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              -26.482758620689655,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              -26.482758620689655,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.orun_core_chamber.transform": {
+      "loop": false,
+      "animation_length": 3,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.5": [
+              0.0,
+              19.862068965517242,
+              0.0
+            ],
+            "3.0": [
+              0.0,
+              33.10344827586207,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

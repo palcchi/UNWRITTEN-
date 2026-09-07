@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:the_pale_orc",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/the_pale_orc"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.the_pale_orc"
+      },
+      "animations": {
+        "idle": "animation.unwritten.the_pale_orc.idle",
+        "walk": "animation.unwritten.the_pale_orc.walk",
+        "run": "animation.unwritten.the_pale_orc.run",
+        "hurt": "animation.unwritten.the_pale_orc.hurt",
+        "death": "animation.unwritten.the_pale_orc.death",
+        "bite": "animation.unwritten.the_pale_orc.bite",
+        "attack": "animation.unwritten.the_pale_orc.attack",
+        "stun": "animation.unwritten.the_pale_orc.stun",
+        "slash": "animation.unwritten.the_pale_orc.slash",
+        "thrust": "animation.unwritten.the_pale_orc.thrust",
+        "parry": "animation.unwritten.the_pale_orc.parry",
+        "cast": "animation.unwritten.the_pale_orc.cast",
+        "smash": "animation.unwritten.the_pale_orc.smash",
+        "dodge": "animation.unwritten.the_pale_orc.dodge",
+        "roar": "animation.unwritten.the_pale_orc.roar",
+        "locomotion": "controller.animation.unwritten.the_pale_orc"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

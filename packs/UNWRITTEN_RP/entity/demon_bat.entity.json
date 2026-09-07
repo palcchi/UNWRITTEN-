@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:demon_bat",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/demon_bat"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.demon_bat"
+      },
+      "animations": {
+        "idle": "animation.unwritten.demon_bat.idle",
+        "walk": "animation.unwritten.demon_bat.walk",
+        "run": "animation.unwritten.demon_bat.run",
+        "hurt": "animation.unwritten.demon_bat.hurt",
+        "death": "animation.unwritten.demon_bat.death",
+        "bite": "animation.unwritten.demon_bat.bite",
+        "attack": "animation.unwritten.demon_bat.attack",
+        "stun": "animation.unwritten.demon_bat.stun",
+        "fly": "animation.unwritten.demon_bat.fly",
+        "wing_unfold": "animation.unwritten.demon_bat.wing_unfold",
+        "takeoff": "animation.unwritten.demon_bat.takeoff",
+        "land": "animation.unwritten.demon_bat.land",
+        "swim": "animation.unwritten.demon_bat.swim",
+        "tail_sweep": "animation.unwritten.demon_bat.tail_sweep",
+        "roar": "animation.unwritten.demon_bat.roar",
+        "locomotion": "controller.animation.unwritten.demon_bat"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

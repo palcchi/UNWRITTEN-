@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:merchant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/merchant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.merchant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.merchant.idle",
+        "walk": "animation.unwritten.merchant.walk",
+        "run": "animation.unwritten.merchant.run",
+        "hurt": "animation.unwritten.merchant.hurt",
+        "death": "animation.unwritten.merchant.death",
+        "bite": "animation.unwritten.merchant.bite",
+        "attack": "animation.unwritten.merchant.attack",
+        "stun": "animation.unwritten.merchant.stun",
+        "slash": "animation.unwritten.merchant.slash",
+        "thrust": "animation.unwritten.merchant.thrust",
+        "parry": "animation.unwritten.merchant.parry",
+        "cast": "animation.unwritten.merchant.cast",
+        "smash": "animation.unwritten.merchant.smash",
+        "dodge": "animation.unwritten.merchant.dodge",
+        "roar": "animation.unwritten.merchant.roar",
+        "locomotion": "controller.animation.unwritten.merchant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

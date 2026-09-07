@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:skeleton_captain",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/skeleton_captain"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.skeleton_captain"
+      },
+      "animations": {
+        "idle": "animation.unwritten.skeleton_captain.idle",
+        "walk": "animation.unwritten.skeleton_captain.walk",
+        "run": "animation.unwritten.skeleton_captain.run",
+        "hurt": "animation.unwritten.skeleton_captain.hurt",
+        "death": "animation.unwritten.skeleton_captain.death",
+        "bite": "animation.unwritten.skeleton_captain.bite",
+        "attack": "animation.unwritten.skeleton_captain.attack",
+        "stun": "animation.unwritten.skeleton_captain.stun",
+        "slash": "animation.unwritten.skeleton_captain.slash",
+        "thrust": "animation.unwritten.skeleton_captain.thrust",
+        "parry": "animation.unwritten.skeleton_captain.parry",
+        "cast": "animation.unwritten.skeleton_captain.cast",
+        "smash": "animation.unwritten.skeleton_captain.smash",
+        "dodge": "animation.unwritten.skeleton_captain.dodge",
+        "roar": "animation.unwritten.skeleton_captain.roar",
+        "locomotion": "controller.animation.unwritten.skeleton_captain"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

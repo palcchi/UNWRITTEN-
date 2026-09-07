@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:orun",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/orun"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.orun"
+      },
+      "animations": {
+        "idle": "animation.unwritten.orun.idle",
+        "walk": "animation.unwritten.orun.walk",
+        "run": "animation.unwritten.orun.run",
+        "hurt": "animation.unwritten.orun.hurt",
+        "death": "animation.unwritten.orun.death",
+        "bite": "animation.unwritten.orun.bite",
+        "attack": "animation.unwritten.orun.attack",
+        "stun": "animation.unwritten.orun.stun",
+        "slash": "animation.unwritten.orun.slash",
+        "thrust": "animation.unwritten.orun.thrust",
+        "parry": "animation.unwritten.orun.parry",
+        "cast": "animation.unwritten.orun.cast",
+        "smash": "animation.unwritten.orun.smash",
+        "dodge": "animation.unwritten.orun.dodge",
+        "roar": "animation.unwritten.orun.roar",
+        "awaken": "animation.unwritten.orun.awaken",
+        "kneel": "animation.unwritten.orun.kneel",
+        "reach": "animation.unwritten.orun.reach",
+        "transform": "animation.unwritten.orun.transform",
+        "slash_1": "animation.unwritten.orun.slash_1",
+        "slash_2": "animation.unwritten.orun.slash_2",
+        "slash_3": "animation.unwritten.orun.slash_3",
+        "slash_4": "animation.unwritten.orun.slash_4",
+        "slash_5": "animation.unwritten.orun.slash_5",
+        "thrust_1": "animation.unwritten.orun.thrust_1",
+        "thrust_2": "animation.unwritten.orun.thrust_2",
+        "thrust_3": "animation.unwritten.orun.thrust_3",
+        "locomotion": "controller.animation.unwritten.orun"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

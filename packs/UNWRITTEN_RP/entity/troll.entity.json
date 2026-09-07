@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:troll",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/troll"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.troll"
+      },
+      "animations": {
+        "idle": "animation.unwritten.troll.idle",
+        "walk": "animation.unwritten.troll.walk",
+        "run": "animation.unwritten.troll.run",
+        "hurt": "animation.unwritten.troll.hurt",
+        "death": "animation.unwritten.troll.death",
+        "bite": "animation.unwritten.troll.bite",
+        "attack": "animation.unwritten.troll.attack",
+        "stun": "animation.unwritten.troll.stun",
+        "slash": "animation.unwritten.troll.slash",
+        "thrust": "animation.unwritten.troll.thrust",
+        "parry": "animation.unwritten.troll.parry",
+        "cast": "animation.unwritten.troll.cast",
+        "smash": "animation.unwritten.troll.smash",
+        "dodge": "animation.unwritten.troll.dodge",
+        "roar": "animation.unwritten.troll.roar",
+        "locomotion": "controller.animation.unwritten.troll"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

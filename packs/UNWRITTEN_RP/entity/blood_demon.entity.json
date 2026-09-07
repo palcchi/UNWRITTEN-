@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:blood_demon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/blood_demon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.blood_demon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.blood_demon.idle",
+        "walk": "animation.unwritten.blood_demon.walk",
+        "run": "animation.unwritten.blood_demon.run",
+        "hurt": "animation.unwritten.blood_demon.hurt",
+        "death": "animation.unwritten.blood_demon.death",
+        "bite": "animation.unwritten.blood_demon.bite",
+        "attack": "animation.unwritten.blood_demon.attack",
+        "stun": "animation.unwritten.blood_demon.stun",
+        "slash": "animation.unwritten.blood_demon.slash",
+        "thrust": "animation.unwritten.blood_demon.thrust",
+        "parry": "animation.unwritten.blood_demon.parry",
+        "cast": "animation.unwritten.blood_demon.cast",
+        "smash": "animation.unwritten.blood_demon.smash",
+        "dodge": "animation.unwritten.blood_demon.dodge",
+        "roar": "animation.unwritten.blood_demon.roar",
+        "locomotion": "controller.animation.unwritten.blood_demon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#852d46",
+        "overlay_color": "#f595a4"
+      }
+    }
+  }
+}

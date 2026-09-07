@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:elder_griffin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/elder_griffin"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.elder_griffin"
+      },
+      "animations": {
+        "idle": "animation.unwritten.elder_griffin.idle",
+        "walk": "animation.unwritten.elder_griffin.walk",
+        "run": "animation.unwritten.elder_griffin.run",
+        "hurt": "animation.unwritten.elder_griffin.hurt",
+        "death": "animation.unwritten.elder_griffin.death",
+        "bite": "animation.unwritten.elder_griffin.bite",
+        "attack": "animation.unwritten.elder_griffin.attack",
+        "stun": "animation.unwritten.elder_griffin.stun",
+        "fly": "animation.unwritten.elder_griffin.fly",
+        "wing_unfold": "animation.unwritten.elder_griffin.wing_unfold",
+        "takeoff": "animation.unwritten.elder_griffin.takeoff",
+        "land": "animation.unwritten.elder_griffin.land",
+        "swim": "animation.unwritten.elder_griffin.swim",
+        "tail_sweep": "animation.unwritten.elder_griffin.tail_sweep",
+        "roar": "animation.unwritten.elder_griffin.roar",
+        "locomotion": "controller.animation.unwritten.elder_griffin"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:abyss_shark",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/abyss_shark"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.abyss_shark"
+      },
+      "animations": {
+        "idle": "animation.unwritten.abyss_shark.idle",
+        "walk": "animation.unwritten.abyss_shark.walk",
+        "run": "animation.unwritten.abyss_shark.run",
+        "hurt": "animation.unwritten.abyss_shark.hurt",
+        "death": "animation.unwritten.abyss_shark.death",
+        "bite": "animation.unwritten.abyss_shark.bite",
+        "attack": "animation.unwritten.abyss_shark.attack",
+        "stun": "animation.unwritten.abyss_shark.stun",
+        "swim": "animation.unwritten.abyss_shark.swim",
+        "tail_sweep": "animation.unwritten.abyss_shark.tail_sweep",
+        "roar": "animation.unwritten.abyss_shark.roar",
+        "locomotion": "controller.animation.unwritten.abyss_shark"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

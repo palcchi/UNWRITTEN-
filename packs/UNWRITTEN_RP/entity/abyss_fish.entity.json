@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:abyss_fish",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/abyss_fish"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.abyss_fish"
+      },
+      "animations": {
+        "idle": "animation.unwritten.abyss_fish.idle",
+        "walk": "animation.unwritten.abyss_fish.walk",
+        "run": "animation.unwritten.abyss_fish.run",
+        "hurt": "animation.unwritten.abyss_fish.hurt",
+        "death": "animation.unwritten.abyss_fish.death",
+        "bite": "animation.unwritten.abyss_fish.bite",
+        "attack": "animation.unwritten.abyss_fish.attack",
+        "stun": "animation.unwritten.abyss_fish.stun",
+        "swim": "animation.unwritten.abyss_fish.swim",
+        "tail_sweep": "animation.unwritten.abyss_fish.tail_sweep",
+        "roar": "animation.unwritten.abyss_fish.roar",
+        "locomotion": "controller.animation.unwritten.abyss_fish"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

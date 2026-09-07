@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_grand_shaman",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_grand_shaman"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_grand_shaman"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_grand_shaman.idle",
+        "walk": "animation.unwritten.goblin_grand_shaman.walk",
+        "run": "animation.unwritten.goblin_grand_shaman.run",
+        "hurt": "animation.unwritten.goblin_grand_shaman.hurt",
+        "death": "animation.unwritten.goblin_grand_shaman.death",
+        "bite": "animation.unwritten.goblin_grand_shaman.bite",
+        "attack": "animation.unwritten.goblin_grand_shaman.attack",
+        "stun": "animation.unwritten.goblin_grand_shaman.stun",
+        "slash": "animation.unwritten.goblin_grand_shaman.slash",
+        "thrust": "animation.unwritten.goblin_grand_shaman.thrust",
+        "parry": "animation.unwritten.goblin_grand_shaman.parry",
+        "cast": "animation.unwritten.goblin_grand_shaman.cast",
+        "smash": "animation.unwritten.goblin_grand_shaman.smash",
+        "dodge": "animation.unwritten.goblin_grand_shaman.dodge",
+        "roar": "animation.unwritten.goblin_grand_shaman.roar",
+        "locomotion": "controller.animation.unwritten.goblin_grand_shaman"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

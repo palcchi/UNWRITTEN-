@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:celestial_serpent",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/celestial_serpent"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.celestial_serpent"
+      },
+      "animations": {
+        "idle": "animation.unwritten.celestial_serpent.idle",
+        "walk": "animation.unwritten.celestial_serpent.walk",
+        "run": "animation.unwritten.celestial_serpent.run",
+        "hurt": "animation.unwritten.celestial_serpent.hurt",
+        "death": "animation.unwritten.celestial_serpent.death",
+        "bite": "animation.unwritten.celestial_serpent.bite",
+        "attack": "animation.unwritten.celestial_serpent.attack",
+        "stun": "animation.unwritten.celestial_serpent.stun",
+        "swim": "animation.unwritten.celestial_serpent.swim",
+        "tail_sweep": "animation.unwritten.celestial_serpent.tail_sweep",
+        "roar": "animation.unwritten.celestial_serpent.roar",
+        "sit": "animation.unwritten.celestial_serpent.sit",
+        "sleep": "animation.unwritten.celestial_serpent.sleep",
+        "yawn": "animation.unwritten.celestial_serpent.yawn",
+        "scratch_ear": "animation.unwritten.celestial_serpent.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.celestial_serpent.curious_head_tilt",
+        "angry_puff": "animation.unwritten.celestial_serpent.angry_puff",
+        "chase_tail": "animation.unwritten.celestial_serpent.chase_tail",
+        "climb": "animation.unwritten.celestial_serpent.climb",
+        "eat_cheese": "animation.unwritten.celestial_serpent.eat_cheese",
+        "steal_cheese": "animation.unwritten.celestial_serpent.steal_cheese",
+        "happy_bounce": "animation.unwritten.celestial_serpent.happy_bounce",
+        "shoulder_sit": "animation.unwritten.celestial_serpent.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.celestial_serpent"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

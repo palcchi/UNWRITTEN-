@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:wandering_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/wandering_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.wandering_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.wandering_dragon.idle",
+        "walk": "animation.unwritten.wandering_dragon.walk",
+        "run": "animation.unwritten.wandering_dragon.run",
+        "hurt": "animation.unwritten.wandering_dragon.hurt",
+        "death": "animation.unwritten.wandering_dragon.death",
+        "bite": "animation.unwritten.wandering_dragon.bite",
+        "attack": "animation.unwritten.wandering_dragon.attack",
+        "stun": "animation.unwritten.wandering_dragon.stun",
+        "fly": "animation.unwritten.wandering_dragon.fly",
+        "wing_unfold": "animation.unwritten.wandering_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.wandering_dragon.takeoff",
+        "land": "animation.unwritten.wandering_dragon.land",
+        "swim": "animation.unwritten.wandering_dragon.swim",
+        "tail_sweep": "animation.unwritten.wandering_dragon.tail_sweep",
+        "roar": "animation.unwritten.wandering_dragon.roar",
+        "breath": "animation.unwritten.wandering_dragon.breath",
+        "sleeping": "animation.unwritten.wandering_dragon.sleeping",
+        "locomotion": "controller.animation.unwritten.wandering_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

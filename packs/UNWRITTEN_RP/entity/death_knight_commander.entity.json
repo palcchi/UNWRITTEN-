@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:death_knight_commander",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/death_knight_commander"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.death_knight_commander"
+      },
+      "animations": {
+        "idle": "animation.unwritten.death_knight_commander.idle",
+        "walk": "animation.unwritten.death_knight_commander.walk",
+        "run": "animation.unwritten.death_knight_commander.run",
+        "hurt": "animation.unwritten.death_knight_commander.hurt",
+        "death": "animation.unwritten.death_knight_commander.death",
+        "bite": "animation.unwritten.death_knight_commander.bite",
+        "attack": "animation.unwritten.death_knight_commander.attack",
+        "stun": "animation.unwritten.death_knight_commander.stun",
+        "slash": "animation.unwritten.death_knight_commander.slash",
+        "thrust": "animation.unwritten.death_knight_commander.thrust",
+        "parry": "animation.unwritten.death_knight_commander.parry",
+        "cast": "animation.unwritten.death_knight_commander.cast",
+        "smash": "animation.unwritten.death_knight_commander.smash",
+        "dodge": "animation.unwritten.death_knight_commander.dodge",
+        "roar": "animation.unwritten.death_knight_commander.roar",
+        "locomotion": "controller.animation.unwritten.death_knight_commander"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

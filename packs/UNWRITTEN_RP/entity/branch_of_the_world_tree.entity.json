@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:branch_of_the_world_tree",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/branch_of_the_world_tree"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.branch_of_the_world_tree"
+      },
+      "animations": {
+        "idle": "animation.unwritten.branch_of_the_world_tree.idle",
+        "walk": "animation.unwritten.branch_of_the_world_tree.walk",
+        "run": "animation.unwritten.branch_of_the_world_tree.run",
+        "hurt": "animation.unwritten.branch_of_the_world_tree.hurt",
+        "death": "animation.unwritten.branch_of_the_world_tree.death",
+        "attack": "animation.unwritten.branch_of_the_world_tree.attack",
+        "locomotion": "controller.animation.unwritten.branch_of_the_world_tree"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

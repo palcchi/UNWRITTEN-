@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:baby_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/baby_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.baby_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.baby_dragon.idle",
+        "walk": "animation.unwritten.baby_dragon.walk",
+        "run": "animation.unwritten.baby_dragon.run",
+        "hurt": "animation.unwritten.baby_dragon.hurt",
+        "death": "animation.unwritten.baby_dragon.death",
+        "bite": "animation.unwritten.baby_dragon.bite",
+        "attack": "animation.unwritten.baby_dragon.attack",
+        "stun": "animation.unwritten.baby_dragon.stun",
+        "fly": "animation.unwritten.baby_dragon.fly",
+        "wing_unfold": "animation.unwritten.baby_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.baby_dragon.takeoff",
+        "land": "animation.unwritten.baby_dragon.land",
+        "swim": "animation.unwritten.baby_dragon.swim",
+        "tail_sweep": "animation.unwritten.baby_dragon.tail_sweep",
+        "roar": "animation.unwritten.baby_dragon.roar",
+        "sit": "animation.unwritten.baby_dragon.sit",
+        "sleep": "animation.unwritten.baby_dragon.sleep",
+        "yawn": "animation.unwritten.baby_dragon.yawn",
+        "scratch_ear": "animation.unwritten.baby_dragon.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.baby_dragon.curious_head_tilt",
+        "angry_puff": "animation.unwritten.baby_dragon.angry_puff",
+        "chase_tail": "animation.unwritten.baby_dragon.chase_tail",
+        "climb": "animation.unwritten.baby_dragon.climb",
+        "eat_cheese": "animation.unwritten.baby_dragon.eat_cheese",
+        "steal_cheese": "animation.unwritten.baby_dragon.steal_cheese",
+        "happy_bounce": "animation.unwritten.baby_dragon.happy_bounce",
+        "shoulder_sit": "animation.unwritten.baby_dragon.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.baby_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

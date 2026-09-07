@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:sandworm_queen",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/sandworm_queen"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.sandworm_queen"
+      },
+      "animations": {
+        "idle": "animation.unwritten.sandworm_queen.idle",
+        "walk": "animation.unwritten.sandworm_queen.walk",
+        "run": "animation.unwritten.sandworm_queen.run",
+        "hurt": "animation.unwritten.sandworm_queen.hurt",
+        "death": "animation.unwritten.sandworm_queen.death",
+        "bite": "animation.unwritten.sandworm_queen.bite",
+        "attack": "animation.unwritten.sandworm_queen.attack",
+        "stun": "animation.unwritten.sandworm_queen.stun",
+        "swim": "animation.unwritten.sandworm_queen.swim",
+        "tail_sweep": "animation.unwritten.sandworm_queen.tail_sweep",
+        "roar": "animation.unwritten.sandworm_queen.roar",
+        "locomotion": "controller.animation.unwritten.sandworm_queen"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

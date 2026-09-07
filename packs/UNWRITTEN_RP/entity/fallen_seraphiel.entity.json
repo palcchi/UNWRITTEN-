@@ -1,0 +1,63 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:fallen_seraphiel",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/fallen_seraphiel"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.fallen_seraphiel"
+      },
+      "animations": {
+        "idle": "animation.unwritten.fallen_seraphiel.idle",
+        "walk": "animation.unwritten.fallen_seraphiel.walk",
+        "run": "animation.unwritten.fallen_seraphiel.run",
+        "hurt": "animation.unwritten.fallen_seraphiel.hurt",
+        "death": "animation.unwritten.fallen_seraphiel.death",
+        "bite": "animation.unwritten.fallen_seraphiel.bite",
+        "attack": "animation.unwritten.fallen_seraphiel.attack",
+        "stun": "animation.unwritten.fallen_seraphiel.stun",
+        "fly": "animation.unwritten.fallen_seraphiel.fly",
+        "wing_unfold": "animation.unwritten.fallen_seraphiel.wing_unfold",
+        "takeoff": "animation.unwritten.fallen_seraphiel.takeoff",
+        "land": "animation.unwritten.fallen_seraphiel.land",
+        "slash": "animation.unwritten.fallen_seraphiel.slash",
+        "thrust": "animation.unwritten.fallen_seraphiel.thrust",
+        "parry": "animation.unwritten.fallen_seraphiel.parry",
+        "cast": "animation.unwritten.fallen_seraphiel.cast",
+        "smash": "animation.unwritten.fallen_seraphiel.smash",
+        "dodge": "animation.unwritten.fallen_seraphiel.dodge",
+        "roar": "animation.unwritten.fallen_seraphiel.roar",
+        "awaken": "animation.unwritten.fallen_seraphiel.awaken",
+        "kneel": "animation.unwritten.fallen_seraphiel.kneel",
+        "reach": "animation.unwritten.fallen_seraphiel.reach",
+        "transform": "animation.unwritten.fallen_seraphiel.transform",
+        "slash_1": "animation.unwritten.fallen_seraphiel.slash_1",
+        "slash_2": "animation.unwritten.fallen_seraphiel.slash_2",
+        "slash_3": "animation.unwritten.fallen_seraphiel.slash_3",
+        "slash_4": "animation.unwritten.fallen_seraphiel.slash_4",
+        "slash_5": "animation.unwritten.fallen_seraphiel.slash_5",
+        "thrust_1": "animation.unwritten.fallen_seraphiel.thrust_1",
+        "thrust_2": "animation.unwritten.fallen_seraphiel.thrust_2",
+        "thrust_3": "animation.unwritten.fallen_seraphiel.thrust_3",
+        "locomotion": "controller.animation.unwritten.fallen_seraphiel"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#24233b",
+        "overlay_color": "#ad8bdb"
+      }
+    }
+  }
+}

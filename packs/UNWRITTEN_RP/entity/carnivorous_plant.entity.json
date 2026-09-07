@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:carnivorous_plant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/carnivorous_plant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.carnivorous_plant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.carnivorous_plant.idle",
+        "walk": "animation.unwritten.carnivorous_plant.walk",
+        "run": "animation.unwritten.carnivorous_plant.run",
+        "hurt": "animation.unwritten.carnivorous_plant.hurt",
+        "death": "animation.unwritten.carnivorous_plant.death",
+        "bite": "animation.unwritten.carnivorous_plant.bite",
+        "attack": "animation.unwritten.carnivorous_plant.attack",
+        "stun": "animation.unwritten.carnivorous_plant.stun",
+        "roar": "animation.unwritten.carnivorous_plant.roar",
+        "locomotion": "controller.animation.unwritten.carnivorous_plant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#576f3d",
+        "overlay_color": "#b8f077"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:angel_healer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/angel_healer"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.angel_healer"
+      },
+      "animations": {
+        "idle": "animation.unwritten.angel_healer.idle",
+        "walk": "animation.unwritten.angel_healer.walk",
+        "run": "animation.unwritten.angel_healer.run",
+        "hurt": "animation.unwritten.angel_healer.hurt",
+        "death": "animation.unwritten.angel_healer.death",
+        "bite": "animation.unwritten.angel_healer.bite",
+        "attack": "animation.unwritten.angel_healer.attack",
+        "stun": "animation.unwritten.angel_healer.stun",
+        "fly": "animation.unwritten.angel_healer.fly",
+        "wing_unfold": "animation.unwritten.angel_healer.wing_unfold",
+        "takeoff": "animation.unwritten.angel_healer.takeoff",
+        "land": "animation.unwritten.angel_healer.land",
+        "slash": "animation.unwritten.angel_healer.slash",
+        "thrust": "animation.unwritten.angel_healer.thrust",
+        "parry": "animation.unwritten.angel_healer.parry",
+        "cast": "animation.unwritten.angel_healer.cast",
+        "smash": "animation.unwritten.angel_healer.smash",
+        "dodge": "animation.unwritten.angel_healer.dodge",
+        "roar": "animation.unwritten.angel_healer.roar",
+        "locomotion": "controller.animation.unwritten.angel_healer"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:last_unicorn",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/last_unicorn"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.last_unicorn"
+      },
+      "animations": {
+        "idle": "animation.unwritten.last_unicorn.idle",
+        "walk": "animation.unwritten.last_unicorn.walk",
+        "run": "animation.unwritten.last_unicorn.run",
+        "hurt": "animation.unwritten.last_unicorn.hurt",
+        "death": "animation.unwritten.last_unicorn.death",
+        "bite": "animation.unwritten.last_unicorn.bite",
+        "attack": "animation.unwritten.last_unicorn.attack",
+        "stun": "animation.unwritten.last_unicorn.stun",
+        "swim": "animation.unwritten.last_unicorn.swim",
+        "tail_sweep": "animation.unwritten.last_unicorn.tail_sweep",
+        "roar": "animation.unwritten.last_unicorn.roar",
+        "locomotion": "controller.animation.unwritten.last_unicorn"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

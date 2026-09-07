@@ -1,0 +1,48 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:skeleton_archer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/skeleton_archer"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.skeleton_archer"
+      },
+      "animations": {
+        "idle": "animation.unwritten.skeleton_archer.idle",
+        "walk": "animation.unwritten.skeleton_archer.walk",
+        "run": "animation.unwritten.skeleton_archer.run",
+        "hurt": "animation.unwritten.skeleton_archer.hurt",
+        "death": "animation.unwritten.skeleton_archer.death",
+        "bite": "animation.unwritten.skeleton_archer.bite",
+        "attack": "animation.unwritten.skeleton_archer.attack",
+        "stun": "animation.unwritten.skeleton_archer.stun",
+        "slash": "animation.unwritten.skeleton_archer.slash",
+        "thrust": "animation.unwritten.skeleton_archer.thrust",
+        "parry": "animation.unwritten.skeleton_archer.parry",
+        "cast": "animation.unwritten.skeleton_archer.cast",
+        "smash": "animation.unwritten.skeleton_archer.smash",
+        "dodge": "animation.unwritten.skeleton_archer.dodge",
+        "bow_attack": "animation.unwritten.skeleton_archer.bow_attack",
+        "roar": "animation.unwritten.skeleton_archer.roar",
+        "locomotion": "controller.animation.unwritten.skeleton_archer"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

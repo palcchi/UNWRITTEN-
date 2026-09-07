@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:divine_sentinel",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/divine_sentinel"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.divine_sentinel"
+      },
+      "animations": {
+        "idle": "animation.unwritten.divine_sentinel.idle",
+        "walk": "animation.unwritten.divine_sentinel.walk",
+        "run": "animation.unwritten.divine_sentinel.run",
+        "hurt": "animation.unwritten.divine_sentinel.hurt",
+        "death": "animation.unwritten.divine_sentinel.death",
+        "bite": "animation.unwritten.divine_sentinel.bite",
+        "attack": "animation.unwritten.divine_sentinel.attack",
+        "stun": "animation.unwritten.divine_sentinel.stun",
+        "fly": "animation.unwritten.divine_sentinel.fly",
+        "wing_unfold": "animation.unwritten.divine_sentinel.wing_unfold",
+        "takeoff": "animation.unwritten.divine_sentinel.takeoff",
+        "land": "animation.unwritten.divine_sentinel.land",
+        "slash": "animation.unwritten.divine_sentinel.slash",
+        "thrust": "animation.unwritten.divine_sentinel.thrust",
+        "parry": "animation.unwritten.divine_sentinel.parry",
+        "cast": "animation.unwritten.divine_sentinel.cast",
+        "smash": "animation.unwritten.divine_sentinel.smash",
+        "dodge": "animation.unwritten.divine_sentinel.dodge",
+        "roar": "animation.unwritten.divine_sentinel.roar",
+        "locomotion": "controller.animation.unwritten.divine_sentinel"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

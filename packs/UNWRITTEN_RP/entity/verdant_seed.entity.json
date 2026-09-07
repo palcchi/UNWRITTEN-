@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:verdant_seed",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/verdant_seed"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.verdant_seed"
+      },
+      "animations": {
+        "idle": "animation.unwritten.verdant_seed.idle",
+        "walk": "animation.unwritten.verdant_seed.walk",
+        "run": "animation.unwritten.verdant_seed.run",
+        "hurt": "animation.unwritten.verdant_seed.hurt",
+        "death": "animation.unwritten.verdant_seed.death",
+        "attack": "animation.unwritten.verdant_seed.attack",
+        "locomotion": "controller.animation.unwritten.verdant_seed"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:flesh_crawler",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/flesh_crawler"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.flesh_crawler"
+      },
+      "animations": {
+        "idle": "animation.unwritten.flesh_crawler.idle",
+        "walk": "animation.unwritten.flesh_crawler.walk",
+        "run": "animation.unwritten.flesh_crawler.run",
+        "hurt": "animation.unwritten.flesh_crawler.hurt",
+        "death": "animation.unwritten.flesh_crawler.death",
+        "bite": "animation.unwritten.flesh_crawler.bite",
+        "attack": "animation.unwritten.flesh_crawler.attack",
+        "stun": "animation.unwritten.flesh_crawler.stun",
+        "slash": "animation.unwritten.flesh_crawler.slash",
+        "thrust": "animation.unwritten.flesh_crawler.thrust",
+        "parry": "animation.unwritten.flesh_crawler.parry",
+        "cast": "animation.unwritten.flesh_crawler.cast",
+        "smash": "animation.unwritten.flesh_crawler.smash",
+        "dodge": "animation.unwritten.flesh_crawler.dodge",
+        "roar": "animation.unwritten.flesh_crawler.roar",
+        "locomotion": "controller.animation.unwritten.flesh_crawler"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#9d6264",
+        "overlay_color": "#ddaca1"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:abyss_jellyfish",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/abyss_jellyfish"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.abyss_jellyfish"
+      },
+      "animations": {
+        "idle": "animation.unwritten.abyss_jellyfish.idle",
+        "walk": "animation.unwritten.abyss_jellyfish.walk",
+        "run": "animation.unwritten.abyss_jellyfish.run",
+        "hurt": "animation.unwritten.abyss_jellyfish.hurt",
+        "death": "animation.unwritten.abyss_jellyfish.death",
+        "bite": "animation.unwritten.abyss_jellyfish.bite",
+        "attack": "animation.unwritten.abyss_jellyfish.attack",
+        "stun": "animation.unwritten.abyss_jellyfish.stun",
+        "swim": "animation.unwritten.abyss_jellyfish.swim",
+        "roar": "animation.unwritten.abyss_jellyfish.roar",
+        "locomotion": "controller.animation.unwritten.abyss_jellyfish"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

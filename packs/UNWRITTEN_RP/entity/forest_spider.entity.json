@@ -1,0 +1,42 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:forest_spider",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/forest_spider"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.forest_spider"
+      },
+      "animations": {
+        "idle": "animation.unwritten.forest_spider.idle",
+        "walk": "animation.unwritten.forest_spider.walk",
+        "run": "animation.unwritten.forest_spider.run",
+        "hurt": "animation.unwritten.forest_spider.hurt",
+        "death": "animation.unwritten.forest_spider.death",
+        "bite": "animation.unwritten.forest_spider.bite",
+        "attack": "animation.unwritten.forest_spider.attack",
+        "stun": "animation.unwritten.forest_spider.stun",
+        "roar": "animation.unwritten.forest_spider.roar",
+        "web_spit": "animation.unwritten.forest_spider.web_spit",
+        "locomotion": "controller.animation.unwritten.forest_spider"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

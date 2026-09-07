@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:manticore",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/manticore"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.manticore"
+      },
+      "animations": {
+        "idle": "animation.unwritten.manticore.idle",
+        "walk": "animation.unwritten.manticore.walk",
+        "run": "animation.unwritten.manticore.run",
+        "hurt": "animation.unwritten.manticore.hurt",
+        "death": "animation.unwritten.manticore.death",
+        "bite": "animation.unwritten.manticore.bite",
+        "attack": "animation.unwritten.manticore.attack",
+        "stun": "animation.unwritten.manticore.stun",
+        "fly": "animation.unwritten.manticore.fly",
+        "wing_unfold": "animation.unwritten.manticore.wing_unfold",
+        "takeoff": "animation.unwritten.manticore.takeoff",
+        "land": "animation.unwritten.manticore.land",
+        "swim": "animation.unwritten.manticore.swim",
+        "tail_sweep": "animation.unwritten.manticore.tail_sweep",
+        "roar": "animation.unwritten.manticore.roar",
+        "locomotion": "controller.animation.unwritten.manticore"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

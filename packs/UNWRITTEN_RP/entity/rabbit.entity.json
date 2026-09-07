@@ -1,0 +1,54 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:rabbit",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/rabbit"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.rabbit"
+      },
+      "animations": {
+        "idle": "animation.unwritten.rabbit.idle",
+        "walk": "animation.unwritten.rabbit.walk",
+        "run": "animation.unwritten.rabbit.run",
+        "hurt": "animation.unwritten.rabbit.hurt",
+        "death": "animation.unwritten.rabbit.death",
+        "bite": "animation.unwritten.rabbit.bite",
+        "attack": "animation.unwritten.rabbit.attack",
+        "stun": "animation.unwritten.rabbit.stun",
+        "hop": "animation.unwritten.rabbit.hop",
+        "roar": "animation.unwritten.rabbit.roar",
+        "sit": "animation.unwritten.rabbit.sit",
+        "sleep": "animation.unwritten.rabbit.sleep",
+        "yawn": "animation.unwritten.rabbit.yawn",
+        "scratch_ear": "animation.unwritten.rabbit.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.rabbit.curious_head_tilt",
+        "angry_puff": "animation.unwritten.rabbit.angry_puff",
+        "chase_tail": "animation.unwritten.rabbit.chase_tail",
+        "climb": "animation.unwritten.rabbit.climb",
+        "eat_cheese": "animation.unwritten.rabbit.eat_cheese",
+        "steal_cheese": "animation.unwritten.rabbit.steal_cheese",
+        "happy_bounce": "animation.unwritten.rabbit.happy_bounce",
+        "shoulder_sit": "animation.unwritten.rabbit.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.rabbit"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

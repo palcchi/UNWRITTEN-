@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:poison_treant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/poison_treant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.poison_treant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.poison_treant.idle",
+        "walk": "animation.unwritten.poison_treant.walk",
+        "run": "animation.unwritten.poison_treant.run",
+        "hurt": "animation.unwritten.poison_treant.hurt",
+        "death": "animation.unwritten.poison_treant.death",
+        "bite": "animation.unwritten.poison_treant.bite",
+        "attack": "animation.unwritten.poison_treant.attack",
+        "stun": "animation.unwritten.poison_treant.stun",
+        "slash": "animation.unwritten.poison_treant.slash",
+        "thrust": "animation.unwritten.poison_treant.thrust",
+        "parry": "animation.unwritten.poison_treant.parry",
+        "cast": "animation.unwritten.poison_treant.cast",
+        "smash": "animation.unwritten.poison_treant.smash",
+        "dodge": "animation.unwritten.poison_treant.dodge",
+        "roar": "animation.unwritten.poison_treant.roar",
+        "locomotion": "controller.animation.unwritten.poison_treant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#576f3d",
+        "overlay_color": "#b8f077"
+      }
+    }
+  }
+}

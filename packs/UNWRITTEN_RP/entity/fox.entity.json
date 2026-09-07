@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:fox",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/fox"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.fox"
+      },
+      "animations": {
+        "idle": "animation.unwritten.fox.idle",
+        "walk": "animation.unwritten.fox.walk",
+        "run": "animation.unwritten.fox.run",
+        "hurt": "animation.unwritten.fox.hurt",
+        "death": "animation.unwritten.fox.death",
+        "bite": "animation.unwritten.fox.bite",
+        "attack": "animation.unwritten.fox.attack",
+        "stun": "animation.unwritten.fox.stun",
+        "swim": "animation.unwritten.fox.swim",
+        "tail_sweep": "animation.unwritten.fox.tail_sweep",
+        "roar": "animation.unwritten.fox.roar",
+        "sit": "animation.unwritten.fox.sit",
+        "sleep": "animation.unwritten.fox.sleep",
+        "yawn": "animation.unwritten.fox.yawn",
+        "scratch_ear": "animation.unwritten.fox.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.fox.curious_head_tilt",
+        "angry_puff": "animation.unwritten.fox.angry_puff",
+        "chase_tail": "animation.unwritten.fox.chase_tail",
+        "climb": "animation.unwritten.fox.climb",
+        "eat_cheese": "animation.unwritten.fox.eat_cheese",
+        "steal_cheese": "animation.unwritten.fox.steal_cheese",
+        "happy_bounce": "animation.unwritten.fox.happy_bounce",
+        "shoulder_sit": "animation.unwritten.fox.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.fox"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bd713c",
+        "overlay_color": "#f4d8a3"
+      }
+    }
+  }
+}

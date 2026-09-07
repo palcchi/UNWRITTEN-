@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:cyclops",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/cyclops"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.cyclops"
+      },
+      "animations": {
+        "idle": "animation.unwritten.cyclops.idle",
+        "walk": "animation.unwritten.cyclops.walk",
+        "run": "animation.unwritten.cyclops.run",
+        "hurt": "animation.unwritten.cyclops.hurt",
+        "death": "animation.unwritten.cyclops.death",
+        "bite": "animation.unwritten.cyclops.bite",
+        "attack": "animation.unwritten.cyclops.attack",
+        "stun": "animation.unwritten.cyclops.stun",
+        "slash": "animation.unwritten.cyclops.slash",
+        "thrust": "animation.unwritten.cyclops.thrust",
+        "parry": "animation.unwritten.cyclops.parry",
+        "cast": "animation.unwritten.cyclops.cast",
+        "smash": "animation.unwritten.cyclops.smash",
+        "dodge": "animation.unwritten.cyclops.dodge",
+        "roar": "animation.unwritten.cyclops.roar",
+        "locomotion": "controller.animation.unwritten.cyclops"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

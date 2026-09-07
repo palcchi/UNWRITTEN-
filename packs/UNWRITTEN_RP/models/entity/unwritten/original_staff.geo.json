@@ -1,0 +1,199 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.unwritten.original_staff",
+        "texture_width": 128,
+        "texture_height": 64,
+        "visible_bounds_width": 6,
+        "visible_bounds_height": 6,
+        "visible_bounds_offset": [
+          0,
+          0.8,
+          0
+        ]
+      },
+      "bones": [
+        {
+          "name": "root",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "body",
+          "pivot": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "parent": "root",
+          "cubes": [
+            {
+              "origin": [
+                -0.6892,
+                0.0,
+                -0.6892
+              ],
+              "size": [
+                1.3785,
+                21.6615,
+                1.3785
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    1.38,
+                    21.66
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    1.38,
+                    21.66
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    1.38,
+                    21.66
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    1.38,
+                    21.66
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    1.38,
+                    1.38
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    1,
+                    1
+                  ],
+                  "uv_size": [
+                    1.38,
+                    1.38
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "blade",
+          "pivot": [
+            0.0,
+            5.9077,
+            0.0
+          ],
+          "parent": "body",
+          "cubes": [
+            {
+              "origin": [
+                -1.9692,
+                21.6615,
+                -1.9692
+              ],
+              "size": [
+                3.9385,
+                3.9385,
+                3.9385
+              ],
+              "uv": {
+                "north": {
+                  "uv": [
+                    1,
+                    33
+                  ],
+                  "uv_size": [
+                    3.94,
+                    3.94
+                  ]
+                },
+                "south": {
+                  "uv": [
+                    1,
+                    33
+                  ],
+                  "uv_size": [
+                    3.94,
+                    3.94
+                  ]
+                },
+                "east": {
+                  "uv": [
+                    1,
+                    33
+                  ],
+                  "uv_size": [
+                    3.94,
+                    3.94
+                  ]
+                },
+                "west": {
+                  "uv": [
+                    1,
+                    33
+                  ],
+                  "uv_size": [
+                    3.94,
+                    3.94
+                  ]
+                },
+                "up": {
+                  "uv": [
+                    1,
+                    33
+                  ],
+                  "uv_size": [
+                    3.94,
+                    3.94
+                  ]
+                },
+                "down": {
+                  "uv": [
+                    1,
+                    33
+                  ],
+                  "uv_size": [
+                    3.94,
+                    3.94
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

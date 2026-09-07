@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:celestial_lion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/celestial_lion"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.celestial_lion"
+      },
+      "animations": {
+        "idle": "animation.unwritten.celestial_lion.idle",
+        "walk": "animation.unwritten.celestial_lion.walk",
+        "run": "animation.unwritten.celestial_lion.run",
+        "hurt": "animation.unwritten.celestial_lion.hurt",
+        "death": "animation.unwritten.celestial_lion.death",
+        "bite": "animation.unwritten.celestial_lion.bite",
+        "attack": "animation.unwritten.celestial_lion.attack",
+        "stun": "animation.unwritten.celestial_lion.stun",
+        "fly": "animation.unwritten.celestial_lion.fly",
+        "wing_unfold": "animation.unwritten.celestial_lion.wing_unfold",
+        "takeoff": "animation.unwritten.celestial_lion.takeoff",
+        "land": "animation.unwritten.celestial_lion.land",
+        "swim": "animation.unwritten.celestial_lion.swim",
+        "tail_sweep": "animation.unwritten.celestial_lion.tail_sweep",
+        "roar": "animation.unwritten.celestial_lion.roar",
+        "locomotion": "controller.animation.unwritten.celestial_lion"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#bb893a",
+        "overlay_color": "#ffe4a0"
+      }
+    }
+  }
+}

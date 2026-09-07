@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:wraith",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/wraith"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.wraith"
+      },
+      "animations": {
+        "idle": "animation.unwritten.wraith.idle",
+        "walk": "animation.unwritten.wraith.walk",
+        "run": "animation.unwritten.wraith.run",
+        "hurt": "animation.unwritten.wraith.hurt",
+        "death": "animation.unwritten.wraith.death",
+        "bite": "animation.unwritten.wraith.bite",
+        "attack": "animation.unwritten.wraith.attack",
+        "stun": "animation.unwritten.wraith.stun",
+        "slash": "animation.unwritten.wraith.slash",
+        "thrust": "animation.unwritten.wraith.thrust",
+        "parry": "animation.unwritten.wraith.parry",
+        "cast": "animation.unwritten.wraith.cast",
+        "smash": "animation.unwritten.wraith.smash",
+        "dodge": "animation.unwritten.wraith.dodge",
+        "roar": "animation.unwritten.wraith.roar",
+        "locomotion": "controller.animation.unwritten.wraith"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#83b8b4",
+        "overlay_color": "#d1fff2"
+      }
+    }
+  }
+}

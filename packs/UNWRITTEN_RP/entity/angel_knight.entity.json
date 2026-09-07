@@ -1,0 +1,51 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:angel_knight",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/angel_knight"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.angel_knight"
+      },
+      "animations": {
+        "idle": "animation.unwritten.angel_knight.idle",
+        "walk": "animation.unwritten.angel_knight.walk",
+        "run": "animation.unwritten.angel_knight.run",
+        "hurt": "animation.unwritten.angel_knight.hurt",
+        "death": "animation.unwritten.angel_knight.death",
+        "bite": "animation.unwritten.angel_knight.bite",
+        "attack": "animation.unwritten.angel_knight.attack",
+        "stun": "animation.unwritten.angel_knight.stun",
+        "fly": "animation.unwritten.angel_knight.fly",
+        "wing_unfold": "animation.unwritten.angel_knight.wing_unfold",
+        "takeoff": "animation.unwritten.angel_knight.takeoff",
+        "land": "animation.unwritten.angel_knight.land",
+        "slash": "animation.unwritten.angel_knight.slash",
+        "thrust": "animation.unwritten.angel_knight.thrust",
+        "parry": "animation.unwritten.angel_knight.parry",
+        "cast": "animation.unwritten.angel_knight.cast",
+        "smash": "animation.unwritten.angel_knight.smash",
+        "dodge": "animation.unwritten.angel_knight.dodge",
+        "roar": "animation.unwritten.angel_knight.roar",
+        "locomotion": "controller.animation.unwritten.angel_knight"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lost_adventurer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lost_adventurer"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lost_adventurer"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lost_adventurer.idle",
+        "walk": "animation.unwritten.lost_adventurer.walk",
+        "run": "animation.unwritten.lost_adventurer.run",
+        "hurt": "animation.unwritten.lost_adventurer.hurt",
+        "death": "animation.unwritten.lost_adventurer.death",
+        "bite": "animation.unwritten.lost_adventurer.bite",
+        "attack": "animation.unwritten.lost_adventurer.attack",
+        "stun": "animation.unwritten.lost_adventurer.stun",
+        "slash": "animation.unwritten.lost_adventurer.slash",
+        "thrust": "animation.unwritten.lost_adventurer.thrust",
+        "parry": "animation.unwritten.lost_adventurer.parry",
+        "cast": "animation.unwritten.lost_adventurer.cast",
+        "smash": "animation.unwritten.lost_adventurer.smash",
+        "dodge": "animation.unwritten.lost_adventurer.dodge",
+        "roar": "animation.unwritten.lost_adventurer.roar",
+        "locomotion": "controller.animation.unwritten.lost_adventurer"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

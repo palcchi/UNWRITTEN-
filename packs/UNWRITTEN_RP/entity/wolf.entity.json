@@ -1,0 +1,55 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:wolf",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/wolf"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.wolf"
+      },
+      "animations": {
+        "idle": "animation.unwritten.wolf.idle",
+        "walk": "animation.unwritten.wolf.walk",
+        "run": "animation.unwritten.wolf.run",
+        "hurt": "animation.unwritten.wolf.hurt",
+        "death": "animation.unwritten.wolf.death",
+        "bite": "animation.unwritten.wolf.bite",
+        "attack": "animation.unwritten.wolf.attack",
+        "stun": "animation.unwritten.wolf.stun",
+        "swim": "animation.unwritten.wolf.swim",
+        "tail_sweep": "animation.unwritten.wolf.tail_sweep",
+        "roar": "animation.unwritten.wolf.roar",
+        "sit": "animation.unwritten.wolf.sit",
+        "sleep": "animation.unwritten.wolf.sleep",
+        "yawn": "animation.unwritten.wolf.yawn",
+        "scratch_ear": "animation.unwritten.wolf.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.wolf.curious_head_tilt",
+        "angry_puff": "animation.unwritten.wolf.angry_puff",
+        "chase_tail": "animation.unwritten.wolf.chase_tail",
+        "climb": "animation.unwritten.wolf.climb",
+        "eat_cheese": "animation.unwritten.wolf.eat_cheese",
+        "steal_cheese": "animation.unwritten.wolf.steal_cheese",
+        "happy_bounce": "animation.unwritten.wolf.happy_bounce",
+        "shoulder_sit": "animation.unwritten.wolf.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.wolf"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#636975",
+        "overlay_color": "#bac8c8"
+      }
+    }
+  }
+}

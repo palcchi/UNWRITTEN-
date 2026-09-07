@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:kael_demon_king",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/kael_demon_king"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.kael_demon_king"
+      },
+      "animations": {
+        "idle": "animation.unwritten.kael_demon_king.idle",
+        "walk": "animation.unwritten.kael_demon_king.walk",
+        "run": "animation.unwritten.kael_demon_king.run",
+        "hurt": "animation.unwritten.kael_demon_king.hurt",
+        "death": "animation.unwritten.kael_demon_king.death",
+        "bite": "animation.unwritten.kael_demon_king.bite",
+        "attack": "animation.unwritten.kael_demon_king.attack",
+        "stun": "animation.unwritten.kael_demon_king.stun",
+        "slash": "animation.unwritten.kael_demon_king.slash",
+        "thrust": "animation.unwritten.kael_demon_king.thrust",
+        "parry": "animation.unwritten.kael_demon_king.parry",
+        "cast": "animation.unwritten.kael_demon_king.cast",
+        "smash": "animation.unwritten.kael_demon_king.smash",
+        "dodge": "animation.unwritten.kael_demon_king.dodge",
+        "roar": "animation.unwritten.kael_demon_king.roar",
+        "awaken": "animation.unwritten.kael_demon_king.awaken",
+        "kneel": "animation.unwritten.kael_demon_king.kneel",
+        "reach": "animation.unwritten.kael_demon_king.reach",
+        "transform": "animation.unwritten.kael_demon_king.transform",
+        "slash_1": "animation.unwritten.kael_demon_king.slash_1",
+        "slash_2": "animation.unwritten.kael_demon_king.slash_2",
+        "slash_3": "animation.unwritten.kael_demon_king.slash_3",
+        "slash_4": "animation.unwritten.kael_demon_king.slash_4",
+        "slash_5": "animation.unwritten.kael_demon_king.slash_5",
+        "thrust_1": "animation.unwritten.kael_demon_king.thrust_1",
+        "thrust_2": "animation.unwritten.kael_demon_king.thrust_2",
+        "thrust_3": "animation.unwritten.kael_demon_king.thrust_3",
+        "locomotion": "controller.animation.unwritten.kael_demon_king"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:baby_wyvern",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/baby_wyvern"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.baby_wyvern"
+      },
+      "animations": {
+        "idle": "animation.unwritten.baby_wyvern.idle",
+        "walk": "animation.unwritten.baby_wyvern.walk",
+        "run": "animation.unwritten.baby_wyvern.run",
+        "hurt": "animation.unwritten.baby_wyvern.hurt",
+        "death": "animation.unwritten.baby_wyvern.death",
+        "bite": "animation.unwritten.baby_wyvern.bite",
+        "attack": "animation.unwritten.baby_wyvern.attack",
+        "stun": "animation.unwritten.baby_wyvern.stun",
+        "fly": "animation.unwritten.baby_wyvern.fly",
+        "wing_unfold": "animation.unwritten.baby_wyvern.wing_unfold",
+        "takeoff": "animation.unwritten.baby_wyvern.takeoff",
+        "land": "animation.unwritten.baby_wyvern.land",
+        "swim": "animation.unwritten.baby_wyvern.swim",
+        "tail_sweep": "animation.unwritten.baby_wyvern.tail_sweep",
+        "roar": "animation.unwritten.baby_wyvern.roar",
+        "sit": "animation.unwritten.baby_wyvern.sit",
+        "sleep": "animation.unwritten.baby_wyvern.sleep",
+        "yawn": "animation.unwritten.baby_wyvern.yawn",
+        "scratch_ear": "animation.unwritten.baby_wyvern.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.baby_wyvern.curious_head_tilt",
+        "angry_puff": "animation.unwritten.baby_wyvern.angry_puff",
+        "chase_tail": "animation.unwritten.baby_wyvern.chase_tail",
+        "climb": "animation.unwritten.baby_wyvern.climb",
+        "eat_cheese": "animation.unwritten.baby_wyvern.eat_cheese",
+        "steal_cheese": "animation.unwritten.baby_wyvern.steal_cheese",
+        "happy_bounce": "animation.unwritten.baby_wyvern.happy_bounce",
+        "shoulder_sit": "animation.unwritten.baby_wyvern.shoulder_sit",
+        "breath": "animation.unwritten.baby_wyvern.breath",
+        "sleeping": "animation.unwritten.baby_wyvern.sleeping",
+        "locomotion": "controller.animation.unwritten.baby_wyvern"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

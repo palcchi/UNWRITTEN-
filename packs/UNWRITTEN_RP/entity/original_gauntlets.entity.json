@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:original_gauntlets",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/original_gauntlets"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.original_gauntlets"
+      },
+      "animations": {
+        "idle": "animation.unwritten.original_gauntlets.idle",
+        "walk": "animation.unwritten.original_gauntlets.walk",
+        "run": "animation.unwritten.original_gauntlets.run",
+        "hurt": "animation.unwritten.original_gauntlets.hurt",
+        "death": "animation.unwritten.original_gauntlets.death",
+        "attack": "animation.unwritten.original_gauntlets.attack",
+        "locomotion": "controller.animation.unwritten.original_gauntlets"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#59636c",
+        "overlay_color": "#b9c8c8"
+      }
+    }
+  }
+}

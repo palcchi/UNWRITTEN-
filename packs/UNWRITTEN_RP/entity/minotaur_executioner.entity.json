@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:minotaur_executioner",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/minotaur_executioner"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.minotaur_executioner"
+      },
+      "animations": {
+        "idle": "animation.unwritten.minotaur_executioner.idle",
+        "walk": "animation.unwritten.minotaur_executioner.walk",
+        "run": "animation.unwritten.minotaur_executioner.run",
+        "hurt": "animation.unwritten.minotaur_executioner.hurt",
+        "death": "animation.unwritten.minotaur_executioner.death",
+        "bite": "animation.unwritten.minotaur_executioner.bite",
+        "attack": "animation.unwritten.minotaur_executioner.attack",
+        "stun": "animation.unwritten.minotaur_executioner.stun",
+        "swim": "animation.unwritten.minotaur_executioner.swim",
+        "tail_sweep": "animation.unwritten.minotaur_executioner.tail_sweep",
+        "slash": "animation.unwritten.minotaur_executioner.slash",
+        "thrust": "animation.unwritten.minotaur_executioner.thrust",
+        "parry": "animation.unwritten.minotaur_executioner.parry",
+        "cast": "animation.unwritten.minotaur_executioner.cast",
+        "smash": "animation.unwritten.minotaur_executioner.smash",
+        "dodge": "animation.unwritten.minotaur_executioner.dodge",
+        "roar": "animation.unwritten.minotaur_executioner.roar",
+        "locomotion": "controller.animation.unwritten.minotaur_executioner"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

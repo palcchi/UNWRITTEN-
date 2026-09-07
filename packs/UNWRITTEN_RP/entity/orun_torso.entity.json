@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:orun_torso",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/orun_torso"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.orun_torso"
+      },
+      "animations": {
+        "idle": "animation.unwritten.orun_torso.idle",
+        "walk": "animation.unwritten.orun_torso.walk",
+        "run": "animation.unwritten.orun_torso.run",
+        "hurt": "animation.unwritten.orun_torso.hurt",
+        "death": "animation.unwritten.orun_torso.death",
+        "attack": "animation.unwritten.orun_torso.attack",
+        "awaken": "animation.unwritten.orun_torso.awaken",
+        "kneel": "animation.unwritten.orun_torso.kneel",
+        "transform": "animation.unwritten.orun_torso.transform",
+        "locomotion": "controller.animation.unwritten.orun_torso"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:skeleton_warrior",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/skeleton_warrior"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.skeleton_warrior"
+      },
+      "animations": {
+        "idle": "animation.unwritten.skeleton_warrior.idle",
+        "walk": "animation.unwritten.skeleton_warrior.walk",
+        "run": "animation.unwritten.skeleton_warrior.run",
+        "hurt": "animation.unwritten.skeleton_warrior.hurt",
+        "death": "animation.unwritten.skeleton_warrior.death",
+        "bite": "animation.unwritten.skeleton_warrior.bite",
+        "attack": "animation.unwritten.skeleton_warrior.attack",
+        "stun": "animation.unwritten.skeleton_warrior.stun",
+        "slash": "animation.unwritten.skeleton_warrior.slash",
+        "thrust": "animation.unwritten.skeleton_warrior.thrust",
+        "parry": "animation.unwritten.skeleton_warrior.parry",
+        "cast": "animation.unwritten.skeleton_warrior.cast",
+        "smash": "animation.unwritten.skeleton_warrior.smash",
+        "dodge": "animation.unwritten.skeleton_warrior.dodge",
+        "roar": "animation.unwritten.skeleton_warrior.roar",
+        "locomotion": "controller.animation.unwritten.skeleton_warrior"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

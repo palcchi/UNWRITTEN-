@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:the_last_tree_sapling",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/the_last_tree_sapling"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.the_last_tree_sapling"
+      },
+      "animations": {
+        "idle": "animation.unwritten.the_last_tree_sapling.idle",
+        "walk": "animation.unwritten.the_last_tree_sapling.walk",
+        "run": "animation.unwritten.the_last_tree_sapling.run",
+        "hurt": "animation.unwritten.the_last_tree_sapling.hurt",
+        "death": "animation.unwritten.the_last_tree_sapling.death",
+        "bite": "animation.unwritten.the_last_tree_sapling.bite",
+        "attack": "animation.unwritten.the_last_tree_sapling.attack",
+        "stun": "animation.unwritten.the_last_tree_sapling.stun",
+        "slash": "animation.unwritten.the_last_tree_sapling.slash",
+        "thrust": "animation.unwritten.the_last_tree_sapling.thrust",
+        "parry": "animation.unwritten.the_last_tree_sapling.parry",
+        "cast": "animation.unwritten.the_last_tree_sapling.cast",
+        "smash": "animation.unwritten.the_last_tree_sapling.smash",
+        "dodge": "animation.unwritten.the_last_tree_sapling.dodge",
+        "roar": "animation.unwritten.the_last_tree_sapling.roar",
+        "locomotion": "controller.animation.unwritten.the_last_tree_sapling"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

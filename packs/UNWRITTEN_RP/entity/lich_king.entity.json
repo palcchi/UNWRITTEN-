@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lich_king",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lich_king"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lich_king"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lich_king.idle",
+        "walk": "animation.unwritten.lich_king.walk",
+        "run": "animation.unwritten.lich_king.run",
+        "hurt": "animation.unwritten.lich_king.hurt",
+        "death": "animation.unwritten.lich_king.death",
+        "bite": "animation.unwritten.lich_king.bite",
+        "attack": "animation.unwritten.lich_king.attack",
+        "stun": "animation.unwritten.lich_king.stun",
+        "slash": "animation.unwritten.lich_king.slash",
+        "thrust": "animation.unwritten.lich_king.thrust",
+        "parry": "animation.unwritten.lich_king.parry",
+        "cast": "animation.unwritten.lich_king.cast",
+        "smash": "animation.unwritten.lich_king.smash",
+        "dodge": "animation.unwritten.lich_king.dodge",
+        "roar": "animation.unwritten.lich_king.roar",
+        "locomotion": "controller.animation.unwritten.lich_king"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

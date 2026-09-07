@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:human_heavy_base",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/human_heavy_base"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.human_heavy_base"
+      },
+      "animations": {
+        "idle": "animation.unwritten.human_heavy_base.idle",
+        "walk": "animation.unwritten.human_heavy_base.walk",
+        "run": "animation.unwritten.human_heavy_base.run",
+        "hurt": "animation.unwritten.human_heavy_base.hurt",
+        "death": "animation.unwritten.human_heavy_base.death",
+        "bite": "animation.unwritten.human_heavy_base.bite",
+        "attack": "animation.unwritten.human_heavy_base.attack",
+        "stun": "animation.unwritten.human_heavy_base.stun",
+        "slash": "animation.unwritten.human_heavy_base.slash",
+        "thrust": "animation.unwritten.human_heavy_base.thrust",
+        "parry": "animation.unwritten.human_heavy_base.parry",
+        "cast": "animation.unwritten.human_heavy_base.cast",
+        "smash": "animation.unwritten.human_heavy_base.smash",
+        "dodge": "animation.unwritten.human_heavy_base.dodge",
+        "roar": "animation.unwritten.human_heavy_base.roar",
+        "locomotion": "controller.animation.unwritten.human_heavy_base"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#715142",
+        "overlay_color": "#baa17c"
+      }
+    }
+  }
+}

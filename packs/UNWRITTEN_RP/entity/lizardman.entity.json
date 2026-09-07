@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lizardman",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lizardman"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lizardman"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lizardman.idle",
+        "walk": "animation.unwritten.lizardman.walk",
+        "run": "animation.unwritten.lizardman.run",
+        "hurt": "animation.unwritten.lizardman.hurt",
+        "death": "animation.unwritten.lizardman.death",
+        "bite": "animation.unwritten.lizardman.bite",
+        "attack": "animation.unwritten.lizardman.attack",
+        "stun": "animation.unwritten.lizardman.stun",
+        "swim": "animation.unwritten.lizardman.swim",
+        "tail_sweep": "animation.unwritten.lizardman.tail_sweep",
+        "slash": "animation.unwritten.lizardman.slash",
+        "thrust": "animation.unwritten.lizardman.thrust",
+        "parry": "animation.unwritten.lizardman.parry",
+        "cast": "animation.unwritten.lizardman.cast",
+        "smash": "animation.unwritten.lizardman.smash",
+        "dodge": "animation.unwritten.lizardman.dodge",
+        "roar": "animation.unwritten.lizardman.roar",
+        "locomotion": "controller.animation.unwritten.lizardman"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

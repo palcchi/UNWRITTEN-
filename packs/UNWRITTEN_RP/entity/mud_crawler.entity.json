@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:mud_crawler",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/mud_crawler"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.mud_crawler"
+      },
+      "animations": {
+        "idle": "animation.unwritten.mud_crawler.idle",
+        "walk": "animation.unwritten.mud_crawler.walk",
+        "run": "animation.unwritten.mud_crawler.run",
+        "hurt": "animation.unwritten.mud_crawler.hurt",
+        "death": "animation.unwritten.mud_crawler.death",
+        "bite": "animation.unwritten.mud_crawler.bite",
+        "attack": "animation.unwritten.mud_crawler.attack",
+        "stun": "animation.unwritten.mud_crawler.stun",
+        "slash": "animation.unwritten.mud_crawler.slash",
+        "thrust": "animation.unwritten.mud_crawler.thrust",
+        "parry": "animation.unwritten.mud_crawler.parry",
+        "cast": "animation.unwritten.mud_crawler.cast",
+        "smash": "animation.unwritten.mud_crawler.smash",
+        "dodge": "animation.unwritten.mud_crawler.dodge",
+        "roar": "animation.unwritten.mud_crawler.roar",
+        "locomotion": "controller.animation.unwritten.mud_crawler"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#574a36",
+        "overlay_color": "#90825d"
+      }
+    }
+  }
+}

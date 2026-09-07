@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:divine_familiar",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/divine_familiar"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.divine_familiar"
+      },
+      "animations": {
+        "idle": "animation.unwritten.divine_familiar.idle",
+        "walk": "animation.unwritten.divine_familiar.walk",
+        "run": "animation.unwritten.divine_familiar.run",
+        "hurt": "animation.unwritten.divine_familiar.hurt",
+        "death": "animation.unwritten.divine_familiar.death",
+        "bite": "animation.unwritten.divine_familiar.bite",
+        "attack": "animation.unwritten.divine_familiar.attack",
+        "stun": "animation.unwritten.divine_familiar.stun",
+        "fly": "animation.unwritten.divine_familiar.fly",
+        "wing_unfold": "animation.unwritten.divine_familiar.wing_unfold",
+        "takeoff": "animation.unwritten.divine_familiar.takeoff",
+        "land": "animation.unwritten.divine_familiar.land",
+        "swim": "animation.unwritten.divine_familiar.swim",
+        "tail_sweep": "animation.unwritten.divine_familiar.tail_sweep",
+        "roar": "animation.unwritten.divine_familiar.roar",
+        "locomotion": "controller.animation.unwritten.divine_familiar"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

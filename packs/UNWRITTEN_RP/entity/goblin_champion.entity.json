@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_champion",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_champion"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_champion"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_champion.idle",
+        "walk": "animation.unwritten.goblin_champion.walk",
+        "run": "animation.unwritten.goblin_champion.run",
+        "hurt": "animation.unwritten.goblin_champion.hurt",
+        "death": "animation.unwritten.goblin_champion.death",
+        "bite": "animation.unwritten.goblin_champion.bite",
+        "attack": "animation.unwritten.goblin_champion.attack",
+        "stun": "animation.unwritten.goblin_champion.stun",
+        "slash": "animation.unwritten.goblin_champion.slash",
+        "thrust": "animation.unwritten.goblin_champion.thrust",
+        "parry": "animation.unwritten.goblin_champion.parry",
+        "cast": "animation.unwritten.goblin_champion.cast",
+        "smash": "animation.unwritten.goblin_champion.smash",
+        "dodge": "animation.unwritten.goblin_champion.dodge",
+        "roar": "animation.unwritten.goblin_champion.roar",
+        "locomotion": "controller.animation.unwritten.goblin_champion"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

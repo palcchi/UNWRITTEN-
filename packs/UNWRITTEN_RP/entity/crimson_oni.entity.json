@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:crimson_oni",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/crimson_oni"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.crimson_oni"
+      },
+      "animations": {
+        "idle": "animation.unwritten.crimson_oni.idle",
+        "walk": "animation.unwritten.crimson_oni.walk",
+        "run": "animation.unwritten.crimson_oni.run",
+        "hurt": "animation.unwritten.crimson_oni.hurt",
+        "death": "animation.unwritten.crimson_oni.death",
+        "bite": "animation.unwritten.crimson_oni.bite",
+        "attack": "animation.unwritten.crimson_oni.attack",
+        "stun": "animation.unwritten.crimson_oni.stun",
+        "slash": "animation.unwritten.crimson_oni.slash",
+        "thrust": "animation.unwritten.crimson_oni.thrust",
+        "parry": "animation.unwritten.crimson_oni.parry",
+        "cast": "animation.unwritten.crimson_oni.cast",
+        "smash": "animation.unwritten.crimson_oni.smash",
+        "dodge": "animation.unwritten.crimson_oni.dodge",
+        "roar": "animation.unwritten.crimson_oni.roar",
+        "locomotion": "controller.animation.unwritten.crimson_oni"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

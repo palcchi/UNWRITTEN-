@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:original_sword",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/original_sword"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.original_sword"
+      },
+      "animations": {
+        "idle": "animation.unwritten.original_sword.idle",
+        "walk": "animation.unwritten.original_sword.walk",
+        "run": "animation.unwritten.original_sword.run",
+        "hurt": "animation.unwritten.original_sword.hurt",
+        "death": "animation.unwritten.original_sword.death",
+        "attack": "animation.unwritten.original_sword.attack",
+        "locomotion": "controller.animation.unwritten.original_sword"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#59636c",
+        "overlay_color": "#b9c8c8"
+      }
+    }
+  }
+}

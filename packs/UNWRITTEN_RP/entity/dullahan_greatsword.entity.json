@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dullahan_greatsword",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dullahan_greatsword"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dullahan_greatsword"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dullahan_greatsword.idle",
+        "walk": "animation.unwritten.dullahan_greatsword.walk",
+        "run": "animation.unwritten.dullahan_greatsword.run",
+        "hurt": "animation.unwritten.dullahan_greatsword.hurt",
+        "death": "animation.unwritten.dullahan_greatsword.death",
+        "attack": "animation.unwritten.dullahan_greatsword.attack",
+        "awaken": "animation.unwritten.dullahan_greatsword.awaken",
+        "kneel": "animation.unwritten.dullahan_greatsword.kneel",
+        "transform": "animation.unwritten.dullahan_greatsword.transform",
+        "locomotion": "controller.animation.unwritten.dullahan_greatsword"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

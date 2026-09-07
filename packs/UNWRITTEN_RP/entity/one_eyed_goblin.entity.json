@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:one_eyed_goblin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/one_eyed_goblin"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.one_eyed_goblin"
+      },
+      "animations": {
+        "idle": "animation.unwritten.one_eyed_goblin.idle",
+        "walk": "animation.unwritten.one_eyed_goblin.walk",
+        "run": "animation.unwritten.one_eyed_goblin.run",
+        "hurt": "animation.unwritten.one_eyed_goblin.hurt",
+        "death": "animation.unwritten.one_eyed_goblin.death",
+        "bite": "animation.unwritten.one_eyed_goblin.bite",
+        "attack": "animation.unwritten.one_eyed_goblin.attack",
+        "stun": "animation.unwritten.one_eyed_goblin.stun",
+        "slash": "animation.unwritten.one_eyed_goblin.slash",
+        "thrust": "animation.unwritten.one_eyed_goblin.thrust",
+        "parry": "animation.unwritten.one_eyed_goblin.parry",
+        "cast": "animation.unwritten.one_eyed_goblin.cast",
+        "smash": "animation.unwritten.one_eyed_goblin.smash",
+        "dodge": "animation.unwritten.one_eyed_goblin.dodge",
+        "roar": "animation.unwritten.one_eyed_goblin.roar",
+        "locomotion": "controller.animation.unwritten.one_eyed_goblin"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

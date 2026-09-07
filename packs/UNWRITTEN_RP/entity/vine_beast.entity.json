@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:vine_beast",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/vine_beast"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.vine_beast"
+      },
+      "animations": {
+        "idle": "animation.unwritten.vine_beast.idle",
+        "walk": "animation.unwritten.vine_beast.walk",
+        "run": "animation.unwritten.vine_beast.run",
+        "hurt": "animation.unwritten.vine_beast.hurt",
+        "death": "animation.unwritten.vine_beast.death",
+        "bite": "animation.unwritten.vine_beast.bite",
+        "attack": "animation.unwritten.vine_beast.attack",
+        "stun": "animation.unwritten.vine_beast.stun",
+        "swim": "animation.unwritten.vine_beast.swim",
+        "tail_sweep": "animation.unwritten.vine_beast.tail_sweep",
+        "roar": "animation.unwritten.vine_beast.roar",
+        "locomotion": "controller.animation.unwritten.vine_beast"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

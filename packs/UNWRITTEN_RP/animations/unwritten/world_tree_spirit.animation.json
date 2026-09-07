@@ -1,0 +1,1106 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.unwritten.world_tree_spirit.idle": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.1,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              2,
+              0,
+              0
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.walk": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "leg_l": {
+          "rotation": {
+            "0.0": [
+              23,
+              0,
+              0
+            ],
+            "0.5": [
+              -23,
+              0,
+              0
+            ],
+            "1.0": [
+              23,
+              0,
+              0
+            ]
+          }
+        },
+        "leg_r": {
+          "rotation": {
+            "0.0": [
+              -23,
+              0,
+              0
+            ],
+            "0.5": [
+              23,
+              0,
+              0
+            ],
+            "1.0": [
+              -23,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_l": {
+          "rotation": {
+            "0.0": [
+              23,
+              0,
+              0
+            ],
+            "0.5": [
+              -23,
+              0,
+              0
+            ],
+            "1.0": [
+              23,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              -23,
+              0,
+              0
+            ],
+            "0.5": [
+              23,
+              0,
+              0
+            ],
+            "1.0": [
+              -23,
+              0,
+              0
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.08000000000000002,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.run": {
+      "loop": true,
+      "animation_length": 0.55,
+      "bones": {
+        "leg_l": {
+          "rotation": {
+            "0.0": [
+              40,
+              0,
+              0
+            ],
+            "0.275": [
+              -40,
+              0,
+              0
+            ],
+            "0.55": [
+              40,
+              0,
+              0
+            ]
+          }
+        },
+        "leg_r": {
+          "rotation": {
+            "0.0": [
+              -40,
+              0,
+              0
+            ],
+            "0.275": [
+              40,
+              0,
+              0
+            ],
+            "0.55": [
+              -40,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_l": {
+          "rotation": {
+            "0.0": [
+              40,
+              0,
+              0
+            ],
+            "0.275": [
+              -40,
+              0,
+              0
+            ],
+            "0.55": [
+              40,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              -40,
+              0,
+              0
+            ],
+            "0.275": [
+              40,
+              0,
+              0
+            ],
+            "0.55": [
+              -40,
+              0,
+              0
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.275": [
+              0.0,
+              0.24,
+              0.0
+            ],
+            "0.55": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.hurt": {
+      "loop": false,
+      "animation_length": 0.35,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.175": [
+              -12,
+              0,
+              5
+            ],
+            "0.35": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.death": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6": [
+              0,
+              0,
+              15
+            ],
+            "1.2": [
+              0,
+              0,
+              85
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.6": [
+              0.0,
+              -0.4,
+              0.0
+            ],
+            "1.2": [
+              0.0,
+              -1.2000000000000002,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.bite": {
+      "loop": false,
+      "animation_length": 0.7,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2333": [
+              -15,
+              0,
+              0
+            ],
+            "0.4667": [
+              20,
+              0,
+              0
+            ],
+            "0.7": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.attack": {
+      "loop": false,
+      "animation_length": 0.8,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              0,
+              -18,
+              0
+            ],
+            "0.5333": [
+              15,
+              20,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              -90,
+              0,
+              -20
+            ],
+            "0.5333": [
+              45,
+              0,
+              10
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              -15,
+              0,
+              0
+            ],
+            "0.5333": [
+              18,
+              0,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.stun": {
+      "loop": true,
+      "animation_length": 1.2,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4": [
+              0,
+              0,
+              12
+            ],
+            "0.8": [
+              0,
+              0,
+              -12
+            ],
+            "1.2": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.slash": {
+      "loop": false,
+      "animation_length": 0.75,
+      "bones": {
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.25": [
+              -70,
+              -25,
+              -35
+            ],
+            "0.5": [
+              30,
+              35,
+              20
+            ],
+            "0.75": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.thrust": {
+      "loop": false,
+      "animation_length": 0.65,
+      "bones": {
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2167": [
+              -30,
+              0,
+              15
+            ],
+            "0.4333": [
+              -95,
+              0,
+              0
+            ],
+            "0.65": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.parry": {
+      "loop": false,
+      "animation_length": 0.6,
+      "bones": {
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2": [
+              -65,
+              0,
+              50
+            ],
+            "0.4": [
+              -65,
+              0,
+              50
+            ],
+            "0.6": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.cast": {
+      "loop": false,
+      "animation_length": 1.4,
+      "bones": {
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4667": [
+              -120,
+              0,
+              -20
+            ],
+            "0.9333": [
+              -100,
+              0,
+              0
+            ],
+            "1.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.smash": {
+      "loop": false,
+      "animation_length": 1.4,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4667": [
+              -25,
+              0,
+              0
+            ],
+            "0.9333": [
+              40,
+              0,
+              0
+            ],
+            "1.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.dodge": {
+      "loop": false,
+      "animation_length": 0.45,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.15": [
+              0,
+              0,
+              -20
+            ],
+            "0.3": [
+              0,
+              0,
+              0
+            ],
+            "0.45": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.roar": {
+      "loop": false,
+      "animation_length": 1.7,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5667": [
+              -35,
+              0,
+              0
+            ],
+            "1.1333": [
+              -25,
+              8,
+              0
+            ],
+            "1.7": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.sit": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              -0.8,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              -0.7200000000000001,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              -0.8,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              15,
+              0,
+              0
+            ],
+            "1.0": [
+              17,
+              0,
+              0
+            ],
+            "2.0": [
+              15,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.sleep": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              -0.8,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              -0.7200000000000001,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              -0.8,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              15,
+              0,
+              0
+            ],
+            "1.0": [
+              17,
+              0,
+              0
+            ],
+            "2.0": [
+              15,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.yawn": {
+      "loop": false,
+      "animation_length": 1.1,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.55": [
+              12,
+              0,
+              0
+            ],
+            "1.1": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.scratch_ear": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.8,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              0,
+              15,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.curious_head_tilt": {
+      "loop": false,
+      "animation_length": 2,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6667": [
+              0,
+              15,
+              20
+            ],
+            "1.3333": [
+              0,
+              -10,
+              -10
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.angry_puff": {
+      "loop": false,
+      "animation_length": 1.1,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.55": [
+              12,
+              0,
+              0
+            ],
+            "1.1": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.chase_tail": {
+      "loop": false,
+      "animation_length": 2,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              0,
+              180,
+              0
+            ],
+            "2.0": [
+              0,
+              360,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.climb": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.8,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              0,
+              15,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.eat_cheese": {
+      "loop": false,
+      "animation_length": 1.1,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.55": [
+              12,
+              0,
+              0
+            ],
+            "1.1": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.steal_cheese": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.8,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              0,
+              15,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.happy_bounce": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.8,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5": [
+              0,
+              15,
+              0
+            ],
+            "1.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.world_tree_spirit.shoulder_sit": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              -0.8,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              -0.7200000000000001,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              -0.8,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              15,
+              0,
+              0
+            ],
+            "1.0": [
+              17,
+              0,
+              0
+            ],
+            "2.0": [
+              15,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

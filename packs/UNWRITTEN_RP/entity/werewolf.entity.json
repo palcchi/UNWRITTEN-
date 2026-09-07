@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:werewolf",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/werewolf"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.werewolf"
+      },
+      "animations": {
+        "idle": "animation.unwritten.werewolf.idle",
+        "walk": "animation.unwritten.werewolf.walk",
+        "run": "animation.unwritten.werewolf.run",
+        "hurt": "animation.unwritten.werewolf.hurt",
+        "death": "animation.unwritten.werewolf.death",
+        "bite": "animation.unwritten.werewolf.bite",
+        "attack": "animation.unwritten.werewolf.attack",
+        "stun": "animation.unwritten.werewolf.stun",
+        "swim": "animation.unwritten.werewolf.swim",
+        "tail_sweep": "animation.unwritten.werewolf.tail_sweep",
+        "slash": "animation.unwritten.werewolf.slash",
+        "thrust": "animation.unwritten.werewolf.thrust",
+        "parry": "animation.unwritten.werewolf.parry",
+        "cast": "animation.unwritten.werewolf.cast",
+        "smash": "animation.unwritten.werewolf.smash",
+        "dodge": "animation.unwritten.werewolf.dodge",
+        "roar": "animation.unwritten.werewolf.roar",
+        "locomotion": "controller.animation.unwritten.werewolf"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#636975",
+        "overlay_color": "#bac8c8"
+      }
+    }
+  }
+}

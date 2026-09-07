@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:shadow_griffin",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/shadow_griffin"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.shadow_griffin"
+      },
+      "animations": {
+        "idle": "animation.unwritten.shadow_griffin.idle",
+        "walk": "animation.unwritten.shadow_griffin.walk",
+        "run": "animation.unwritten.shadow_griffin.run",
+        "hurt": "animation.unwritten.shadow_griffin.hurt",
+        "death": "animation.unwritten.shadow_griffin.death",
+        "bite": "animation.unwritten.shadow_griffin.bite",
+        "attack": "animation.unwritten.shadow_griffin.attack",
+        "stun": "animation.unwritten.shadow_griffin.stun",
+        "fly": "animation.unwritten.shadow_griffin.fly",
+        "wing_unfold": "animation.unwritten.shadow_griffin.wing_unfold",
+        "takeoff": "animation.unwritten.shadow_griffin.takeoff",
+        "land": "animation.unwritten.shadow_griffin.land",
+        "swim": "animation.unwritten.shadow_griffin.swim",
+        "tail_sweep": "animation.unwritten.shadow_griffin.tail_sweep",
+        "roar": "animation.unwritten.shadow_griffin.roar",
+        "sit": "animation.unwritten.shadow_griffin.sit",
+        "sleep": "animation.unwritten.shadow_griffin.sleep",
+        "yawn": "animation.unwritten.shadow_griffin.yawn",
+        "scratch_ear": "animation.unwritten.shadow_griffin.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.shadow_griffin.curious_head_tilt",
+        "angry_puff": "animation.unwritten.shadow_griffin.angry_puff",
+        "chase_tail": "animation.unwritten.shadow_griffin.chase_tail",
+        "climb": "animation.unwritten.shadow_griffin.climb",
+        "eat_cheese": "animation.unwritten.shadow_griffin.eat_cheese",
+        "steal_cheese": "animation.unwritten.shadow_griffin.steal_cheese",
+        "happy_bounce": "animation.unwritten.shadow_griffin.happy_bounce",
+        "shoulder_sit": "animation.unwritten.shadow_griffin.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.shadow_griffin"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#24233b",
+        "overlay_color": "#ad8bdb"
+      }
+    }
+  }
+}

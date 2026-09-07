@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:abyssal_serpent",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/abyssal_serpent"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.abyssal_serpent"
+      },
+      "animations": {
+        "idle": "animation.unwritten.abyssal_serpent.idle",
+        "walk": "animation.unwritten.abyssal_serpent.walk",
+        "run": "animation.unwritten.abyssal_serpent.run",
+        "hurt": "animation.unwritten.abyssal_serpent.hurt",
+        "death": "animation.unwritten.abyssal_serpent.death",
+        "bite": "animation.unwritten.abyssal_serpent.bite",
+        "attack": "animation.unwritten.abyssal_serpent.attack",
+        "stun": "animation.unwritten.abyssal_serpent.stun",
+        "swim": "animation.unwritten.abyssal_serpent.swim",
+        "tail_sweep": "animation.unwritten.abyssal_serpent.tail_sweep",
+        "roar": "animation.unwritten.abyssal_serpent.roar",
+        "locomotion": "controller.animation.unwritten.abyssal_serpent"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

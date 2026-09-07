@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:demon_soldier",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/demon_soldier"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.demon_soldier"
+      },
+      "animations": {
+        "idle": "animation.unwritten.demon_soldier.idle",
+        "walk": "animation.unwritten.demon_soldier.walk",
+        "run": "animation.unwritten.demon_soldier.run",
+        "hurt": "animation.unwritten.demon_soldier.hurt",
+        "death": "animation.unwritten.demon_soldier.death",
+        "bite": "animation.unwritten.demon_soldier.bite",
+        "attack": "animation.unwritten.demon_soldier.attack",
+        "stun": "animation.unwritten.demon_soldier.stun",
+        "slash": "animation.unwritten.demon_soldier.slash",
+        "thrust": "animation.unwritten.demon_soldier.thrust",
+        "parry": "animation.unwritten.demon_soldier.parry",
+        "cast": "animation.unwritten.demon_soldier.cast",
+        "smash": "animation.unwritten.demon_soldier.smash",
+        "dodge": "animation.unwritten.demon_soldier.dodge",
+        "roar": "animation.unwritten.demon_soldier.roar",
+        "locomotion": "controller.animation.unwritten.demon_soldier"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#923d3d",
+        "overlay_color": "#e99666"
+      }
+    }
+  }
+}

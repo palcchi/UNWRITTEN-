@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:mimic",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/mimic"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.mimic"
+      },
+      "animations": {
+        "idle": "animation.unwritten.mimic.idle",
+        "walk": "animation.unwritten.mimic.walk",
+        "run": "animation.unwritten.mimic.run",
+        "hurt": "animation.unwritten.mimic.hurt",
+        "death": "animation.unwritten.mimic.death",
+        "attack": "animation.unwritten.mimic.attack",
+        "open": "animation.unwritten.mimic.open",
+        "disguise": "animation.unwritten.mimic.disguise",
+        "locomotion": "controller.animation.unwritten.mimic"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

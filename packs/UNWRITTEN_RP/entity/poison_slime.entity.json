@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:poison_slime",
+      "materials": {
+        "default": "entity_alphablend"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/poison_slime"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.poison_slime"
+      },
+      "animations": {
+        "idle": "animation.unwritten.poison_slime.idle",
+        "walk": "animation.unwritten.poison_slime.walk",
+        "run": "animation.unwritten.poison_slime.run",
+        "hurt": "animation.unwritten.poison_slime.hurt",
+        "death": "animation.unwritten.poison_slime.death",
+        "bite": "animation.unwritten.poison_slime.bite",
+        "attack": "animation.unwritten.poison_slime.attack",
+        "stun": "animation.unwritten.poison_slime.stun",
+        "hop": "animation.unwritten.poison_slime.hop",
+        "slam": "animation.unwritten.poison_slime.slam",
+        "death_melt": "animation.unwritten.poison_slime.death_melt",
+        "roar": "animation.unwritten.poison_slime.roar",
+        "locomotion": "controller.animation.unwritten.poison_slime"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#576f3d",
+        "overlay_color": "#b8f077"
+      }
+    }
+  }
+}

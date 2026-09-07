@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:abyssal_worm",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/abyssal_worm"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.abyssal_worm"
+      },
+      "animations": {
+        "idle": "animation.unwritten.abyssal_worm.idle",
+        "walk": "animation.unwritten.abyssal_worm.walk",
+        "run": "animation.unwritten.abyssal_worm.run",
+        "hurt": "animation.unwritten.abyssal_worm.hurt",
+        "death": "animation.unwritten.abyssal_worm.death",
+        "bite": "animation.unwritten.abyssal_worm.bite",
+        "attack": "animation.unwritten.abyssal_worm.attack",
+        "stun": "animation.unwritten.abyssal_worm.stun",
+        "swim": "animation.unwritten.abyssal_worm.swim",
+        "tail_sweep": "animation.unwritten.abyssal_worm.tail_sweep",
+        "roar": "animation.unwritten.abyssal_worm.roar",
+        "locomotion": "controller.animation.unwritten.abyssal_worm"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

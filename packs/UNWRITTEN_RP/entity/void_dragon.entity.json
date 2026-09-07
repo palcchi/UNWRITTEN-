@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:void_dragon",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/void_dragon"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.void_dragon"
+      },
+      "animations": {
+        "idle": "animation.unwritten.void_dragon.idle",
+        "walk": "animation.unwritten.void_dragon.walk",
+        "run": "animation.unwritten.void_dragon.run",
+        "hurt": "animation.unwritten.void_dragon.hurt",
+        "death": "animation.unwritten.void_dragon.death",
+        "bite": "animation.unwritten.void_dragon.bite",
+        "attack": "animation.unwritten.void_dragon.attack",
+        "stun": "animation.unwritten.void_dragon.stun",
+        "fly": "animation.unwritten.void_dragon.fly",
+        "wing_unfold": "animation.unwritten.void_dragon.wing_unfold",
+        "takeoff": "animation.unwritten.void_dragon.takeoff",
+        "land": "animation.unwritten.void_dragon.land",
+        "swim": "animation.unwritten.void_dragon.swim",
+        "tail_sweep": "animation.unwritten.void_dragon.tail_sweep",
+        "roar": "animation.unwritten.void_dragon.roar",
+        "sit": "animation.unwritten.void_dragon.sit",
+        "sleep": "animation.unwritten.void_dragon.sleep",
+        "yawn": "animation.unwritten.void_dragon.yawn",
+        "scratch_ear": "animation.unwritten.void_dragon.scratch_ear",
+        "curious_head_tilt": "animation.unwritten.void_dragon.curious_head_tilt",
+        "angry_puff": "animation.unwritten.void_dragon.angry_puff",
+        "chase_tail": "animation.unwritten.void_dragon.chase_tail",
+        "climb": "animation.unwritten.void_dragon.climb",
+        "eat_cheese": "animation.unwritten.void_dragon.eat_cheese",
+        "steal_cheese": "animation.unwritten.void_dragon.steal_cheese",
+        "happy_bounce": "animation.unwritten.void_dragon.happy_bounce",
+        "shoulder_sit": "animation.unwritten.void_dragon.shoulder_sit",
+        "locomotion": "controller.animation.unwritten.void_dragon"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#1b4052",
+        "overlay_color": "#54dccc"
+      }
+    }
+  }
+}

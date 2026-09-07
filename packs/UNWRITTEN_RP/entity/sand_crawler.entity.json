@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:sand_crawler",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/sand_crawler"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.sand_crawler"
+      },
+      "animations": {
+        "idle": "animation.unwritten.sand_crawler.idle",
+        "walk": "animation.unwritten.sand_crawler.walk",
+        "run": "animation.unwritten.sand_crawler.run",
+        "hurt": "animation.unwritten.sand_crawler.hurt",
+        "death": "animation.unwritten.sand_crawler.death",
+        "bite": "animation.unwritten.sand_crawler.bite",
+        "attack": "animation.unwritten.sand_crawler.attack",
+        "stun": "animation.unwritten.sand_crawler.stun",
+        "roar": "animation.unwritten.sand_crawler.roar",
+        "locomotion": "controller.animation.unwritten.sand_crawler"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#ac9367",
+        "overlay_color": "#d7e7e0"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:crystal_guardian",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/crystal_guardian"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.crystal_guardian"
+      },
+      "animations": {
+        "idle": "animation.unwritten.crystal_guardian.idle",
+        "walk": "animation.unwritten.crystal_guardian.walk",
+        "run": "animation.unwritten.crystal_guardian.run",
+        "hurt": "animation.unwritten.crystal_guardian.hurt",
+        "death": "animation.unwritten.crystal_guardian.death",
+        "bite": "animation.unwritten.crystal_guardian.bite",
+        "attack": "animation.unwritten.crystal_guardian.attack",
+        "stun": "animation.unwritten.crystal_guardian.stun",
+        "slash": "animation.unwritten.crystal_guardian.slash",
+        "thrust": "animation.unwritten.crystal_guardian.thrust",
+        "parry": "animation.unwritten.crystal_guardian.parry",
+        "cast": "animation.unwritten.crystal_guardian.cast",
+        "smash": "animation.unwritten.crystal_guardian.smash",
+        "dodge": "animation.unwritten.crystal_guardian.dodge",
+        "roar": "animation.unwritten.crystal_guardian.roar",
+        "locomotion": "controller.animation.unwritten.crystal_guardian"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

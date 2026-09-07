@@ -1,0 +1,668 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.unwritten.coral_guardian.idle": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.6666666666666666,
+              0.0
+            ],
+            "2.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.0": [
+              2,
+              0,
+              0
+            ],
+            "2.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.walk": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {
+        "leg_l": {
+          "rotation": {
+            "0.0": [
+              23,
+              0,
+              0
+            ],
+            "0.5": [
+              -23,
+              0,
+              0
+            ],
+            "1.0": [
+              23,
+              0,
+              0
+            ]
+          }
+        },
+        "leg_r": {
+          "rotation": {
+            "0.0": [
+              -23,
+              0,
+              0
+            ],
+            "0.5": [
+              23,
+              0,
+              0
+            ],
+            "1.0": [
+              -23,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_l": {
+          "rotation": {
+            "0.0": [
+              23,
+              0,
+              0
+            ],
+            "0.5": [
+              -23,
+              0,
+              0
+            ],
+            "1.0": [
+              23,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              -23,
+              0,
+              0
+            ],
+            "0.5": [
+              23,
+              0,
+              0
+            ],
+            "1.0": [
+              -23,
+              0,
+              0
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.5": [
+              0.0,
+              0.5333333333333333,
+              0.0
+            ],
+            "1.0": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.run": {
+      "loop": true,
+      "animation_length": 0.55,
+      "bones": {
+        "leg_l": {
+          "rotation": {
+            "0.0": [
+              40,
+              0,
+              0
+            ],
+            "0.275": [
+              -40,
+              0,
+              0
+            ],
+            "0.55": [
+              40,
+              0,
+              0
+            ]
+          }
+        },
+        "leg_r": {
+          "rotation": {
+            "0.0": [
+              -40,
+              0,
+              0
+            ],
+            "0.275": [
+              40,
+              0,
+              0
+            ],
+            "0.55": [
+              -40,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_l": {
+          "rotation": {
+            "0.0": [
+              40,
+              0,
+              0
+            ],
+            "0.275": [
+              -40,
+              0,
+              0
+            ],
+            "0.55": [
+              40,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              -40,
+              0,
+              0
+            ],
+            "0.275": [
+              40,
+              0,
+              0
+            ],
+            "0.55": [
+              -40,
+              0,
+              0
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.275": [
+              0.0,
+              1.5999999999999999,
+              0.0
+            ],
+            "0.55": [
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.hurt": {
+      "loop": false,
+      "animation_length": 0.35,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.175": [
+              -12,
+              0,
+              5
+            ],
+            "0.35": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.death": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.6": [
+              0,
+              0,
+              15
+            ],
+            "1.2": [
+              0,
+              0,
+              85
+            ]
+          }
+        },
+        "body": {
+          "position": {
+            "0.0": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "0.6": [
+              0.0,
+              -2.6666666666666665,
+              0.0
+            ],
+            "1.2": [
+              0.0,
+              -8.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.bite": {
+      "loop": false,
+      "animation_length": 0.7,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2333": [
+              -15,
+              0,
+              0
+            ],
+            "0.4667": [
+              20,
+              0,
+              0
+            ],
+            "0.7": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.attack": {
+      "loop": false,
+      "animation_length": 0.8,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              0,
+              -18,
+              0
+            ],
+            "0.5333": [
+              15,
+              20,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              -90,
+              0,
+              -20
+            ],
+            "0.5333": [
+              45,
+              0,
+              10
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2667": [
+              -15,
+              0,
+              0
+            ],
+            "0.5333": [
+              18,
+              0,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.stun": {
+      "loop": true,
+      "animation_length": 1.2,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4": [
+              0,
+              0,
+              12
+            ],
+            "0.8": [
+              0,
+              0,
+              -12
+            ],
+            "1.2": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.slash": {
+      "loop": false,
+      "animation_length": 0.75,
+      "bones": {
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.25": [
+              -70,
+              -25,
+              -35
+            ],
+            "0.5": [
+              30,
+              35,
+              20
+            ],
+            "0.75": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.thrust": {
+      "loop": false,
+      "animation_length": 0.65,
+      "bones": {
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2167": [
+              -30,
+              0,
+              15
+            ],
+            "0.4333": [
+              -95,
+              0,
+              0
+            ],
+            "0.65": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.parry": {
+      "loop": false,
+      "animation_length": 0.6,
+      "bones": {
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.2": [
+              -65,
+              0,
+              50
+            ],
+            "0.4": [
+              -65,
+              0,
+              50
+            ],
+            "0.6": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.cast": {
+      "loop": false,
+      "animation_length": 1.4,
+      "bones": {
+        "arm_r": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4667": [
+              -120,
+              0,
+              -20
+            ],
+            "0.9333": [
+              -100,
+              0,
+              0
+            ],
+            "1.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.smash": {
+      "loop": false,
+      "animation_length": 1.4,
+      "bones": {
+        "body": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4667": [
+              -25,
+              0,
+              0
+            ],
+            "0.9333": [
+              40,
+              0,
+              0
+            ],
+            "1.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.dodge": {
+      "loop": false,
+      "animation_length": 0.45,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.15": [
+              0,
+              0,
+              -20
+            ],
+            "0.3": [
+              0,
+              0,
+              0
+            ],
+            "0.45": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.unwritten.coral_guardian.roar": {
+      "loop": false,
+      "animation_length": 1.7,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.5667": [
+              -35,
+              0,
+              0
+            ],
+            "1.1333": [
+              -25,
+              8,
+              0
+            ],
+            "1.7": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

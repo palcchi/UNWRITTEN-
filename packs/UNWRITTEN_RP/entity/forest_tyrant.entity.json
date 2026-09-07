@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:forest_tyrant",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/forest_tyrant"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.forest_tyrant"
+      },
+      "animations": {
+        "idle": "animation.unwritten.forest_tyrant.idle",
+        "walk": "animation.unwritten.forest_tyrant.walk",
+        "run": "animation.unwritten.forest_tyrant.run",
+        "hurt": "animation.unwritten.forest_tyrant.hurt",
+        "death": "animation.unwritten.forest_tyrant.death",
+        "bite": "animation.unwritten.forest_tyrant.bite",
+        "attack": "animation.unwritten.forest_tyrant.attack",
+        "stun": "animation.unwritten.forest_tyrant.stun",
+        "slash": "animation.unwritten.forest_tyrant.slash",
+        "thrust": "animation.unwritten.forest_tyrant.thrust",
+        "parry": "animation.unwritten.forest_tyrant.parry",
+        "cast": "animation.unwritten.forest_tyrant.cast",
+        "smash": "animation.unwritten.forest_tyrant.smash",
+        "dodge": "animation.unwritten.forest_tyrant.dodge",
+        "roar": "animation.unwritten.forest_tyrant.roar",
+        "locomotion": "controller.animation.unwritten.forest_tyrant"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

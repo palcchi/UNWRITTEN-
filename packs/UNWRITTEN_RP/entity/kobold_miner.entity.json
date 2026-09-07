@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:kobold_miner",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/kobold_miner"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.kobold_miner"
+      },
+      "animations": {
+        "idle": "animation.unwritten.kobold_miner.idle",
+        "walk": "animation.unwritten.kobold_miner.walk",
+        "run": "animation.unwritten.kobold_miner.run",
+        "hurt": "animation.unwritten.kobold_miner.hurt",
+        "death": "animation.unwritten.kobold_miner.death",
+        "bite": "animation.unwritten.kobold_miner.bite",
+        "attack": "animation.unwritten.kobold_miner.attack",
+        "stun": "animation.unwritten.kobold_miner.stun",
+        "swim": "animation.unwritten.kobold_miner.swim",
+        "tail_sweep": "animation.unwritten.kobold_miner.tail_sweep",
+        "slash": "animation.unwritten.kobold_miner.slash",
+        "thrust": "animation.unwritten.kobold_miner.thrust",
+        "parry": "animation.unwritten.kobold_miner.parry",
+        "cast": "animation.unwritten.kobold_miner.cast",
+        "smash": "animation.unwritten.kobold_miner.smash",
+        "dodge": "animation.unwritten.kobold_miner.dodge",
+        "roar": "animation.unwritten.kobold_miner.roar",
+        "locomotion": "controller.animation.unwritten.kobold_miner"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#9c633f",
+        "overlay_color": "#ddac70"
+      }
+    }
+  }
+}

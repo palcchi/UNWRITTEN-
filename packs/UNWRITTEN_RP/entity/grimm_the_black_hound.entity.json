@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:grimm_the_black_hound",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/grimm_the_black_hound"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.grimm_the_black_hound"
+      },
+      "animations": {
+        "idle": "animation.unwritten.grimm_the_black_hound.idle",
+        "walk": "animation.unwritten.grimm_the_black_hound.walk",
+        "run": "animation.unwritten.grimm_the_black_hound.run",
+        "hurt": "animation.unwritten.grimm_the_black_hound.hurt",
+        "death": "animation.unwritten.grimm_the_black_hound.death",
+        "bite": "animation.unwritten.grimm_the_black_hound.bite",
+        "attack": "animation.unwritten.grimm_the_black_hound.attack",
+        "stun": "animation.unwritten.grimm_the_black_hound.stun",
+        "swim": "animation.unwritten.grimm_the_black_hound.swim",
+        "tail_sweep": "animation.unwritten.grimm_the_black_hound.tail_sweep",
+        "roar": "animation.unwritten.grimm_the_black_hound.roar",
+        "locomotion": "controller.animation.unwritten.grimm_the_black_hound"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#24233b",
+        "overlay_color": "#ad8bdb"
+      }
+    }
+  }
+}

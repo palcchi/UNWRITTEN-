@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:elder_lich",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/elder_lich"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.elder_lich"
+      },
+      "animations": {
+        "idle": "animation.unwritten.elder_lich.idle",
+        "walk": "animation.unwritten.elder_lich.walk",
+        "run": "animation.unwritten.elder_lich.run",
+        "hurt": "animation.unwritten.elder_lich.hurt",
+        "death": "animation.unwritten.elder_lich.death",
+        "bite": "animation.unwritten.elder_lich.bite",
+        "attack": "animation.unwritten.elder_lich.attack",
+        "stun": "animation.unwritten.elder_lich.stun",
+        "slash": "animation.unwritten.elder_lich.slash",
+        "thrust": "animation.unwritten.elder_lich.thrust",
+        "parry": "animation.unwritten.elder_lich.parry",
+        "cast": "animation.unwritten.elder_lich.cast",
+        "smash": "animation.unwritten.elder_lich.smash",
+        "dodge": "animation.unwritten.elder_lich.dodge",
+        "roar": "animation.unwritten.elder_lich.roar",
+        "locomotion": "controller.animation.unwritten.elder_lich"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

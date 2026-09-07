@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:sea_serpent",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/sea_serpent"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.sea_serpent"
+      },
+      "animations": {
+        "idle": "animation.unwritten.sea_serpent.idle",
+        "walk": "animation.unwritten.sea_serpent.walk",
+        "run": "animation.unwritten.sea_serpent.run",
+        "hurt": "animation.unwritten.sea_serpent.hurt",
+        "death": "animation.unwritten.sea_serpent.death",
+        "bite": "animation.unwritten.sea_serpent.bite",
+        "attack": "animation.unwritten.sea_serpent.attack",
+        "stun": "animation.unwritten.sea_serpent.stun",
+        "swim": "animation.unwritten.sea_serpent.swim",
+        "tail_sweep": "animation.unwritten.sea_serpent.tail_sweep",
+        "roar": "animation.unwritten.sea_serpent.roar",
+        "locomotion": "controller.animation.unwritten.sea_serpent"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

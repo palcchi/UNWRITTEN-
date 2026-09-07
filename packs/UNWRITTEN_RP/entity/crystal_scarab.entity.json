@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:crystal_scarab",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/crystal_scarab"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.crystal_scarab"
+      },
+      "animations": {
+        "idle": "animation.unwritten.crystal_scarab.idle",
+        "walk": "animation.unwritten.crystal_scarab.walk",
+        "run": "animation.unwritten.crystal_scarab.run",
+        "hurt": "animation.unwritten.crystal_scarab.hurt",
+        "death": "animation.unwritten.crystal_scarab.death",
+        "bite": "animation.unwritten.crystal_scarab.bite",
+        "attack": "animation.unwritten.crystal_scarab.attack",
+        "stun": "animation.unwritten.crystal_scarab.stun",
+        "roar": "animation.unwritten.crystal_scarab.roar",
+        "locomotion": "controller.animation.unwritten.crystal_scarab"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#386d9a",
+        "overlay_color": "#95e4ed"
+      }
+    }
+  }
+}

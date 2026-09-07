@@ -1,0 +1,38 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:original_staff",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/original_staff"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.original_staff"
+      },
+      "animations": {
+        "idle": "animation.unwritten.original_staff.idle",
+        "walk": "animation.unwritten.original_staff.walk",
+        "run": "animation.unwritten.original_staff.run",
+        "hurt": "animation.unwritten.original_staff.hurt",
+        "death": "animation.unwritten.original_staff.death",
+        "attack": "animation.unwritten.original_staff.attack",
+        "locomotion": "controller.animation.unwritten.original_staff"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#665541",
+        "overlay_color": "#91b969"
+      }
+    }
+  }
+}

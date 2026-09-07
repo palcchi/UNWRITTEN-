@@ -1,0 +1,59 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:elara_spirit",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/elara_spirit"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.elara_spirit"
+      },
+      "animations": {
+        "idle": "animation.unwritten.elara_spirit.idle",
+        "walk": "animation.unwritten.elara_spirit.walk",
+        "run": "animation.unwritten.elara_spirit.run",
+        "hurt": "animation.unwritten.elara_spirit.hurt",
+        "death": "animation.unwritten.elara_spirit.death",
+        "bite": "animation.unwritten.elara_spirit.bite",
+        "attack": "animation.unwritten.elara_spirit.attack",
+        "stun": "animation.unwritten.elara_spirit.stun",
+        "slash": "animation.unwritten.elara_spirit.slash",
+        "thrust": "animation.unwritten.elara_spirit.thrust",
+        "parry": "animation.unwritten.elara_spirit.parry",
+        "cast": "animation.unwritten.elara_spirit.cast",
+        "smash": "animation.unwritten.elara_spirit.smash",
+        "dodge": "animation.unwritten.elara_spirit.dodge",
+        "roar": "animation.unwritten.elara_spirit.roar",
+        "awaken": "animation.unwritten.elara_spirit.awaken",
+        "kneel": "animation.unwritten.elara_spirit.kneel",
+        "reach": "animation.unwritten.elara_spirit.reach",
+        "transform": "animation.unwritten.elara_spirit.transform",
+        "slash_1": "animation.unwritten.elara_spirit.slash_1",
+        "slash_2": "animation.unwritten.elara_spirit.slash_2",
+        "slash_3": "animation.unwritten.elara_spirit.slash_3",
+        "slash_4": "animation.unwritten.elara_spirit.slash_4",
+        "slash_5": "animation.unwritten.elara_spirit.slash_5",
+        "thrust_1": "animation.unwritten.elara_spirit.thrust_1",
+        "thrust_2": "animation.unwritten.elara_spirit.thrust_2",
+        "thrust_3": "animation.unwritten.elara_spirit.thrust_3",
+        "locomotion": "controller.animation.unwritten.elara_spirit"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#83b8b4",
+        "overlay_color": "#d1fff2"
+      }
+    }
+  }
+}

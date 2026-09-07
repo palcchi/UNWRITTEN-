@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:dire_wolf",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/dire_wolf"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.dire_wolf"
+      },
+      "animations": {
+        "idle": "animation.unwritten.dire_wolf.idle",
+        "walk": "animation.unwritten.dire_wolf.walk",
+        "run": "animation.unwritten.dire_wolf.run",
+        "hurt": "animation.unwritten.dire_wolf.hurt",
+        "death": "animation.unwritten.dire_wolf.death",
+        "bite": "animation.unwritten.dire_wolf.bite",
+        "attack": "animation.unwritten.dire_wolf.attack",
+        "stun": "animation.unwritten.dire_wolf.stun",
+        "swim": "animation.unwritten.dire_wolf.swim",
+        "tail_sweep": "animation.unwritten.dire_wolf.tail_sweep",
+        "roar": "animation.unwritten.dire_wolf.roar",
+        "locomotion": "controller.animation.unwritten.dire_wolf"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

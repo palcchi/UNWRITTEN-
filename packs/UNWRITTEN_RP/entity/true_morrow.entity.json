@@ -1,0 +1,52 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:true_morrow",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/true_morrow"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.true_morrow"
+      },
+      "animations": {
+        "idle": "animation.unwritten.true_morrow.idle",
+        "walk": "animation.unwritten.true_morrow.walk",
+        "run": "animation.unwritten.true_morrow.run",
+        "hurt": "animation.unwritten.true_morrow.hurt",
+        "death": "animation.unwritten.true_morrow.death",
+        "bite": "animation.unwritten.true_morrow.bite",
+        "attack": "animation.unwritten.true_morrow.attack",
+        "stun": "animation.unwritten.true_morrow.stun",
+        "fly": "animation.unwritten.true_morrow.fly",
+        "wing_unfold": "animation.unwritten.true_morrow.wing_unfold",
+        "takeoff": "animation.unwritten.true_morrow.takeoff",
+        "land": "animation.unwritten.true_morrow.land",
+        "swim": "animation.unwritten.true_morrow.swim",
+        "tail_sweep": "animation.unwritten.true_morrow.tail_sweep",
+        "roar": "animation.unwritten.true_morrow.roar",
+        "breath": "animation.unwritten.true_morrow.breath",
+        "sleeping": "animation.unwritten.true_morrow.sleeping",
+        "awaken": "animation.unwritten.true_morrow.awaken",
+        "kneel": "animation.unwritten.true_morrow.kneel",
+        "transform": "animation.unwritten.true_morrow.transform",
+        "locomotion": "controller.animation.unwritten.true_morrow"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d8cfb0",
+        "overlay_color": "#a696da"
+      }
+    }
+  }
+}

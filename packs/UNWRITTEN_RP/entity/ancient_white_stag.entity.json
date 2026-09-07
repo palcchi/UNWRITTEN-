@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:ancient_white_stag",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/ancient_white_stag"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.ancient_white_stag"
+      },
+      "animations": {
+        "idle": "animation.unwritten.ancient_white_stag.idle",
+        "walk": "animation.unwritten.ancient_white_stag.walk",
+        "run": "animation.unwritten.ancient_white_stag.run",
+        "hurt": "animation.unwritten.ancient_white_stag.hurt",
+        "death": "animation.unwritten.ancient_white_stag.death",
+        "bite": "animation.unwritten.ancient_white_stag.bite",
+        "attack": "animation.unwritten.ancient_white_stag.attack",
+        "stun": "animation.unwritten.ancient_white_stag.stun",
+        "swim": "animation.unwritten.ancient_white_stag.swim",
+        "tail_sweep": "animation.unwritten.ancient_white_stag.tail_sweep",
+        "roar": "animation.unwritten.ancient_white_stag.roar",
+        "locomotion": "controller.animation.unwritten.ancient_white_stag"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}

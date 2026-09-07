@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:vampire_lord_bat_form",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/vampire_lord_bat_form"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.vampire_lord_bat_form"
+      },
+      "animations": {
+        "idle": "animation.unwritten.vampire_lord_bat_form.idle",
+        "walk": "animation.unwritten.vampire_lord_bat_form.walk",
+        "run": "animation.unwritten.vampire_lord_bat_form.run",
+        "hurt": "animation.unwritten.vampire_lord_bat_form.hurt",
+        "death": "animation.unwritten.vampire_lord_bat_form.death",
+        "bite": "animation.unwritten.vampire_lord_bat_form.bite",
+        "attack": "animation.unwritten.vampire_lord_bat_form.attack",
+        "stun": "animation.unwritten.vampire_lord_bat_form.stun",
+        "fly": "animation.unwritten.vampire_lord_bat_form.fly",
+        "wing_unfold": "animation.unwritten.vampire_lord_bat_form.wing_unfold",
+        "takeoff": "animation.unwritten.vampire_lord_bat_form.takeoff",
+        "land": "animation.unwritten.vampire_lord_bat_form.land",
+        "swim": "animation.unwritten.vampire_lord_bat_form.swim",
+        "tail_sweep": "animation.unwritten.vampire_lord_bat_form.tail_sweep",
+        "roar": "animation.unwritten.vampire_lord_bat_form.roar",
+        "locomotion": "controller.animation.unwritten.vampire_lord_bat_form"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

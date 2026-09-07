@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:lich_lord",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/lich_lord"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.lich_lord"
+      },
+      "animations": {
+        "idle": "animation.unwritten.lich_lord.idle",
+        "walk": "animation.unwritten.lich_lord.walk",
+        "run": "animation.unwritten.lich_lord.run",
+        "hurt": "animation.unwritten.lich_lord.hurt",
+        "death": "animation.unwritten.lich_lord.death",
+        "bite": "animation.unwritten.lich_lord.bite",
+        "attack": "animation.unwritten.lich_lord.attack",
+        "stun": "animation.unwritten.lich_lord.stun",
+        "slash": "animation.unwritten.lich_lord.slash",
+        "thrust": "animation.unwritten.lich_lord.thrust",
+        "parry": "animation.unwritten.lich_lord.parry",
+        "cast": "animation.unwritten.lich_lord.cast",
+        "smash": "animation.unwritten.lich_lord.smash",
+        "dodge": "animation.unwritten.lich_lord.dodge",
+        "roar": "animation.unwritten.lich_lord.roar",
+        "locomotion": "controller.animation.unwritten.lich_lord"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#b8af91",
+        "overlay_color": "#eee0b6"
+      }
+    }
+  }
+}

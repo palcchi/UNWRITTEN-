@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:hellhound_two_headed",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/hellhound_two_headed"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.hellhound_two_headed"
+      },
+      "animations": {
+        "idle": "animation.unwritten.hellhound_two_headed.idle",
+        "walk": "animation.unwritten.hellhound_two_headed.walk",
+        "run": "animation.unwritten.hellhound_two_headed.run",
+        "hurt": "animation.unwritten.hellhound_two_headed.hurt",
+        "death": "animation.unwritten.hellhound_two_headed.death",
+        "bite": "animation.unwritten.hellhound_two_headed.bite",
+        "attack": "animation.unwritten.hellhound_two_headed.attack",
+        "stun": "animation.unwritten.hellhound_two_headed.stun",
+        "swim": "animation.unwritten.hellhound_two_headed.swim",
+        "tail_sweep": "animation.unwritten.hellhound_two_headed.tail_sweep",
+        "roar": "animation.unwritten.hellhound_two_headed.roar",
+        "locomotion": "controller.animation.unwritten.hellhound_two_headed"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#a33c28",
+        "overlay_color": "#ffd077"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_ally_chieftain",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_ally_chieftain"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_ally_chieftain"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_ally_chieftain.idle",
+        "walk": "animation.unwritten.goblin_ally_chieftain.walk",
+        "run": "animation.unwritten.goblin_ally_chieftain.run",
+        "hurt": "animation.unwritten.goblin_ally_chieftain.hurt",
+        "death": "animation.unwritten.goblin_ally_chieftain.death",
+        "bite": "animation.unwritten.goblin_ally_chieftain.bite",
+        "attack": "animation.unwritten.goblin_ally_chieftain.attack",
+        "stun": "animation.unwritten.goblin_ally_chieftain.stun",
+        "slash": "animation.unwritten.goblin_ally_chieftain.slash",
+        "thrust": "animation.unwritten.goblin_ally_chieftain.thrust",
+        "parry": "animation.unwritten.goblin_ally_chieftain.parry",
+        "cast": "animation.unwritten.goblin_ally_chieftain.cast",
+        "smash": "animation.unwritten.goblin_ally_chieftain.smash",
+        "dodge": "animation.unwritten.goblin_ally_chieftain.dodge",
+        "roar": "animation.unwritten.goblin_ally_chieftain.roar",
+        "locomotion": "controller.animation.unwritten.goblin_ally_chieftain"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

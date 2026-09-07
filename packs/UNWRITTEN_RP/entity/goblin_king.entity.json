@@ -1,0 +1,47 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:goblin_king",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/goblin_king"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.goblin_king"
+      },
+      "animations": {
+        "idle": "animation.unwritten.goblin_king.idle",
+        "walk": "animation.unwritten.goblin_king.walk",
+        "run": "animation.unwritten.goblin_king.run",
+        "hurt": "animation.unwritten.goblin_king.hurt",
+        "death": "animation.unwritten.goblin_king.death",
+        "bite": "animation.unwritten.goblin_king.bite",
+        "attack": "animation.unwritten.goblin_king.attack",
+        "stun": "animation.unwritten.goblin_king.stun",
+        "slash": "animation.unwritten.goblin_king.slash",
+        "thrust": "animation.unwritten.goblin_king.thrust",
+        "parry": "animation.unwritten.goblin_king.parry",
+        "cast": "animation.unwritten.goblin_king.cast",
+        "smash": "animation.unwritten.goblin_king.smash",
+        "dodge": "animation.unwritten.goblin_king.dodge",
+        "roar": "animation.unwritten.goblin_king.roar",
+        "locomotion": "controller.animation.unwritten.goblin_king"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#638845",
+        "overlay_color": "#afc877"
+      }
+    }
+  }
+}

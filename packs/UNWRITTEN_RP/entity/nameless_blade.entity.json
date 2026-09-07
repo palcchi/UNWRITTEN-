@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:nameless_blade",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/nameless_blade"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.nameless_blade"
+      },
+      "animations": {
+        "idle": "animation.unwritten.nameless_blade.idle",
+        "walk": "animation.unwritten.nameless_blade.walk",
+        "run": "animation.unwritten.nameless_blade.run",
+        "hurt": "animation.unwritten.nameless_blade.hurt",
+        "death": "animation.unwritten.nameless_blade.death",
+        "attack": "animation.unwritten.nameless_blade.attack",
+        "awaken": "animation.unwritten.nameless_blade.awaken",
+        "kneel": "animation.unwritten.nameless_blade.kneel",
+        "transform": "animation.unwritten.nameless_blade.transform",
+        "locomotion": "controller.animation.unwritten.nameless_blade"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#59636c",
+        "overlay_color": "#b9c8c8"
+      }
+    }
+  }
+}

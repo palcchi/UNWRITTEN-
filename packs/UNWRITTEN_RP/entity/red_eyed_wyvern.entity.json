@@ -1,0 +1,49 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:red_eyed_wyvern",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/red_eyed_wyvern"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.red_eyed_wyvern"
+      },
+      "animations": {
+        "idle": "animation.unwritten.red_eyed_wyvern.idle",
+        "walk": "animation.unwritten.red_eyed_wyvern.walk",
+        "run": "animation.unwritten.red_eyed_wyvern.run",
+        "hurt": "animation.unwritten.red_eyed_wyvern.hurt",
+        "death": "animation.unwritten.red_eyed_wyvern.death",
+        "bite": "animation.unwritten.red_eyed_wyvern.bite",
+        "attack": "animation.unwritten.red_eyed_wyvern.attack",
+        "stun": "animation.unwritten.red_eyed_wyvern.stun",
+        "fly": "animation.unwritten.red_eyed_wyvern.fly",
+        "wing_unfold": "animation.unwritten.red_eyed_wyvern.wing_unfold",
+        "takeoff": "animation.unwritten.red_eyed_wyvern.takeoff",
+        "land": "animation.unwritten.red_eyed_wyvern.land",
+        "swim": "animation.unwritten.red_eyed_wyvern.swim",
+        "tail_sweep": "animation.unwritten.red_eyed_wyvern.tail_sweep",
+        "roar": "animation.unwritten.red_eyed_wyvern.roar",
+        "breath": "animation.unwritten.red_eyed_wyvern.breath",
+        "sleeping": "animation.unwritten.red_eyed_wyvern.sleeping",
+        "locomotion": "controller.animation.unwritten.red_eyed_wyvern"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#272936",
+        "overlay_color": "#858493"
+      }
+    }
+  }
+}

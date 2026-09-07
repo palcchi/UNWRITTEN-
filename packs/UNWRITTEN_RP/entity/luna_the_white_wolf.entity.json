@@ -1,0 +1,43 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "unwritten:luna_the_white_wolf",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/unwritten/luna_the_white_wolf"
+      },
+      "geometry": {
+        "default": "geometry.unwritten.luna_the_white_wolf"
+      },
+      "animations": {
+        "idle": "animation.unwritten.luna_the_white_wolf.idle",
+        "walk": "animation.unwritten.luna_the_white_wolf.walk",
+        "run": "animation.unwritten.luna_the_white_wolf.run",
+        "hurt": "animation.unwritten.luna_the_white_wolf.hurt",
+        "death": "animation.unwritten.luna_the_white_wolf.death",
+        "bite": "animation.unwritten.luna_the_white_wolf.bite",
+        "attack": "animation.unwritten.luna_the_white_wolf.attack",
+        "stun": "animation.unwritten.luna_the_white_wolf.stun",
+        "swim": "animation.unwritten.luna_the_white_wolf.swim",
+        "tail_sweep": "animation.unwritten.luna_the_white_wolf.tail_sweep",
+        "roar": "animation.unwritten.luna_the_white_wolf.roar",
+        "locomotion": "controller.animation.unwritten.luna_the_white_wolf"
+      },
+      "scripts": {
+        "animate": [
+          "locomotion"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.unwritten"
+      ],
+      "spawn_egg": {
+        "base_color": "#d7dedb",
+        "overlay_color": "#fff0c0"
+      }
+    }
+  }
+}
