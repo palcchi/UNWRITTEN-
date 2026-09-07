@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "entries": [
     {
       "id": "green_slime",
@@ -10323,7 +10323,7 @@
       "id": "dullahan",
       "name": "Dullahan",
       "family": "humanoid",
-      "size": 2.0,
+      "size": 2,
       "features": [
         "dark",
         "armor",
@@ -10336,10 +10336,10 @@
       "category": "colossi",
       "biome": "Night roads",
       "size_axis": "height",
-      "recipe_scale": 1.0561056105610562,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 34,
-      "cubes": 103,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 17,
+      "cubes": 21,
       "animations": [
         "idle",
         "walk",
@@ -10375,12 +10375,15 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
       "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/dullahan.png"
     },
     {
       "id": "dullahan_horse",
@@ -10558,7 +10561,7 @@
       "id": "caelum",
       "name": "Caelum",
       "family": "humanoid",
-      "size": 1.9,
+      "size": 2,
       "features": [
         "gold",
         "armor",
@@ -10571,10 +10574,10 @@
       "category": "colossi",
       "biome": "Caelum grave",
       "size_axis": "height",
-      "recipe_scale": 0.965079365079365,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 33,
-      "cubes": 113,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 15,
+      "cubes": 21,
       "animations": [
         "idle",
         "walk",
@@ -10609,12 +10612,15 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
       "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/caelum.png"
     },
     {
       "id": "blade_of_caelum",
@@ -10659,7 +10665,7 @@
       "id": "elara_spirit",
       "name": "Elara Spirit",
       "family": "spirit",
-      "size": 1.8,
+      "size": 2,
       "features": [
         "spectral",
         "hair",
@@ -10669,10 +10675,10 @@
       "category": "colossi",
       "biome": "Caelum grave",
       "size_axis": "height",
-      "recipe_scale": 0.9142857142857143,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 39,
-      "cubes": 71,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 14,
+      "cubes": 15,
       "animations": [
         "idle",
         "walk",
@@ -10707,12 +10713,15 @@
       "role": "cinematic / raid visual",
       "element": "spirit",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
-      "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_height": 128,
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/elara_spirit.png"
     },
     {
       "id": "caelum_armor_display",
@@ -10776,7 +10785,7 @@
       "id": "kael_hunter",
       "name": "Kael Hunter",
       "family": "humanoid",
-      "size": 1.9,
+      "size": 2,
       "features": [
         "brown",
         "coat",
@@ -10788,10 +10797,10 @@
       "category": "colossi",
       "biome": "Tavern and Hell throne",
       "size_axis": "height",
-      "recipe_scale": 0.965079365079365,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 33,
-      "cubes": 67,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 14,
+      "cubes": 17,
       "animations": [
         "idle",
         "walk",
@@ -10825,18 +10834,21 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
-      "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_height": 128,
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/kael_hunter.png"
     },
     {
       "id": "kael_demon_king",
       "name": "Kael Demon King",
       "family": "demon",
-      "size": 2.2,
+      "size": 2,
       "features": [
         "dark",
         "horns",
@@ -10850,10 +10862,10 @@
       "category": "colossi",
       "biome": "Tavern and Hell throne",
       "size_axis": "height",
-      "recipe_scale": 0.8800000000000001,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 39,
-      "cubes": 132,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 22,
+      "cubes": 38,
       "animations": [
         "idle",
         "walk",
@@ -10887,12 +10899,15 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
       "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/kael_demon_king.png"
     },
     {
       "id": "demon_kings_blade",
@@ -11306,7 +11321,7 @@
       "id": "sir_seraphiel",
       "name": "Sir Seraphiel",
       "family": "humanoid",
-      "size": 2.0,
+      "size": 2,
       "features": [
         "white",
         "armor",
@@ -11318,10 +11333,10 @@
       "category": "colossi",
       "biome": "Fallen cathedral",
       "size_axis": "height",
-      "recipe_scale": 1.0158730158730158,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 33,
-      "cubes": 109,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 15,
+      "cubes": 21,
       "animations": [
         "idle",
         "walk",
@@ -11355,18 +11370,21 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
       "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/sir_seraphiel.png"
     },
     {
       "id": "fallen_seraphiel",
       "name": "Fallen Seraphiel",
       "family": "angel",
-      "size": 2.5,
+      "size": 2,
       "features": [
         "shadow",
         "wings6",
@@ -11379,10 +11397,10 @@
       "category": "colossi",
       "biome": "Fallen cathedral",
       "size_axis": "height",
-      "recipe_scale": 1.0569283227290378,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 36,
-      "cubes": 314,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 22,
+      "cubes": 109,
       "animations": [
         "idle",
         "walk",
@@ -11418,18 +11436,21 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
-      "texture_width": 1024,
+      "texture_width": 512,
       "texture_height": 512,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/fallen_seraphiel.png"
     },
     {
       "id": "the_nameless_knight",
       "name": "The Nameless Knight",
       "family": "humanoid",
-      "size": 1.95,
+      "size": 2,
       "features": [
         "steel",
         "armor",
@@ -11441,10 +11462,10 @@
       "category": "colossi",
       "biome": "Forgotten rooftops",
       "size_axis": "height",
-      "recipe_scale": 0.9936305732484076,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 26,
-      "cubes": 83,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 15,
+      "cubes": 21,
       "animations": [
         "idle",
         "walk",
@@ -11481,12 +11502,15 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
       "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/the_nameless_knight.png"
     },
     {
       "id": "nameless_blade",
@@ -11637,7 +11661,7 @@
       "id": "verdant_the_last_father",
       "name": "Verdant The Last Father",
       "family": "humanoid",
-      "size": 2.1,
+      "size": 2,
       "features": [
         "white",
         "wood",
@@ -11648,10 +11672,10 @@
       "category": "colossi",
       "biome": "World Tree",
       "size_axis": "height",
-      "recipe_scale": 0.9403322574724075,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 22,
-      "cubes": 50,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 9,
+      "cubes": 13,
       "animations": [
         "idle",
         "walk",
@@ -11686,12 +11710,15 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
       "texture_height": 128,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/verdant_the_last_father.png"
     },
     {
       "id": "morrow_anomaly",
@@ -11908,7 +11935,7 @@
       "id": "aion",
       "name": "AION",
       "family": "humanoid",
-      "size": 2.0,
+      "size": 2,
       "features": [
         "white",
         "robe",
@@ -11919,10 +11946,10 @@
       "category": "colossi",
       "biome": "Architect arena",
       "size_axis": "height",
-      "recipe_scale": 1.0158730158730158,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 40,
-      "cubes": 105,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 15,
+      "cubes": 51,
       "animations": [
         "idle",
         "walk",
@@ -11964,18 +11991,21 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
       "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/aion.png"
     },
     {
       "id": "aion_the_architect",
       "name": "AION The Architect",
       "family": "architect",
-      "size": 2.3,
+      "size": 2,
       "features": [
         "white",
         "detached",
@@ -11988,10 +12018,10 @@
       "category": "colossi",
       "biome": "Architect arena",
       "size_axis": "height",
-      "recipe_scale": 1.016574585635359,
-      "status": "bespoke_art_pass_2",
-      "rig_bones": 52,
-      "cubes": 128,
+      "recipe_scale": 1,
+      "status": "player_skin_art_pass_3",
+      "rig_bones": 27,
+      "cubes": 60,
       "animations": [
         "idle",
         "walk",
@@ -12033,12 +12063,15 @@
       "role": "cinematic / raid visual",
       "element": "unspecified",
       "limitations": [
-        "Bespoke art pass; actual Blockbench and Bedrock client review still required.",
-        "VFX, phase transitions, collision and gameplay are separate server work."
+        "Player base skin does not include 3D attachments.",
+        "Dullahan headless presentation is entity-only.",
+        "Actual Blockbench/Bedrock import and performance review remain untested."
       ],
       "texture_width": 512,
       "texture_height": 256,
-      "texture_layout": "Unique padded face islands, directional material painting"
+      "texture_layout": "64x64 standard skin with individually painted padded accessory face islands",
+      "base_rig": "Steve / 4px arms / six rigid body parts",
+      "skin": "skins/colossi/aion_the_architect.png"
     },
     {
       "id": "cheese",
