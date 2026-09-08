@@ -3,19 +3,25 @@
   "colossus": "II",
   "name": "The Dullahan",
   "form": "Headless rider",
-  "cubes": 36,
+  "cubes": 34,
   "budget": 65,
   "groups": 13,
   "dimensions_blocks": {
     "width": 0.994,
     "height": 1.395,
-    "length": 0.694
+    "length": 0.691
   },
   "body_height_blocks": 1.8,
   "source": "model_studio/dullahan/dullahan.bbmodel",
   "steve_base_parts": 5,
-  "stage": "geometry and flat material review",
+  "stage": "original pixel-art texture and model revision",
   "final_texture": false,
+  "painted_texture": true,
+  "texture": "model_studio/dullahan/texture.png",
+  "texture_size": [
+    512,
+    256
+  ],
   "animations": 0,
   "weapons": false,
   "blockbench_application_test": false,
