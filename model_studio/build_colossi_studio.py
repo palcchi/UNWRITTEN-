@@ -1,4 +1,4 @@
-"""Ten Colossi geometry review: authored silhouettes, flat material IDs, no clips.
+"""Ten Colossi model and pixel-art texture review. No animation clips.
 
 Only the model_studio output tree is written. No runtime pack, existing skin,
 animation or weapon asset is replaced by this geometry review.
@@ -12,6 +12,7 @@ from build_assets import ROOT, dump, geometry, bbmodel
 from build_colossi import Sculpt
 from build_player_colossi import PARTS
 from build_vharos import sculpt as vharos_base
+from paint_colossi import prepare_model, paint_atlas
 from render_previews import render as render_geometry, mesh
 
 OUT=ROOT/'model_studio'
@@ -425,15 +426,10 @@ def export(spec):
     if id=='vharos':
         mapping={0:'base',1:'edge',2:'belly',3:'bone',4:'void',5:'eye',6:'wing'}
         for p in r.parts:p['material']=mapping[p['material']]
-    colors=list(palette.values());names=list(palette)
-    tex=Image.new('RGBA',(len(colors)*4,4));d=ImageDraw.Draw(tex)
-    for i,c in enumerate(colors):d.rectangle((i*4,0,i*4+3,3),fill=c)
-    tex.save(folder/'materials.png')
-    for p in r.parts:
-        i=names.index(p['material']);p['material_name']=p['material'];p['material']=i
-        p['uv']={f:{'uv':[i*4,0],'uv_size':[3,3]} for f in FACE_NAMES}
+    r=prepare_model(id,r)
+    tex=paint_atlas(id,r,palette);tex.save(folder/'texture.png')
     e={'id':id+'_studio','name':name+' | '+form,'size':size,'texture_width':tex.width,'texture_height':tex.height,
-       'geometry':str((folder/(id+'.geo.json')).relative_to(ROOT)),'texture':str((folder/'materials.png').relative_to(ROOT))}
+       'geometry':str((folder/(id+'.geo.json')).relative_to(ROOT)),'texture':str((folder/'texture.png').relative_to(ROOT))}
     dump(ROOT/e['geometry'],geometry(e,r))
     vs=np.concatenate([v for v,uv,f in mesh(e)])
     # Steve base is uniformly scaled, never stretched; accessories do not set body height.
@@ -455,6 +451,13 @@ def export(spec):
             chain.add(n);n=parents[n]
     assert len(r.parts)<=budget,(id,len(r.parts),budget)
     assert not model['animations'],id
+    import base64
+    assert base64.b64decode(model['textures'][0]['source'].split(',')[1])==(folder/'texture.png').read_bytes(),id
+    for b in parsed['bones']:
+        for cube in b.get('cubes',[]):
+            for uv in cube['uv'].values():
+                x,y=uv['uv'];w,h=uv['uv_size']
+                assert 0<=x<x+w<=tex.width and 0<=y<y+h<=tex.height,(id,'UV outside texture')
     assert all(all(s>0 for s in c['size']) for b in parsed['bones'] for c in b.get('cubes',[])),id
     assert all(word not in b.lower() for b in bn for word in ['sword','blade','spear','weapon','bow']),id
     base={p['steve_base']:p for p in r.parts if p.get('steve_base')}
@@ -465,7 +468,8 @@ def export(spec):
     record={'id':id,'colossus':roman,'name':name,'form':form,'cubes':len(r.parts),'budget':budget,'groups':len(r.bones),
         'dimensions_blocks':dict(zip(['width','height','length'],map(lambda x:round(float(x),3),dims))),
         'body_height_blocks':size if axis=='player' else None,'source':str((folder/(id+'.bbmodel')).relative_to(ROOT)),
-        'steve_base_parts':len(base),'stage':'geometry and flat material review','final_texture':False,'animations':0,'weapons':False,
+        'steve_base_parts':len(base),'stage':'original pixel-art texture and model revision','final_texture':False,'painted_texture':True,
+        'texture':str((folder/'texture.png').relative_to(ROOT)),'texture_size':[tex.width,tex.height],'animations':0,'weapons':False,
         'blockbench_application_test':False,'bedrock_in_game_test':False}
     dump(folder/'review.json',record)
     return e,record
@@ -475,14 +479,14 @@ def reviews(all_entries):
     previews=OUT/'previews';previews.mkdir(exist_ok=True)
     contact=Image.new('RGB',(1600,90+5*450),BACKGROUND);cd=ImageDraw.Draw(contact)
     cd.text((24,18),'UNWRITTEN / TEN COLOSSI / ALL FORMS',font=big,fill='#d8d0c4')
-    cd.text((24,56),'Actual geometry. Flat preview colors. Individual tile scale.',font=font,fill='#9cabb6')
+    cd.text((24,56),'Actual textured models. Original pixel painting. Individual tile scale.',font=font,fill='#9cabb6')
     entries={r['id']:(e,r) for e,r in all_entries}
     for i,(e,r) in enumerate(all_entries):
         id=r['id'];player=r['body_height_blocks'] is not None
         angles=[(-32,10),(0,0),(135,10)] if player else [(-48,22),(-90,0),(0,12)]
         sheet=Image.new('RGB',(1440,575),BACKGROUND);d=ImageDraw.Draw(sheet)
         d.text((24,12),r['colossus']+' / '+r['name'].upper()+' / '+r['form'],font=big,fill='#d8d0c4')
-        d.text((24,52),f'{r["cubes"]} cubes | Budget {r["budget"]} | Geometry and flat material review',font=font,fill='#9cabb6')
+        d.text((24,52),f'{r["cubes"]} cubes | {r["texture_size"][0]}x{r["texture_size"][1]} original pixel atlas | Model + texture review',font=font,fill='#9cabb6')
         for a,(yaw,pitch) in enumerate(angles):
             pic,_=render(e,480,yaw=yaw,pitch=pitch);sheet.paste(pic,(a*480,80))
         sheet.save(OUT/id/'preview.png')
@@ -498,6 +502,11 @@ def reviews(all_entries):
         e,r=entries[id];pic,_=render(e,400,yaw=-32 if r['body_height_blocks'] else -48,pitch=12 if r['body_height_blocks'] else 22)
         x=i%4*400;y=90+i//4*465;main.paste(pic,(x,y));d.text((x+16,y+402),r['colossus']+' / '+r['name'],font=font,fill='#d8d0c4');d.text((x+16,y+428),r['form'],font=font,fill='#9cabb6')
     main.save(previews/'ten_colossi.png')
+    closeups=Image.new('RGB',(1500,555),BACKGROUND);draw=ImageDraw.Draw(closeups)
+    for i,id in enumerate(['caelum','kael_demon_king','aion']):
+        e,r=entries[id];pic,_=render(e,500,yaw=-30,pitch=10);closeups.paste(pic,(i*500,0))
+        draw.text((i*500+24,520),r['name']+' / textured model',font=font,fill='#d8d0c4')
+    closeups.save(previews/'texture_closeups.png')
     return previews
 
 def build():
@@ -507,18 +516,18 @@ def build():
     records=[r for e,r in all_entries]
     assert set(r['colossus'] for r in records)=={'I','II','III','IV','V','VI','VII','VIII','IX','X'}
     report={'forms':len(records),'colossi':10,'total_cubes':sum(r['cubes'] for r in records),'entries':records,'checks':'passed',
-        'scope':'Models and accessories. Final textures, animations, weapons and runtime integration are deferred.'}
+        'scope':'Models, accessories and authored pixel-art textures. Animation, weapons and runtime integration remain deferred.'}
     dump(OUT/'catalog.json',report);reviews(all_entries)
-    lines=['# Ten Colossi: model review','','All ten Colossi and their forms now follow the simplified Vharos approach. Twenty editable models include Dullahan\'s horse and Elara. Dark, restrained flat materials help distinguish the forms; these are not finished textures.','','![Ten Colossi](previews/ten_colossi.png)','','[All 20 forms](previews/all_forms.png) | [Download model bundle](Ten_Colossi_Models.zip) | [Validation and dimensions](catalog.json)','','Humanoids retain the six Steve body parts, uniformly sized to a 1.8-block body. Hair, clothing, armor, wings and rings are separate geometry. Dullahan omits the attached head; Architect separates parts while retaining their proportions. Accessories can extend beyond body height.','','| Colossus | Form | Cubes | Model | Preview |','|---|---|---:|---|---|']
+    lines=['# Ten Colossi: model review','','All ten Colossi and their forms now follow the simplified Vharos approach. Twenty editable models include Dullahan\'s horse and Elara. Original pixel-art textures now replace flat material swatches: stepped shading, readable faces, cloth folds, metal bevels, scales and material-specific detail.','','![Ten Colossi](previews/ten_colossi.png)','','[All 20 forms](previews/all_forms.png) | [Download model bundle](Ten_Colossi_Models.zip) | [Validation and dimensions](catalog.json)','','Humanoids retain the six Steve body parts, uniformly sized to a 1.8-block body. Hair, clothing, armor, wings and rings are separate geometry. Dullahan omits the attached head; Architect separates parts while retaining their proportions. Accessories can extend beyond body height.','','| Colossus | Form | Cubes | Model | Preview |','|---|---|---:|---|---|']
     for r in records:
         id=r['id'];lines.append(f'| {r["colossus"]}: {r["name"]} | {r["form"]} | {r["cubes"]} / {r["budget"]} | [Blockbench]({id}/{id}.bbmodel) | [Three views]({id}/preview.png) |')
-    lines+=['','## Scope and validation','','The current model revision lives in `model_studio/`. Previous runtime packs and animation sources are unchanged and are not this revision. No weapons are present. Material PNGs contain solid viewport swatches only, with shared temporary UVs. Final skin/texture shading, UV layouts and animation authoring are deferred.','','Export parsing, cube budgets, positive dimensions, bone parent references, Steve proportions, six Seraphiel wings, no weapon groups and zero animation clips are checked during build. Renders come from actual exported geometry. Blockbench application import and Bedrock runtime testing remain pending.','','Orun remains a visual model, not a climbable structure or a completed modular encounter. Different preview tiles use different scale. Read `catalog.json` for dimensions.','','The neutral palette preserves each identity: pearl/black Seraphiel, pale Little Morrow, an ocean-blue whale and ivory/gold AION. No horror effects or body gore are added.']
+    lines+=['','## Scope and validation','','The current model revision lives in `model_studio/`. Previous runtime packs and animation sources are unchanged and are not this revision. No weapons are present. Each texture.png is an original painted atlas with unique padded face islands, embedded in its Blockbench model. Painting is generated from authored pixel-art rules and character palettes, with no reference-image pixels or downloaded assets. This is an art revision, not a claim of final quality approval. Animation authoring remains deferred.','','Export parsing, cube budgets, positive dimensions, bone parent references, Steve proportions, six Seraphiel wings, no weapon groups and zero animation clips are checked during build. Renders come from actual exported geometry. Blockbench application import and Bedrock runtime testing remain pending.','','Orun remains a visual model, not a climbable structure or a completed modular encounter. Different preview tiles use different scale. Read `catalog.json` for dimensions.','','The painted palette preserves each identity: pearl/black Seraphiel, pale Little Morrow, an ocean-blue whale and ivory/gold AION. No horror effects or body gore are added.']
     (OUT/'README.md').write_text('\n'.join(lines)+'\n')
     with zipfile.ZipFile(OUT/'Ten_Colossi_Models.zip','w',zipfile.ZIP_DEFLATED) as z:
         for r in records:
-            for filename in [r['id']+'.bbmodel',r['id']+'.geo.json','preview.png','materials.png','review.json']:
+            for filename in [r['id']+'.bbmodel',r['id']+'.geo.json','preview.png','texture.png','review.json']:
                 p=OUT/r['id']/filename;zi=zipfile.ZipInfo(str(p.relative_to(OUT)),date_time=(2026,1,1,0,0,0));zi.compress_type=zipfile.ZIP_DEFLATED;z.writestr(zi,p.read_bytes())
-        for name in ['catalog.json','README.md','previews/ten_colossi.png','previews/all_forms.png']:
+        for name in ['catalog.json','README.md','previews/ten_colossi.png','previews/all_forms.png','previews/texture_closeups.png']:
             zi=zipfile.ZipInfo(name,date_time=(2026,1,1,0,0,0));zi.compress_type=zipfile.ZIP_DEFLATED;z.writestr(zi,(OUT/name).read_bytes())
     with zipfile.ZipFile(OUT/'Ten_Colossi_Models.zip') as z:
         assert len([n for n in z.namelist() if n.endswith('.bbmodel')])==20
